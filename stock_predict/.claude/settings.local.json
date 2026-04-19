@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip:*)", 
+      "Bash(venv/*:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(cd:*)",
+      "Bash(mkdir:*)", 
+      "Bash(rm:*)", 
+      "Bash(cat:*)",  
+      "Bash(touch:*)", 
+      "Bash(git:*)",  
+      "Bash(export:*)",
+      "Bash(source:*)" 
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+2025-10-06 09:07:19 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:11:17 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:16:54 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:16:54 [    INFO] stock | getting 000001 index kline.
+2025-10-06 09:17:41 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:17:41 [    INFO] stock | getting 000001 index kline.
+2025-10-06 09:23:14 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:29:11 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:29:11 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 09:30:16 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:30:16 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 09:30:30 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:30:30 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 09:43:21 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 09:43:21 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 10:52:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 10:52:40 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 10:53:07 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 10:53:07 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 10:53:28 [    INFO] stock | getting 399001 index kline data.
+2025-10-06 10:53:30 [    INFO] stock | getting 000300 index kline data.
+2025-10-06 10:53:33 [    INFO] stock | getting 399006 index kline data.
+2025-10-06 10:53:36 [    INFO] stock | getting 899050 index kline data.
+2025-10-06 10:53:39 [    INFO] stock | update index kline: 
+               日期       开盘       收盘       最高       最低      成交量           成交额    振幅   涨跌幅    涨跌额   换手率
+0      1990-12-19    96.05    99.98    99.98    95.79     1260  4.940000e+05  0.00  0.00   0.00  0.00
+1      1990-12-20   104.30   104.39   104.39    99.98      197  8.400000e+04  4.41  4.41   4.41  0.00
+2      1990-12-21   109.07   109.13   109.13   103.73       28  1.600000e+04  5.17  4.54   4.74  0.00
+3      1990-12-24   113.57   114.55   114.55   109.13       32  3.100000e+04  4.97  4.97   5.42  0.00
+4      1990-12-25   120.09   120.25   120.25   114.55       15  6.000000e+03  4.98  4.98   5.70  0.00
+...           ...      ...      ...      ...      ...      ...           ...   ...   ...    ...   ...
+26539  2025-09-24  1548.69  1578.92  1579.22  1546.62  8652808  2.068751e+10  2.11  2.03  31.47  3.46
+26540  2025-09-25  1572.49  1557.22  1582.33  1557.22  8804560  2.092024e+10  1.59 -1.37 -21.70  3.52
+26541  2025-09-26  1555.74  1528.98  1556.34  1528.98  7992284  1.945635e+10  1.76 -1.81 -28.24  3.20
+26542  2025-09-29  1531.18  1539.47  1548.52  1531.18  7017930  1.693289e+10  1.13  0.69  10.49  2.81
+26543  2025-09-30  1547.69  1528.63  1548.94  1528.63  6793971  1.614243e+10  1.32 -0.70 -10.84  2.72
+
+[26544 rows x 11 columns]
+2025-10-06 10:53:39 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 79, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 187, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: 错误:  关系 "daily_kline" 的 "日期" 字段不存在
+LINE 1: INSERT INTO "daily_kline" ("日期", "开盘", "收盘", "最高", "...
+                                   ^
+
+2025-10-06 11:04:39 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:04:39 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 11:04:57 [    INFO] stock | getting 399001 index kline data.
+2025-10-06 11:05:00 [    INFO] stock | getting 000300 index kline data.
+2025-10-06 11:05:02 [    INFO] stock | getting 399006 index kline data.
+2025-10-06 11:05:05 [    INFO] stock | getting 899050 index kline data.
+2025-10-06 11:05:08 [    INFO] stock | update index kline: 
+       trade_date  open_raw  close_raw  high_raw  low_raw  volumn_raw    amount_raw  amplitude_raw  pct_change_raw  change_raw  turnover_raw  is_st
+0      1990-12-19     96.05      99.98     99.98    95.79        1260  4.940000e+05           0.00            0.00        0.00          0.00  False
+1      1990-12-20    104.30     104.39    104.39    99.98         197  8.400000e+04           4.41            4.41        4.41          0.00  False
+2      1990-12-21    109.07     109.13    109.13   103.73          28  1.600000e+04           5.17            4.54        4.74          0.00  False
+3      1990-12-24    113.57     114.55    114.55   109.13          32  3.100000e+04           4.97            4.97        5.42          0.00  False
+4      1990-12-25    120.09     120.25    120.25   114.55          15  6.000000e+03           4.98            4.98        5.70          0.00  False
+...           ...       ...        ...       ...      ...         ...           ...            ...             ...         ...           ...    ...
+26539  2025-09-24   1548.69    1578.92   1579.22  1546.62     8652808  2.068751e+10           2.11            2.03       31.47          3.46  False
+26540  2025-09-25   1572.49    1557.22   1582.33  1557.22     8804560  2.092024e+10           1.59           -1.37      -21.70          3.52  False
+26541  2025-09-26   1555.74    1528.98   1556.34  1528.98     7992284  1.945635e+10           1.76           -1.81      -28.24          3.20  False
+26542  2025-09-29   1531.18    1539.47   1548.52  1531.18     7017930  1.693289e+10           1.13            0.69       10.49          2.81  False
+26543  2025-09-30   1547.69    1528.63   1548.94  1528.63     6793971  1.614243e+10           1.32           -0.70      -10.84          2.72  False
+
+[26544 rows x 12 columns]
+2025-10-06 11:05:08 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 79, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 187, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: 错误:  null value in column "ts_code" of relation "daily_kline" violates not-null constraint
+DETAIL:  失败, 行包含(1990-12-19, null, f, 96.05, 99.98, 95.79, 99.98, 1260, 494000, 0, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null).
+
+2025-10-06 11:16:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:16:27 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 11:21:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:21:45 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 11:24:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:24:45 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 11:27:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:27:58 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 11:30:54 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 11:30:54 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 12:27:09 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 12:27:09 [    INFO] stock | getting 000001 index kline data.
+2025-10-06 12:27:39 [    INFO] stock | getting 399001 index kline data.
+2025-10-06 12:27:49 [    INFO] stock | getting 000300 index kline data.
+2025-10-06 12:28:00 [    INFO] stock | getting 399006 index kline data.
+2025-10-06 12:28:09 [    INFO] stock | getting 899050 index kline data.
+2025-10-06 12:28:20 [    INFO] stock | update index kline: 
+       trade_date ts_code  open_raw  close_raw  high_raw  low_raw  volumn_raw    amount_raw  amplitude_raw  pct_change_raw  change_raw  turnover_raw  is_st
+0      1990-12-19  000001     96.05      99.98     99.98    95.79        1260  4.940000e+05           0.00            0.00        0.00          0.00  False
+1      1990-12-20  000001    104.30     104.39    104.39    99.98         197  8.400000e+04           4.41            4.41        4.41          0.00  False
+2      1990-12-21  000001    109.07     109.13    109.13   103.73          28  1.600000e+04           5.17            4.54        4.74          0.00  False
+3      1990-12-24  000001    113.57     114.55    114.55   109.13          32  3.100000e+04           4.97            4.97        5.42          0.00  False
+4      1990-12-25  000001    120.09     120.25    120.25   114.55          15  6.000000e+03           4.98            4.98        5.70          0.00  False
+...           ...     ...       ...        ...       ...      ...         ...           ...            ...             ...         ...           ...    ...
+26539  2025-09-24  899050   1548.69    1578.92   1579.22  1546.62     8652808  2.068751e+10           2.11            2.03       31.47          3.46  False
+26540  2025-09-25  899050   1572.49    1557.22   1582.33  1557.22     8804560  2.092024e+10           1.59           -1.37      -21.70          3.52  False
+26541  2025-09-26  899050   1555.74    1528.98   1556.34  1528.98     7992284  1.945635e+10           1.76           -1.81      -28.24          3.20  False
+26542  2025-09-29  899050   1531.18    1539.47   1548.52  1531.18     7017930  1.693289e+10           1.13            0.69       10.49          2.81  False
+26543  2025-09-30  899050   1547.69    1528.63   1548.94  1528.63     6793971  1.614243e+10           1.32           -0.70      -10.84          2.72  False
+
+[26544 rows x 13 columns]
+2025-10-06 12:28:24 [    INFO] stock | Upsert daily_kline 26544 条
+2025-10-06 14:30:16 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 14:30:16 [    INFO] stock | getting 000001.sh index kline data.
+2025-10-06 14:33:04 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 14:33:04 [    INFO] stock | getting 000001.sh index kline data.
+2025-10-06 15:39:00 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:39:00 [    INFO] stock | getting 000001.sh index kline data.
+2025-10-06 15:51:04 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:51:04 [    INFO] stock | getting sh000001 index kline data.
+2025-10-06 15:53:48 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:54:26 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:55:33 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:59:00 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 15:59:11 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:04:34 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:04:34 [    INFO] stock | getting 000001 history kline data.
+2025-10-06 16:04:35 [    INFO] stock | get 000001 kline: 
+              日期    股票代码     开盘     收盘     最高     最低      成交量           成交额    振幅    涨跌幅   涨跌额   换手率
+0     1991-04-03  000001  49.00  49.00  49.00  49.00        1  5.000000e+03  0.00  22.50  9.00  0.00
+1     1991-04-04  000001  48.76  48.76  48.76  48.76        3  1.500000e+04  0.00  -0.49 -0.24  0.00
+2     1991-04-05  000001  48.52  48.52  48.52  48.52        2  1.000000e+04  0.00  -0.49 -0.24  0.00
+3     1991-04-06  000001  48.28  48.28  48.28  48.28        7  3.400000e+04  0.00  -0.49 -0.24  0.00
+4     1991-04-08  000001  48.04  48.04  48.04  48.04        2  1.000000e+04  0.00  -0.50 -0.24  0.00
+...          ...     ...    ...    ...    ...    ...      ...           ...   ...    ...   ...   ...
+8244  2025-09-24  000001  11.51  11.46  11.62  11.43  1139583  1.310214e+09  1.65  -0.52 -0.06  0.59
+8245  2025-09-25  000001  11.43  11.40  11.47  11.36   773276  8.819431e+08  0.96  -0.52 -0.06  0.40
+8246  2025-09-26  000001  11.39  11.40  11.44  11.32   753239  8.569177e+08  1.05   0.00  0.00  0.39
+8247  2025-09-29  000001  11.40  11.37  11.48  11.27  1176012  1.334457e+09  1.84  -0.26 -0.03  0.61
+8248  2025-09-30  000001  11.37  11.34  11.37  11.29   832479  9.422241e+08  0.70  -0.26 -0.03  0.43
+
+[8249 rows x 12 columns]
+2025-10-06 16:04:35 [    INFO] stock | getting 000002 history kline data.
+2025-10-06 16:04:37 [    INFO] stock | get 000002 kline: 
+              日期    股票代码     开盘     收盘     最高     最低      成交量           成交额    振幅      涨跌幅    涨跌额   换手率
+0     1991-01-29  000002  14.58  14.58  14.58  14.58       15  2.620500e+04  0.00  1358.00  13.58  0.01
+1     1991-01-30  000002  14.51  14.51  14.51  14.51       45  7.821000e+04  0.00    -0.48  -0.07  0.02
+2     1991-02-02  000002  14.59  14.59  14.59  14.59       13  9.500000e+04  0.00     0.55   0.08  0.00
+3     1991-02-04  000002  14.66  14.66  14.66  14.66     1005  1.764135e+06  0.00     0.48   0.07  0.36
+4     1991-02-05  000002  14.73  14.73  14.73  14.73      895  1.577855e+06  0.00     0.48   0.07  0.32
+...          ...     ...    ...    ...    ...    ...      ...           ...   ...      ...    ...   ...
+8259  2025-09-24  000002   6.71   6.84   6.94   6.69  1571675  1.075298e+09  3.70     1.18   0.08  1.62
+8260  2025-09-25  000002   6.83   6.80   6.90   6.76  1234020  8.400518e+08  2.05    -0.58  -0.04  1.27
+8261  2025-09-26  000002   6.76   6.80   6.98   6.73  1509024  1.034090e+09  3.68     0.00   0.00  1.55
+8262  2025-09-29  000002   6.78   6.81   6.87   6.65  1634572  1.102205e+09  3.24     0.15   0.01  1.68
+8263  2025-09-30  000002   6.80   6.89   6.93   6.76  1763049  1.211552e+09  2.50     1.17   0.08  1.81
+
+[8264 rows x 12 columns]
+2025-10-06 16:10:59 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:18:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:19:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:19:43 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:19:54 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:20:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:20:49 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:58:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 16:58:45 [    INFO] stock | (1/5436) fetching RealDictRow({'ts_code': '000001', 'ts_name': '平安银行'}) daily kline data.
+2025-10-06 17:01:36 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:01:37 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:01:37 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:04:07 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:04:08 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:04:08 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:05:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:05:18 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:05:18 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:07:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:07:32 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:07:32 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:08:42 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:08:42 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:08:42 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:09:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:09:27 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:09:27 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:09:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:09:57 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:09:57 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:13:43 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:13:43 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:13:43 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:14:24 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:14:24 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:14:24 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:14:44 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:14:44 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:14:44 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:14:56 [    INFO] stock | (2/5436) fetching 000002 万  科Ａ daily kline data.
+2025-10-06 17:14:56 [    INFO] stock | getting 000002-万  科Ａ history daily kline data...
+2025-10-06 17:15:06 [    INFO] stock | (3/5436) fetching 000004 *ST国华 daily kline data.
+2025-10-06 17:15:06 [    INFO] stock | getting 000004-*ST国华 history daily kline data...
+2025-10-06 17:15:30 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:15:30 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:15:30 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:15:39 [    INFO] stock | (2/5436) fetching 000002 万  科Ａ daily kline data.
+2025-10-06 17:15:39 [    INFO] stock | getting 000002-万  科Ａ history daily kline data...
+2025-10-06 17:15:42 [    INFO] stock | Upsert daily_kline 16513 条
+2025-10-06 17:15:42 [    INFO] stock | update 000002 万  科Ａ daily kline data to database done.
+2025-10-06 17:15:49 [    INFO] stock | (3/5436) fetching 000004 *ST国华 daily kline data.
+2025-10-06 17:15:49 [    INFO] stock | getting 000004-*ST国华 history daily kline data...
+2025-10-06 17:15:59 [    INFO] stock | (4/5436) fetching 000006 深振业Ａ daily kline data.
+2025-10-06 17:15:59 [    INFO] stock | getting 000006-深振业Ａ history daily kline data...
+2025-10-06 17:16:02 [    INFO] stock | Upsert daily_kline 16044 条
+2025-10-06 17:16:02 [    INFO] stock | update 000006 深振业Ａ daily kline data to database done.
+2025-10-06 17:16:09 [    INFO] stock | (5/5436) fetching 000007 全新好 daily kline data.
+2025-10-06 17:16:09 [    INFO] stock | getting 000007-全新好 history daily kline data...
+2025-10-06 17:18:41 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:18:42 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:18:42 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:20:56 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:20:57 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:20:57 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 17:38:34 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 17:38:34 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 17:38:34 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 19:09:53 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 19:09:53 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 19:09:53 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 19:10:09 [    INFO] stock | (2/5436) fetching 000002 万  科Ａ daily kline data.
+2025-10-06 19:10:09 [    INFO] stock | getting 000002-万  科Ａ history daily kline data...
+2025-10-06 19:10:22 [    INFO] stock | (3/5436) fetching 000004 *ST国华 daily kline data.
+2025-10-06 19:10:22 [    INFO] stock | getting 000004-*ST国华 history daily kline data...
+2025-10-06 19:10:37 [    INFO] stock | (4/5436) fetching 000006 深振业Ａ daily kline data.
+2025-10-06 19:10:37 [    INFO] stock | getting 000006-深振业Ａ history daily kline data...
+2025-10-06 19:10:48 [    INFO] stock | (5/5436) fetching 000007 全新好 daily kline data.
+2025-10-06 19:10:48 [    INFO] stock | getting 000007-全新好 history daily kline data...
+2025-10-06 19:11:01 [    INFO] stock | (6/5436) fetching 000008 神州高铁 daily kline data.
+2025-10-06 19:11:01 [    INFO] stock | getting 000008-神州高铁 history daily kline data...
+2025-10-06 19:11:11 [    INFO] stock | (7/5436) fetching 000009 中国宝安 daily kline data.
+2025-10-06 19:11:11 [    INFO] stock | getting 000009-中国宝安 history daily kline data...
+2025-10-06 19:11:22 [    INFO] stock | (8/5436) fetching 000010 美丽生态 daily kline data.
+2025-10-06 19:11:22 [    INFO] stock | getting 000010-美丽生态 history daily kline data...
+2025-10-06 19:11:32 [    INFO] stock | (9/5436) fetching 000011 深物业A daily kline data.
+2025-10-06 19:11:32 [    INFO] stock | getting 000011-深物业A history daily kline data...
+2025-10-06 19:11:45 [    INFO] stock | (10/5436) fetching 000012 南  玻Ａ daily kline data.
+2025-10-06 19:11:45 [    INFO] stock | getting 000012-南  玻Ａ history daily kline data...
+2025-10-06 19:11:59 [    INFO] stock | (11/5436) fetching 000014 沙河股份 daily kline data.
+2025-10-06 19:11:59 [    INFO] stock | getting 000014-沙河股份 history daily kline data...
+2025-10-06 19:12:11 [    INFO] stock | (12/5436) fetching 000016 深康佳Ａ daily kline data.
+2025-10-06 19:12:11 [    INFO] stock | getting 000016-深康佳Ａ history daily kline data...
+2025-10-06 19:21:36 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 19:21:36 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 19:21:36 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 19:23:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 19:23:18 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 19:23:18 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 19:23:23 [    INFO] stock | (2/5436) fetching 000002 万  科Ａ daily kline data.
+2025-10-06 19:23:23 [    INFO] stock | getting 000002-万  科Ａ history daily kline data...
+2025-10-06 19:28:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 19:28:27 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 19:28:27 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 19:43:47 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 19:43:47 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 19:43:47 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 20:06:54 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 20:06:54 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 20:06:54 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 20:11:50 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 20:11:50 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 20:11:50 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 20:12:25 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 20:12:25 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 20:12:25 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 20:42:16 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 20:42:17 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 20:42:17 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 20:43:24 [    INFO] stock | (2/5436) fetching 000002 万  科Ａ daily kline data.
+2025-10-06 20:43:24 [    INFO] stock | getting 000002-万  科Ａ history daily kline data...
+2025-10-06 20:45:13 [    INFO] stock | (3/5436) fetching 000004 *ST国华 daily kline data.
+2025-10-06 20:45:13 [    INFO] stock | getting 000004-*ST国华 history daily kline data...
+2025-10-06 20:46:04 [    INFO] stock | (4/5436) fetching 000006 深振业Ａ daily kline data.
+2025-10-06 20:46:04 [    INFO] stock | getting 000006-深振业Ａ history daily kline data...
+2025-10-06 20:47:14 [    INFO] stock | (5/5436) fetching 000007 全新好 daily kline data.
+2025-10-06 20:47:14 [    INFO] stock | getting 000007-全新好 history daily kline data...
+2025-10-06 20:49:15 [    INFO] stock | (6/5436) fetching 000008 神州高铁 daily kline data.
+2025-10-06 20:49:15 [    INFO] stock | getting 000008-神州高铁 history daily kline data...
+2025-10-06 20:50:40 [    INFO] stock | (7/5436) fetching 000009 中国宝安 daily kline data.
+2025-10-06 20:50:40 [    INFO] stock | getting 000009-中国宝安 history daily kline data...
+2025-10-06 20:51:32 [    INFO] stock | (8/5436) fetching 000010 美丽生态 daily kline data.
+2025-10-06 20:51:32 [    INFO] stock | getting 000010-美丽生态 history daily kline data...
+2025-10-06 20:53:26 [    INFO] stock | (9/5436) fetching 000011 深物业A daily kline data.
+2025-10-06 20:53:26 [    INFO] stock | getting 000011-深物业A history daily kline data...
+2025-10-06 21:50:20 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 21:50:20 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 21:50:20 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 22:00:55 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 22:00:56 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 22:00:56 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 22:24:41 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 22:24:41 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 22:24:41 [    INFO] stock | getting 000001-平安银行 history daily kline data...
+2025-10-06 23:02:21 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-06 23:02:22 [    INFO] stock | (1/5436) fetching 000001 平安银行 daily kline data.
+2025-10-06 23:02:22 [    INFO] stock | getting 000001-平安银行 history daily kline data...
