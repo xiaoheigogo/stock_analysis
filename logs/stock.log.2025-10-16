@@ -1,0 +1,1073 @@
+2025-10-16 00:03:43 [    INFO] stock | (1030/5436) fetching 301141 中科磁业 daily kline data.
+2025-10-16 00:04:12 [    INFO] stock | (1031/5436) fetching 600671 天目药业 daily kline data.
+2025-10-16 00:04:45 [    INFO] stock | (1032/5436) fetching 301116 益客食品 daily kline data.
+2025-10-16 00:05:24 [    INFO] stock | Upsert daily_kline 8783 条
+2025-10-16 00:05:24 [    INFO] stock | update 301116 益客食品 daily kline data to database done.
+2025-10-16 00:13:51 [    INFO] stock | (1033/5436) fetching 301262 海看股份 daily kline data.
+2025-10-16 00:14:23 [    INFO] stock | (1034/5436) fetching 002738 中矿资源 daily kline data.
+2025-10-16 00:15:03 [    INFO] stock | (1035/5436) fetching 300359 全通教育 daily kline data.
+2025-10-16 00:15:47 [    INFO] stock | Upsert daily_kline 5720 条
+2025-10-16 00:15:47 [    INFO] stock | update 300359 全通教育 daily kline data to database done.
+2025-10-16 00:19:58 [    INFO] stock | (1036/5436) fetching 300522 世名科技 daily kline data.
+2025-10-16 00:20:38 [    INFO] stock | (1037/5436) fetching 600273 嘉化能源 daily kline data.
+2025-10-16 00:21:08 [    INFO] stock | (1038/5436) fetching 300192 科德教育 daily kline data.
+2025-10-16 00:21:48 [    INFO] stock | Upsert daily_kline 10623 条
+2025-10-16 00:21:48 [    INFO] stock | update 300192 科德教育 daily kline data to database done.
+2025-10-16 00:39:30 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-16 00:39:40 [    INFO] stock | (1/5436) fetching 688435 英方软件 daily kline data.
+2025-10-16 00:45:31 [    INFO] stock | (2/5436) fetching 600665 天地源 daily kline data.
+2025-10-16 00:45:31 [    INFO] stock | (3/5436) fetching 601500 通用股份 daily kline data.
+2025-10-16 00:46:37 [    INFO] stock | Upsert daily_kline 2844 条
+2025-10-16 00:46:37 [    INFO] stock | update 601500 通用股份 daily kline data to database done.
+2025-10-16 00:55:04 [    INFO] stock | (4/5436) fetching 601107 四川成渝 daily kline data.
+2025-10-16 00:55:04 [    INFO] stock | (5/5436) fetching 600872 中炬高新 daily kline data.
+2025-10-16 00:55:45 [    INFO] stock | (6/5436) fetching 002131 利欧股份 daily kline data.
+2025-10-16 00:56:32 [    INFO] stock | Upsert daily_kline 11426 条
+2025-10-16 00:56:32 [    INFO] stock | update 002131 利欧股份 daily kline data to database done.
+2025-10-16 01:05:50 [    INFO] stock | (7/5436) fetching 600635 大众公用 daily kline data.
+2025-10-16 01:06:23 [    INFO] stock | (8/5436) fetching 002161 远 望 谷 daily kline data.
+2025-10-16 01:06:57 [    INFO] stock | (9/5436) fetching 603648 畅联股份 daily kline data.
+2025-10-16 01:06:57 [    INFO] stock | (10/5436) fetching 600455 博通股份 daily kline data.
+2025-10-16 01:06:57 [    INFO] stock | (11/5436) fetching 300587 天铁科技 daily kline data.
+2025-10-16 01:07:28 [    INFO] stock | (12/5436) fetching 300192 科德教育 daily kline data.
+2025-10-16 01:07:28 [    INFO] stock | (13/5436) fetching 601727 上海电气 daily kline data.
+2025-10-16 01:08:01 [    INFO] stock | (14/5436) fetching 300988 津荣天宇 daily kline data.
+2025-10-16 01:08:01 [    INFO] stock | (15/5436) fetching 601658 邮储银行 daily kline data.
+2025-10-16 01:08:01 [    INFO] stock | (16/5436) fetching 600460 士兰微 daily kline data.
+2025-10-16 01:08:30 [    INFO] stock | (17/5436) fetching 300510 金冠股份 daily kline data.
+2025-10-16 01:09:02 [    INFO] stock | (18/5436) fetching 603676 卫信康 daily kline data.
+2025-10-16 01:09:51 [    INFO] stock | Upsert daily_kline 27358 条
+2025-10-16 01:09:52 [    INFO] stock | update 603676 卫信康 daily kline data to database done.
+2025-10-16 01:19:11 [    INFO] stock | (19/5436) fetching 920023 田野股份 daily kline data.
+2025-10-16 01:19:40 [    INFO] stock | (20/5436) fetching 688658 悦康药业 daily kline data.
+2025-10-16 01:19:40 [    INFO] stock | (21/5436) fetching 000551 创元科技 daily kline data.
+2025-10-16 01:19:40 [    INFO] stock | (22/5436) fetching 600100 同方股份 daily kline data.
+2025-10-16 01:19:40 [    INFO] stock | (23/5436) fetching 603810 丰山集团 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (24/5436) fetching 600893 航发动力 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (25/5436) fetching 688486 龙迅股份 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (26/5436) fetching 600630 龙头股份 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (27/5436) fetching 000538 云南白药 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (28/5436) fetching 603332 苏州龙杰 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (29/5436) fetching 000004 *ST国华 daily kline data.
+2025-10-16 01:20:08 [    INFO] stock | (30/5436) fetching 300035 中科电气 daily kline data.
+2025-10-16 01:20:53 [    INFO] stock | Upsert daily_kline 6050 条
+2025-10-16 01:20:53 [    INFO] stock | update 300035 中科电气 daily kline data to database done.
+2025-10-16 01:27:08 [    INFO] stock | (31/5436) fetching 300131 英唐智控 daily kline data.
+2025-10-16 01:27:08 [    INFO] stock | (32/5436) fetching 920508 殷图网联 daily kline data.
+2025-10-16 01:27:43 [    INFO] stock | (33/5436) fetching 002299 圣农发展 daily kline data.
+2025-10-16 01:27:43 [    INFO] stock | (34/5436) fetching 000813 德展健康 daily kline data.
+2025-10-16 01:28:13 [    INFO] stock | (35/5436) fetching 600800 渤海化学 daily kline data.
+2025-10-16 01:28:43 [    INFO] stock | (36/5436) fetching 300443 金雷股份 daily kline data.
+2025-10-16 01:29:23 [    INFO] stock | Upsert daily_kline 17344 条
+2025-10-16 01:29:23 [    INFO] stock | update 300443 金雷股份 daily kline data to database done.
+2025-10-16 01:33:35 [    INFO] stock | (37/5436) fetching 000822 山东海化 daily kline data.
+2025-10-16 01:34:18 [    INFO] stock | (38/5436) fetching 601921 浙版传媒 daily kline data.
+2025-10-16 01:34:54 [    INFO] stock | (39/5436) fetching 002572 索菲亚 daily kline data.
+2025-10-16 01:35:31 [    INFO] stock | Upsert daily_kline 11044 条
+2025-10-16 01:35:31 [    INFO] stock | update 002572 索菲亚 daily kline data to database done.
+2025-10-16 01:43:25 [    INFO] stock | (40/5436) fetching 002949 华阳国际 daily kline data.
+2025-10-16 01:43:53 [    INFO] stock | (41/5436) fetching 600871 石化油服 daily kline data.
+2025-10-16 01:44:28 [    INFO] stock | (42/5436) fetching 300892 品渥食品 daily kline data.
+2025-10-16 01:45:14 [    INFO] stock | Upsert daily_kline 9984 条
+2025-10-16 01:45:14 [    INFO] stock | update 300892 品渥食品 daily kline data to database done.
+2025-10-16 01:55:05 [    INFO] stock | (43/5436) fetching 002528 ST英飞拓 daily kline data.
+2025-10-16 01:55:44 [    INFO] stock | (44/5436) fetching 002615 哈尔斯 daily kline data.
+2025-10-16 01:56:18 [    INFO] stock | (45/5436) fetching 920693 阿为特 daily kline data.
+2025-10-16 01:56:18 [    INFO] stock | (46/5436) fetching 002826 易明医药 daily kline data.
+2025-10-16 01:56:18 [    INFO] stock | (47/5436) fetching 601020 华钰矿业 daily kline data.
+2025-10-16 01:56:54 [    INFO] stock | (48/5436) fetching 300844 山水比德 daily kline data.
+2025-10-16 01:57:27 [    INFO] stock | Upsert daily_kline 10179 条
+2025-10-16 01:57:27 [    INFO] stock | update 300844 山水比德 daily kline data to database done.
+2025-10-16 02:03:41 [    INFO] stock | (49/5436) fetching 002406 远东传动 daily kline data.
+2025-10-16 02:04:21 [    INFO] stock | (50/5436) fetching 688218 江苏北人 daily kline data.
+2025-10-16 02:04:21 [    INFO] stock | (51/5436) fetching 600831 ST广网 daily kline data.
+2025-10-16 02:04:21 [    INFO] stock | (52/5436) fetching 600712 南宁百货 daily kline data.
+2025-10-16 02:04:21 [    INFO] stock | (53/5436) fetching 603018 华设集团 daily kline data.
+2025-10-16 02:04:21 [    INFO] stock | (54/5436) fetching 688450 光格科技 daily kline data.
+2025-10-16 02:05:04 [    INFO] stock | Upsert daily_kline 4241 条
+2025-10-16 02:05:04 [    INFO] stock | update 688450 光格科技 daily kline data to database done.
+2025-10-16 02:13:28 [    INFO] stock | (55/5436) fetching 300724 捷佳伟创 daily kline data.
+2025-10-16 02:13:28 [    INFO] stock | (56/5436) fetching 300909 汇创达 daily kline data.
+2025-10-16 02:13:28 [    INFO] stock | (57/5436) fetching 000420 吉林化纤 daily kline data.
+2025-10-16 02:13:28 [    INFO] stock | (58/5436) fetching 301029 怡合达 daily kline data.
+2025-10-16 02:13:28 [    INFO] stock | (59/5436) fetching 300994 久祺股份 daily kline data.
+2025-10-16 02:14:09 [    INFO] stock | (60/5436) fetching 002980 华盛昌 daily kline data.
+2025-10-16 02:14:09 [    INFO] stock | (61/5436) fetching 000793 ST华闻 daily kline data.
+2025-10-16 02:14:09 [    INFO] stock | (62/5436) fetching 300766 每日互动 daily kline data.
+2025-10-16 02:14:44 [    INFO] stock | (63/5436) fetching 688685 迈信林 daily kline data.
+2025-10-16 02:15:21 [    INFO] stock | Upsert daily_kline 3658 条
+2025-10-16 02:15:21 [    INFO] stock | update 688685 迈信林 daily kline data to database done.
+2025-10-16 02:22:14 [    INFO] stock | (64/5436) fetching 300976 达瑞电子 daily kline data.
+2025-10-16 02:23:03 [    INFO] stock | (65/5436) fetching 300707 威唐工业 daily kline data.
+2025-10-16 02:24:04 [    INFO] stock | (66/5436) fetching 920981 晶赛科技 daily kline data.
+2025-10-16 02:25:05 [    INFO] stock | Upsert daily_kline 3968 条
+2025-10-16 02:25:05 [    INFO] stock | update 920981 晶赛科技 daily kline data to database done.
+2025-10-16 02:31:34 [    INFO] stock | (67/5436) fetching 600676 交运股份 daily kline data.
+2025-10-16 02:32:07 [    INFO] stock | (68/5436) fetching 301024 霍普股份 daily kline data.
+2025-10-16 02:32:46 [    INFO] stock | (69/5436) fetching 300456 赛微电子 daily kline data.
+2025-10-16 02:32:46 [    INFO] stock | (70/5436) fetching 002142 宁波银行 daily kline data.
+2025-10-16 02:33:40 [    INFO] stock | (71/5436) fetching 301135 瑞德智能 daily kline data.
+2025-10-16 02:33:40 [    INFO] stock | (72/5436) fetching 600011 华能国际 daily kline data.
+2025-10-16 02:33:40 [    INFO] stock | (73/5436) fetching 601778 晶科科技 daily kline data.
+2025-10-16 02:34:09 [    INFO] stock | (74/5436) fetching 000726 鲁  泰Ａ daily kline data.
+2025-10-16 02:34:09 [    INFO] stock | (75/5436) fetching 002625 光启技术 daily kline data.
+2025-10-16 02:34:09 [    INFO] stock | (76/5436) fetching 603738 泰晶科技 daily kline data.
+2025-10-16 02:34:09 [    INFO] stock | (77/5436) fetching 301326 捷邦科技 daily kline data.
+2025-10-16 02:34:48 [    INFO] stock | (78/5436) fetching 300491 通合科技 daily kline data.
+2025-10-16 02:35:32 [    INFO] stock | Upsert daily_kline 17410 条
+2025-10-16 02:35:32 [    INFO] stock | update 300491 通合科技 daily kline data to database done.
+2025-10-16 02:42:09 [    INFO] stock | (79/5436) fetching 002235 安妮股份 daily kline data.
+2025-10-16 02:42:46 [    INFO] stock | (80/5436) fetching 002861 瀛通通讯 daily kline data.
+2025-10-16 02:43:23 [    INFO] stock | (81/5436) fetching 688349 三一重能 daily kline data.
+2025-10-16 02:44:17 [    INFO] stock | Upsert daily_kline 6864 条
+2025-10-16 02:44:17 [    INFO] stock | update 688349 三一重能 daily kline data to database done.
+2025-10-16 02:53:47 [    INFO] stock | (82/5436) fetching 603927 中科软 daily kline data.
+2025-10-16 02:54:18 [    INFO] stock | (83/5436) fetching 688009 中国通号 daily kline data.
+2025-10-16 02:54:59 [    INFO] stock | (84/5436) fetching 600088 中视传媒 daily kline data.
+2025-10-16 02:55:33 [    INFO] stock | Upsert daily_kline 9680 条
+2025-10-16 02:55:33 [    INFO] stock | update 600088 中视传媒 daily kline data to database done.
+2025-10-16 03:00:40 [    INFO] stock | (85/5436) fetching 600903 贵州燃气 daily kline data.
+2025-10-16 03:00:40 [    INFO] stock | (86/5436) fetching 001283 豪鹏科技 daily kline data.
+2025-10-16 03:01:14 [    INFO] stock | (87/5436) fetching 601222 林洋能源 daily kline data.
+2025-10-16 03:01:51 [    INFO] stock | Upsert daily_kline 4167 条
+2025-10-16 03:01:51 [    INFO] stock | update 601222 林洋能源 daily kline data to database done.
+2025-10-16 03:07:25 [    INFO] stock | (88/5436) fetching 601929 吉视传媒 daily kline data.
+2025-10-16 03:07:56 [    INFO] stock | (89/5436) fetching 301312 智立方 daily kline data.
+2025-10-16 03:08:35 [    INFO] stock | (90/5436) fetching 603125 常青科技 daily kline data.
+2025-10-16 03:08:35 [    INFO] stock | (91/5436) fetching 300950 德固特 daily kline data.
+2025-10-16 03:08:35 [    INFO] stock | (92/5436) fetching 603132 金徽股份 daily kline data.
+2025-10-16 03:08:35 [    INFO] stock | (93/5436) fetching 301257 普蕊斯 daily kline data.
+2025-10-16 03:08:35 [    INFO] stock | (94/5436) fetching 603194 中力股份 daily kline data.
+2025-10-16 03:09:11 [    INFO] stock | (95/5436) fetching 600552 凯盛科技 daily kline data.
+2025-10-16 03:09:53 [    INFO] stock | (96/5436) fetching 000586 汇源通信 daily kline data.
+2025-10-16 03:10:35 [    INFO] stock | Upsert daily_kline 16243 条
+2025-10-16 03:10:35 [    INFO] stock | update 000586 汇源通信 daily kline data to database done.
+2025-10-16 03:16:26 [    INFO] stock | (97/5436) fetching 603135 中重科技 daily kline data.
+2025-10-16 03:16:57 [    INFO] stock | (98/5436) fetching 600302 标准股份 daily kline data.
+2025-10-16 03:17:38 [    INFO] stock | (99/5436) fetching 603970 中农立华 daily kline data.
+2025-10-16 03:17:38 [    INFO] stock | (100/5436) fetching 002122 汇洲智能 daily kline data.
+2025-10-16 03:18:11 [    INFO] stock | (101/5436) fetching 600095 湘财股份 daily kline data.
+2025-10-16 03:18:11 [    INFO] stock | (102/5436) fetching 600530 交大昂立 daily kline data.
+2025-10-16 03:18:59 [    INFO] stock | Upsert daily_kline 16449 条
+2025-10-16 03:18:59 [    INFO] stock | update 600530 交大昂立 daily kline data to database done.
+2025-10-16 03:26:45 [    INFO] stock | (103/5436) fetching 603567 珍宝岛 daily kline data.
+2025-10-16 03:27:28 [    INFO] stock | (104/5436) fetching 688058 宝兰德 daily kline data.
+2025-10-16 03:28:06 [    INFO] stock | (105/5436) fetching 920970 大禹生物 daily kline data.
+2025-10-16 03:28:41 [    INFO] stock | Upsert daily_kline 4787 条
+2025-10-16 03:28:41 [    INFO] stock | update 920970 大禹生物 daily kline data to database done.
+2025-10-16 03:36:15 [    INFO] stock | (106/5436) fetching 002902 铭普光磁 daily kline data.
+2025-10-16 03:36:47 [    INFO] stock | (107/5436) fetching 605088 冠盛股份 daily kline data.
+2025-10-16 03:37:16 [    INFO] stock | (108/5436) fetching 600611 大众交通 daily kline data.
+2025-10-16 03:38:02 [    INFO] stock | Upsert daily_kline 11186 条
+2025-10-16 03:38:02 [    INFO] stock | update 600611 大众交通 daily kline data to database done.
+2025-10-16 03:42:34 [    INFO] stock | (109/5436) fetching 603392 万泰生物 daily kline data.
+2025-10-16 03:43:14 [    INFO] stock | (110/5436) fetching 002268 电科网安 daily kline data.
+2025-10-16 03:43:14 [    INFO] stock | (111/5436) fetching 688135 利扬芯片 daily kline data.
+2025-10-16 03:43:59 [    INFO] stock | Upsert daily_kline 2507 条
+2025-10-16 03:43:59 [    INFO] stock | update 688135 利扬芯片 daily kline data to database done.
+2025-10-16 03:53:35 [    INFO] stock | (112/5436) fetching 002289 *ST宇顺 daily kline data.
+2025-10-16 03:54:11 [    INFO] stock | (113/5436) fetching 000573 粤宏远Ａ daily kline data.
+2025-10-16 03:54:46 [    INFO] stock | (114/5436) fetching 002049 紫光国微 daily kline data.
+2025-10-16 03:54:46 [    INFO] stock | (115/5436) fetching 600801 华新水泥 daily kline data.
+2025-10-16 03:55:50 [    INFO] stock | (116/5436) fetching 920808 曙光数创 daily kline data.
+2025-10-16 03:56:30 [    INFO] stock | (117/5436) fetching 300881 盛德鑫泰 daily kline data.
+2025-10-16 03:57:08 [    INFO] stock | Upsert daily_kline 20509 条
+2025-10-16 03:57:08 [    INFO] stock | update 300881 盛德鑫泰 daily kline data to database done.
+2025-10-16 04:03:08 [    INFO] stock | (118/5436) fetching 300075 数字政通 daily kline data.
+2025-10-16 04:03:41 [    INFO] stock | (119/5436) fetching 688132 邦彦技术 daily kline data.
+2025-10-16 04:04:23 [    INFO] stock | (120/5436) fetching 002939 长城证券 daily kline data.
+2025-10-16 04:04:55 [    INFO] stock | Upsert daily_kline 6068 条
+2025-10-16 04:04:55 [    INFO] stock | update 002939 长城证券 daily kline data to database done.
+2025-10-16 04:12:03 [    INFO] stock | (121/5436) fetching 603612 索通发展 daily kline data.
+2025-10-16 04:12:35 [    INFO] stock | (122/5436) fetching 603049 中策橡胶 daily kline data.
+2025-10-16 04:13:13 [    INFO] stock | (123/5436) fetching 002478 常宝股份 daily kline data.
+2025-10-16 04:13:13 [    INFO] stock | (124/5436) fetching 002719 麦趣尔 daily kline data.
+2025-10-16 04:13:13 [    INFO] stock | (125/5436) fetching 301163 宏德股份 daily kline data.
+2025-10-16 04:13:54 [    INFO] stock | (126/5436) fetching 300999 金龙鱼 daily kline data.
+2025-10-16 04:14:30 [    INFO] stock | Upsert daily_kline 4118 条
+2025-10-16 04:14:30 [    INFO] stock | update 300999 金龙鱼 daily kline data to database done.
+2025-10-16 04:23:54 [    INFO] stock | (127/5436) fetching 002741 光华科技 daily kline data.
+2025-10-16 04:24:35 [    INFO] stock | (128/5436) fetching 300074 华平股份 daily kline data.
+2025-10-16 04:24:35 [    INFO] stock | (129/5436) fetching 603915 国茂股份 daily kline data.
+2025-10-16 04:25:21 [    INFO] stock | Upsert daily_kline 4071 条
+2025-10-16 04:25:21 [    INFO] stock | update 603915 国茂股份 daily kline data to database done.
+2025-10-16 04:32:30 [    INFO] stock | (130/5436) fetching 002138 顺络电子 daily kline data.
+2025-10-16 04:33:13 [    INFO] stock | (131/5436) fetching 002485 ST雪发 daily kline data.
+2025-10-16 04:33:13 [    INFO] stock | (132/5436) fetching 600053 九鼎投资 daily kline data.
+2025-10-16 04:34:09 [    INFO] stock | Upsert daily_kline 10778 条
+2025-10-16 04:34:09 [    INFO] stock | update 600053 九鼎投资 daily kline data to database done.
+2025-10-16 04:40:03 [    INFO] stock | (133/5436) fetching 300408 三环集团 daily kline data.
+2025-10-16 04:40:42 [    INFO] stock | (134/5436) fetching 600436 片仔癀 daily kline data.
+2025-10-16 04:40:42 [    INFO] stock | (135/5436) fetching 001311 多利科技 daily kline data.
+2025-10-16 04:41:23 [    INFO] stock | Upsert daily_kline 3258 条
+2025-10-16 04:41:23 [    INFO] stock | update 001311 多利科技 daily kline data to database done.
+2025-10-16 04:46:36 [    INFO] stock | (136/5436) fetching 688049 炬芯科技 daily kline data.
+2025-10-16 04:47:03 [    INFO] stock | (137/5436) fetching 688800 瑞可达 daily kline data.
+2025-10-16 04:47:03 [    INFO] stock | (138/5436) fetching 920046 亿能电力 daily kline data.
+2025-10-16 04:47:44 [    INFO] stock | Upsert daily_kline 1658 条
+2025-10-16 04:47:44 [    INFO] stock | update 920046 亿能电力 daily kline data to database done.
+2025-10-16 04:57:41 [    INFO] stock | (139/5436) fetching 605080 浙江自然 daily kline data.
+2025-10-16 04:57:41 [    INFO] stock | (140/5436) fetching 688337 普源精电 daily kline data.
+2025-10-16 04:58:19 [    INFO] stock | (141/5436) fetching 002312 川发龙蟒 daily kline data.
+2025-10-16 04:59:25 [    INFO] stock | Upsert daily_kline 4274 条
+2025-10-16 04:59:25 [    INFO] stock | update 002312 川发龙蟒 daily kline data to database done.
+2025-10-16 05:05:49 [    INFO] stock | (142/5436) fetching 002681 奋达科技 daily kline data.
+2025-10-16 05:06:31 [    INFO] stock | (143/5436) fetching 600152 维科技术 daily kline data.
+2025-10-16 05:07:03 [    INFO] stock | (144/5436) fetching 688582 芯动联科 daily kline data.
+2025-10-16 05:07:42 [    INFO] stock | Upsert daily_kline 10113 条
+2025-10-16 05:07:42 [    INFO] stock | update 688582 芯动联科 daily kline data to database done.
+2025-10-16 05:12:49 [    INFO] stock | (145/5436) fetching 300343 ST联创 daily kline data.
+2025-10-16 05:13:44 [    INFO] stock | (146/5436) fetching 000401 金隅冀东 daily kline data.
+2025-10-16 05:13:44 [    INFO] stock | (147/5436) fetching 002943 宇晶股份 daily kline data.
+2025-10-16 05:14:25 [    INFO] stock | Upsert daily_kline 4564 条
+2025-10-16 05:14:25 [    INFO] stock | update 002943 宇晶股份 daily kline data to database done.
+2025-10-16 05:23:27 [    INFO] stock | (148/5436) fetching 600189 泉阳泉 daily kline data.
+2025-10-16 05:24:02 [    INFO] stock | (149/5436) fetching 002548 金新农 daily kline data.
+2025-10-16 05:24:55 [    INFO] stock | (150/5436) fetching 002806 华锋股份 daily kline data.
+2025-10-16 05:24:55 [    INFO] stock | (151/5436) fetching 301216 万凯新材 daily kline data.
+2025-10-16 05:25:27 [    INFO] stock | (152/5436) fetching 002865 钧达股份 daily kline data.
+2025-10-16 05:25:59 [    INFO] stock | (153/5436) fetching 920066 科拜尔 daily kline data.
+2025-10-16 05:26:38 [    INFO] stock | Upsert daily_kline 12772 条
+2025-10-16 05:26:38 [    INFO] stock | update 920066 科拜尔 daily kline data to database done.
+2025-10-16 05:35:23 [    INFO] stock | (154/5436) fetching 300809 华辰装备 daily kline data.
+2025-10-16 05:35:23 [    INFO] stock | (155/5436) fetching 600730 中国高科 daily kline data.
+2025-10-16 05:36:02 [    INFO] stock | (156/5436) fetching 688205 德科立 daily kline data.
+2025-10-16 05:36:02 [    INFO] stock | (157/5436) fetching 688602 康鹏科技 daily kline data.
+2025-10-16 05:36:02 [    INFO] stock | (158/5436) fetching 920943 优机股份 daily kline data.
+2025-10-16 05:36:02 [    INFO] stock | (159/5436) fetching 601136 首创证券 daily kline data.
+2025-10-16 05:36:02 [    INFO] stock | (160/5436) fetching 300740 水羊股份 daily kline data.
+2025-10-16 05:36:33 [    INFO] stock | (161/5436) fetching 300975 商络电子 daily kline data.
+2025-10-16 05:36:33 [    INFO] stock | (162/5436) fetching 300716 ST泉为 daily kline data.
+2025-10-16 05:37:11 [    INFO] stock | Upsert daily_kline 10546 条
+2025-10-16 05:37:11 [    INFO] stock | update 300716 ST泉为 daily kline data to database done.
+2025-10-16 05:45:46 [    INFO] stock | (163/5436) fetching 300811 铂科新材 daily kline data.
+2025-10-16 05:45:46 [    INFO] stock | (164/5436) fetching 002277 友阿股份 daily kline data.
+2025-10-16 05:45:46 [    INFO] stock | (165/5436) fetching 002412 汉森制药 daily kline data.
+2025-10-16 05:45:46 [    INFO] stock | (166/5436) fetching 600081 东风科技 daily kline data.
+2025-10-16 05:46:28 [    INFO] stock | (167/5436) fetching 688625 呈和科技 daily kline data.
+2025-10-16 05:47:03 [    INFO] stock | (168/5436) fetching 688139 海尔生物 daily kline data.
+2025-10-16 05:47:45 [    INFO] stock | Upsert daily_kline 9247 条
+2025-10-16 05:47:45 [    INFO] stock | update 688139 海尔生物 daily kline data to database done.
+2025-10-16 05:54:38 [    INFO] stock | (169/5436) fetching 300009 安科生物 daily kline data.
+2025-10-16 05:55:14 [    INFO] stock | (170/5436) fetching 002350 北京科锐 daily kline data.
+2025-10-16 05:55:14 [    INFO] stock | (171/5436) fetching 688089 嘉必优 daily kline data.
+2025-10-16 05:55:50 [    INFO] stock | Upsert daily_kline 5124 条
+2025-10-16 05:55:50 [    INFO] stock | update 688089 嘉必优 daily kline data to database done.
+2025-10-16 06:01:38 [    INFO] stock | (172/5436) fetching 300034 钢研高纳 daily kline data.
+2025-10-16 06:02:16 [    INFO] stock | (173/5436) fetching 002174 游族网络 daily kline data.
+2025-10-16 06:03:20 [    INFO] stock | (174/5436) fetching 603344 星德胜 daily kline data.
+2025-10-16 06:03:20 [    INFO] stock | (175/5436) fetching 002888 惠威科技 daily kline data.
+2025-10-16 06:03:57 [    INFO] stock | (176/5436) fetching 001338 永顺泰 daily kline data.
+2025-10-16 06:04:27 [    INFO] stock | (177/5436) fetching 688177 百奥泰 daily kline data.
+2025-10-16 06:04:27 [    INFO] stock | (178/5436) fetching 002689 远大智能 daily kline data.
+2025-10-16 06:05:06 [    INFO] stock | (179/5436) fetching 002752 昇兴股份 daily kline data.
+2025-10-16 06:05:06 [    INFO] stock | (180/5436) fetching 600362 江西铜业 daily kline data.
+2025-10-16 06:05:43 [    INFO] stock | Upsert daily_kline 19393 条
+2025-10-16 06:05:43 [    INFO] stock | update 600362 江西铜业 daily kline data to database done.
+2025-10-16 06:12:32 [    INFO] stock | (181/5436) fetching 600736 苏州高新 daily kline data.
+2025-10-16 06:13:35 [    INFO] stock | (182/5436) fetching 002245 蔚蓝锂芯 daily kline data.
+2025-10-16 06:14:06 [    INFO] stock | (183/5436) fetching 688213 思特威 daily kline data.
+2025-10-16 06:14:39 [    INFO] stock | Upsert daily_kline 11858 条
+2025-10-16 06:14:39 [    INFO] stock | update 688213 思特威 daily kline data to database done.
+2025-10-16 06:20:38 [    INFO] stock | (184/5436) fetching 600729 重庆百货 daily kline data.
+2025-10-16 06:21:37 [    INFO] stock | (185/5436) fetching 000506 招金黄金 daily kline data.
+2025-10-16 06:22:15 [    INFO] stock | (186/5436) fetching 002976 瑞玛精密 daily kline data.
+2025-10-16 06:22:58 [    INFO] stock | Upsert daily_kline 15053 条
+2025-10-16 06:22:58 [    INFO] stock | update 002976 瑞玛精密 daily kline data to database done.
+2025-10-16 06:32:29 [    INFO] stock | (187/5436) fetching 300527 ST应急 daily kline data.
+2025-10-16 06:33:03 [    INFO] stock | (188/5436) fetching 600377 宁沪高速 daily kline data.
+2025-10-16 06:33:37 [    INFO] stock | (189/5436) fetching 603878 武进不锈 daily kline data.
+2025-10-16 06:33:37 [    INFO] stock | (190/5436) fetching 301563 N云汉芯城 daily kline data.
+2025-10-16 06:34:13 [    INFO] stock | (191/5436) fetching 688078 龙软科技 daily kline data.
+2025-10-16 06:34:42 [    INFO] stock | (192/5436) fetching 002512 达华智能 daily kline data.
+2025-10-16 06:34:42 [    INFO] stock | (193/5436) fetching 300566 激智科技 daily kline data.
+2025-10-16 06:35:17 [    INFO] stock | (194/5436) fetching 603383 顶点软件 daily kline data.
+2025-10-16 06:35:17 [    INFO] stock | (195/5436) fetching 000955 欣龙控股 daily kline data.
+2025-10-16 06:35:57 [    INFO] stock | Upsert daily_kline 17719 条
+2025-10-16 06:35:57 [    INFO] stock | update 000955 欣龙控股 daily kline data to database done.
+2025-10-16 06:44:06 [    INFO] stock | (196/5436) fetching 920088 科力股份 daily kline data.
+2025-10-16 06:44:49 [    INFO] stock | (197/5436) fetching 000952 广济药业 daily kline data.
+2025-10-16 06:45:30 [    INFO] stock | (198/5436) fetching 920407 驰诚股份 daily kline data.
+2025-10-16 06:45:30 [    INFO] stock | (199/5436) fetching 000681 视觉中国 daily kline data.
+2025-10-16 06:46:07 [    INFO] stock | (200/5436) fetching 600845 宝信软件 daily kline data.
+2025-10-16 06:46:46 [    INFO] stock | (201/5436) fetching 300674 宇信科技 daily kline data.
+2025-10-16 06:46:46 [    INFO] stock | (202/5436) fetching 603219 富佳股份 daily kline data.
+2025-10-16 06:47:29 [    INFO] stock | (203/5436) fetching 300388 节能国祯 daily kline data.
+2025-10-16 06:48:01 [    INFO] stock | (204/5436) fetching 301189 奥尼电子 daily kline data.
+2025-10-16 06:48:41 [    INFO] stock | Upsert daily_kline 23807 条
+2025-10-16 06:48:41 [    INFO] stock | update 301189 奥尼电子 daily kline data to database done.
+2025-10-16 06:58:24 [    INFO] stock | (205/5436) fetching 000688 国城矿业 daily kline data.
+2025-10-16 06:59:07 [    INFO] stock | (206/5436) fetching 300906 日月明 daily kline data.
+2025-10-16 06:59:07 [    INFO] stock | (207/5436) fetching 920261 一诺威 daily kline data.
+2025-10-16 06:59:07 [    INFO] stock | (208/5436) fetching 300503 昊志机电 daily kline data.
+2025-10-16 06:59:07 [    INFO] stock | (209/5436) fetching 301259 艾布鲁 daily kline data.
+2025-10-16 06:59:40 [    INFO] stock | (210/5436) fetching 600257 大湖股份 daily kline data.
+2025-10-16 07:00:27 [    INFO] stock | Upsert daily_kline 11928 条
+2025-10-16 07:00:27 [    INFO] stock | update 600257 大湖股份 daily kline data to database done.
+2025-10-16 07:06:50 [    INFO] stock | (211/5436) fetching 002434 万里扬 daily kline data.
+2025-10-16 07:06:50 [    INFO] stock | (212/5436) fetching 002285 世联行 daily kline data.
+2025-10-16 07:06:50 [    INFO] stock | (213/5436) fetching 301127 武汉天源 daily kline data.
+2025-10-16 07:07:50 [    INFO] stock | Upsert daily_kline 911 条
+2025-10-16 07:07:50 [    INFO] stock | update 301127 武汉天源 daily kline data to database done.
+2025-10-16 07:13:03 [    INFO] stock | (214/5436) fetching 002542 中化岩土 daily kline data.
+2025-10-16 07:13:41 [    INFO] stock | (215/5436) fetching 688296 和达科技 daily kline data.
+2025-10-16 07:14:21 [    INFO] stock | (216/5436) fetching 920685 新芝生物 daily kline data.
+2025-10-16 07:14:54 [    INFO] stock | Upsert daily_kline 5119 条
+2025-10-16 07:14:54 [    INFO] stock | update 920685 新芝生物 daily kline data to database done.
+2025-10-16 07:20:28 [    INFO] stock | (217/5436) fetching 920547 无锡晶海 daily kline data.
+2025-10-16 07:21:04 [    INFO] stock | (218/5436) fetching 688327 云从科技 daily kline data.
+2025-10-16 07:21:45 [    INFO] stock | (219/5436) fetching 688767 博拓生物 daily kline data.
+2025-10-16 07:21:45 [    INFO] stock | (220/5436) fetching 000554 泰山石油 daily kline data.
+2025-10-16 07:22:17 [    INFO] stock | (221/5436) fetching 600331 宏达股份 daily kline data.
+2025-10-16 07:22:17 [    INFO] stock | (222/5436) fetching 301138 华研精机 daily kline data.
+2025-10-16 07:23:01 [    INFO] stock | Upsert daily_kline 9807 条
+2025-10-16 07:23:01 [    INFO] stock | update 301138 华研精机 daily kline data to database done.
+2025-10-16 07:28:08 [    INFO] stock | (223/5436) fetching 688207 格灵深瞳 daily kline data.
+2025-10-16 07:28:08 [    INFO] stock | (224/5436) fetching 300571 平治信息 daily kline data.
+2025-10-16 07:28:08 [    INFO] stock | (225/5436) fetching 001356 富岭股份 daily kline data.
+2025-10-16 07:28:45 [    INFO] stock | Upsert daily_kline 168 条
+2025-10-16 07:28:45 [    INFO] stock | update 001356 富岭股份 daily kline data to database done.
+2025-10-16 07:34:58 [    INFO] stock | (226/5436) fetching 600833 第一医药 daily kline data.
+2025-10-16 07:35:29 [    INFO] stock | (227/5436) fetching 600821 金开新能 daily kline data.
+2025-10-16 07:36:05 [    INFO] stock | (228/5436) fetching 601968 宝钢包装 daily kline data.
+2025-10-16 07:36:05 [    INFO] stock | (229/5436) fetching 600582 天地科技 daily kline data.
+2025-10-16 07:36:41 [    INFO] stock | (230/5436) fetching 600082 海泰发展 daily kline data.
+2025-10-16 07:36:41 [    INFO] stock | (231/5436) fetching 300619 金银河 daily kline data.
+2025-10-16 07:37:22 [    INFO] stock | Upsert daily_kline 22439 条
+2025-10-16 07:37:22 [    INFO] stock | update 300619 金银河 daily kline data to database done.
+2025-10-16 07:44:33 [    INFO] stock | (232/5436) fetching 002238 天威视讯 daily kline data.
+2025-10-16 07:45:04 [    INFO] stock | (233/5436) fetching 002310 东方园林 daily kline data.
+2025-10-16 07:45:34 [    INFO] stock | (234/5436) fetching 002062 宏润建设 daily kline data.
+2025-10-16 07:46:17 [    INFO] stock | Upsert daily_kline 12261 条
+2025-10-16 07:46:17 [    INFO] stock | update 002062 宏润建设 daily kline data to database done.
+2025-10-16 07:53:05 [    INFO] stock | (235/5436) fetching 601918 新集能源 daily kline data.
+2025-10-16 07:53:34 [    INFO] stock | (236/5436) fetching 605259 绿田机械 daily kline data.
+2025-10-16 07:54:03 [    INFO] stock | (237/5436) fetching 600518 康美药业 daily kline data.
+2025-10-16 07:54:44 [    INFO] stock | Upsert daily_kline 11061 条
+2025-10-16 07:54:44 [    INFO] stock | update 600518 康美药业 daily kline data to database done.
+2025-10-16 08:03:22 [    INFO] stock | (238/5436) fetching 601956 东贝集团 daily kline data.
+2025-10-16 08:03:51 [    INFO] stock | (239/5436) fetching 300164 通源石油 daily kline data.
+2025-10-16 08:03:51 [    INFO] stock | (240/5436) fetching 002536 飞龙股份 daily kline data.
+2025-10-16 08:04:24 [    INFO] stock | Upsert daily_kline 4719 条
+2025-10-16 08:04:24 [    INFO] stock | update 002536 飞龙股份 daily kline data to database done.
+2025-10-16 08:09:09 [    INFO] stock | (241/5436) fetching 688187 时代电气 daily kline data.
+2025-10-16 08:09:50 [    INFO] stock | (242/5436) fetching 688272 富吉瑞 daily kline data.
+2025-10-16 08:10:31 [    INFO] stock | (243/5436) fetching 301419 阿莱德 daily kline data.
+2025-10-16 08:11:03 [    INFO] stock | Upsert daily_kline 2593 条
+2025-10-16 08:11:03 [    INFO] stock | update 301419 阿莱德 daily kline data to database done.
+2025-10-16 08:19:23 [    INFO] stock | (244/5436) fetching 300600 国瑞科技 daily kline data.
+2025-10-16 08:19:53 [    INFO] stock | (245/5436) fetching 301188 力诺药包 daily kline data.
+2025-10-16 08:20:32 [    INFO] stock | (246/5436) fetching 000633 合金投资 daily kline data.
+2025-10-16 08:20:32 [    INFO] stock | (247/5436) fetching 002066 瑞泰科技 daily kline data.
+2025-10-16 08:21:02 [    INFO] stock | (248/5436) fetching 603721 *ST天择 daily kline data.
+2025-10-16 08:21:02 [    INFO] stock | (249/5436) fetching 300082 奥克股份 daily kline data.
+2025-10-16 08:21:45 [    INFO] stock | Upsert daily_kline 11383 条
+2025-10-16 08:21:45 [    INFO] stock | update 300082 奥克股份 daily kline data to database done.
+2025-10-16 08:31:21 [    INFO] stock | (250/5436) fetching 300113 顺网科技 daily kline data.
+2025-10-16 08:31:21 [    INFO] stock | (251/5436) fetching 300615 欣天科技 daily kline data.
+2025-10-16 08:32:02 [    INFO] stock | (252/5436) fetching 600423 柳化股份 daily kline data.
+2025-10-16 08:32:35 [    INFO] stock | Upsert daily_kline 7160 条
+2025-10-16 08:32:36 [    INFO] stock | update 600423 柳化股份 daily kline data to database done.
+2025-10-16 08:36:57 [    INFO] stock | (253/5436) fetching 920429 康比特 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (254/5436) fetching 688716 中研股份 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (255/5436) fetching 920414 欧普泰 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (256/5436) fetching 600109 国金证券 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (257/5436) fetching 002445 中南文化 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (258/5436) fetching 000028 国药一致 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (259/5436) fetching 688236 春立医疗 daily kline data.
+2025-10-16 08:36:57 [    INFO] stock | (260/5436) fetching 002617 露笑科技 daily kline data.
+2025-10-16 08:37:26 [    INFO] stock | (261/5436) fetching 603020 爱普股份 daily kline data.
+2025-10-16 08:37:26 [    INFO] stock | (262/5436) fetching 920566 梓橦宫 daily kline data.
+2025-10-16 08:37:26 [    INFO] stock | (263/5436) fetching 300494 盛天网络 daily kline data.
+2025-10-16 08:37:26 [    INFO] stock | (264/5436) fetching 603098 森特股份 daily kline data.
+2025-10-16 08:38:11 [    INFO] stock | Upsert daily_kline 5184 条
+2025-10-16 08:38:11 [    INFO] stock | update 603098 森特股份 daily kline data to database done.
+2025-10-16 08:42:57 [    INFO] stock | (265/5436) fetching 300596 利安隆 daily kline data.
+2025-10-16 08:42:57 [    INFO] stock | (266/5436) fetching 688026 洁特生物 daily kline data.
+2025-10-16 08:42:57 [    INFO] stock | (267/5436) fetching 301096 百诚医药 daily kline data.
+2025-10-16 08:43:42 [    INFO] stock | Upsert daily_kline 919 条
+2025-10-16 08:43:42 [    INFO] stock | update 301096 百诚医药 daily kline data to database done.
+2025-10-16 08:52:38 [    INFO] stock | (268/5436) fetching 002676 顺威股份 daily kline data.
+2025-10-16 08:53:10 [    INFO] stock | (269/5436) fetching 605228 神通科技 daily kline data.
+2025-10-16 08:53:47 [    INFO] stock | (270/5436) fetching 300907 康平科技 daily kline data.
+2025-10-16 08:54:47 [    INFO] stock | Upsert daily_kline 5335 条
+2025-10-16 08:54:47 [    INFO] stock | update 300907 康平科技 daily kline data to database done.
+2025-10-16 08:59:28 [    INFO] stock | (271/5436) fetching 300190 维尔利 daily kline data.
+2025-10-16 08:59:28 [    INFO] stock | (272/5436) fetching 600959 江苏有线 daily kline data.
+2025-10-16 08:59:28 [    INFO] stock | (273/5436) fetching 601162 天风证券 daily kline data.
+2025-10-16 09:00:23 [    INFO] stock | Upsert daily_kline 1684 条
+2025-10-16 09:00:23 [    INFO] stock | update 601162 天风证券 daily kline data to database done.
+2025-10-16 09:06:49 [    INFO] stock | (274/5436) fetching 300738 奥飞数据 daily kline data.
+2025-10-16 09:06:49 [    INFO] stock | (275/5436) fetching 601179 中国西电 daily kline data.
+2025-10-16 09:06:49 [    INFO] stock | (276/5436) fetching 002101 广东鸿图 daily kline data.
+2025-10-16 09:07:26 [    INFO] stock | Upsert daily_kline 4426 条
+2025-10-16 09:07:26 [    INFO] stock | update 002101 广东鸿图 daily kline data to database done.
+2025-10-16 09:14:16 [    INFO] stock | (277/5436) fetching 300521 爱司凯 daily kline data.
+2025-10-16 09:14:57 [    INFO] stock | (278/5436) fetching 002428 云南锗业 daily kline data.
+2025-10-16 09:15:35 [    INFO] stock | (279/5436) fetching 000922 佳电股份 daily kline data.
+2025-10-16 09:15:35 [    INFO] stock | (280/5436) fetching 002399 海普瑞 daily kline data.
+2025-10-16 09:15:35 [    INFO] stock | (281/5436) fetching 603611 诺力股份 daily kline data.
+2025-10-16 09:15:35 [    INFO] stock | (282/5436) fetching 600592 龙溪股份 daily kline data.
+2025-10-16 09:16:19 [    INFO] stock | Upsert daily_kline 11437 条
+2025-10-16 09:16:19 [    INFO] stock | update 600592 龙溪股份 daily kline data to database done.
+2025-10-16 09:25:49 [    INFO] stock | (283/5436) fetching 002969 嘉美包装 daily kline data.
+2025-10-16 09:26:44 [    INFO] stock | (284/5436) fetching 002271 东方雨虹 daily kline data.
+2025-10-16 09:26:44 [    INFO] stock | (285/5436) fetching 000597 东北制药 daily kline data.
+2025-10-16 09:27:22 [    INFO] stock | Upsert daily_kline 8416 条
+2025-10-16 09:27:22 [    INFO] stock | update 000597 东北制药 daily kline data to database done.
+2025-10-16 09:36:09 [    INFO] stock | (286/5436) fetching 000776 广发证券 daily kline data.
+2025-10-16 09:37:12 [    INFO] stock | (287/5436) fetching 003000 劲仔食品 daily kline data.
+2025-10-16 09:37:43 [    INFO] stock | (288/5436) fetching 603871 嘉友国际 daily kline data.
+2025-10-16 09:38:23 [    INFO] stock | Upsert daily_kline 9013 条
+2025-10-16 09:38:23 [    INFO] stock | update 603871 嘉友国际 daily kline data to database done.
+2025-10-16 09:46:08 [    INFO] stock | (289/5436) fetching 601113 华鼎股份 daily kline data.
+2025-10-16 09:46:08 [    INFO] stock | (290/5436) fetching 603660 苏州科达 daily kline data.
+2025-10-16 09:46:38 [    INFO] stock | (291/5436) fetching 301222 浙江恒威 daily kline data.
+2025-10-16 09:46:38 [    INFO] stock | (292/5436) fetching 000997 新 大 陆 daily kline data.
+2025-10-16 09:46:38 [    INFO] stock | (293/5436) fetching 688459 哈铁科技 daily kline data.
+2025-10-16 09:46:38 [    INFO] stock | (294/5436) fetching 300001 特锐德 daily kline data.
+2025-10-16 09:46:38 [    INFO] stock | (295/5436) fetching 920690 捷众科技 daily kline data.
+2025-10-16 09:47:17 [    INFO] stock | (296/5436) fetching 002157 正邦科技 daily kline data.
+2025-10-16 09:47:59 [    INFO] stock | (297/5436) fetching 300930 屹通新材 daily kline data.
+2025-10-16 09:48:36 [    INFO] stock | Upsert daily_kline 7996 条
+2025-10-16 09:48:36 [    INFO] stock | update 300930 屹通新材 daily kline data to database done.
+2025-10-16 09:54:23 [    INFO] stock | (298/5436) fetching 300015 爱尔眼科 daily kline data.
+2025-10-16 09:54:23 [    INFO] stock | (299/5436) fetching 603949 雪龙集团 daily kline data.
+2025-10-16 09:55:26 [    INFO] stock | (300/5436) fetching 301516 中远通 daily kline data.
+2025-10-16 09:56:07 [    INFO] stock | Upsert daily_kline 1794 条
+2025-10-16 09:56:07 [    INFO] stock | update 301516 中远通 daily kline data to database done.
+2025-10-16 10:00:14 [    INFO] stock | (301/5436) fetching 688619 罗普特 daily kline data.
+2025-10-16 10:01:08 [    INFO] stock | (302/5436) fetching 000926 福星股份 daily kline data.
+2025-10-16 10:02:09 [    INFO] stock | (303/5436) fetching 300353 东土科技 daily kline data.
+2025-10-16 10:02:44 [    INFO] stock | Upsert daily_kline 10210 条
+2025-10-16 10:02:44 [    INFO] stock | update 300353 东土科技 daily kline data to database done.
+2025-10-16 10:11:18 [    INFO] stock | (304/5436) fetching 688505 复旦张江 daily kline data.
+2025-10-16 10:11:56 [    INFO] stock | (305/5436) fetching 688426 康为世纪 daily kline data.
+2025-10-16 10:12:25 [    INFO] stock | (306/5436) fetching 000619 海螺新材 daily kline data.
+2025-10-16 10:13:04 [    INFO] stock | Upsert daily_kline 8909 条
+2025-10-16 10:13:04 [    INFO] stock | update 000619 海螺新材 daily kline data to database done.
+2025-10-16 10:20:02 [    INFO] stock | (307/5436) fetching 605186 健麾信息 daily kline data.
+2025-10-16 10:20:44 [    INFO] stock | (308/5436) fetching 301160 翔楼新材 daily kline data.
+2025-10-16 10:20:44 [    INFO] stock | (309/5436) fetching 920834 三维装备 daily kline data.
+2025-10-16 10:21:24 [    INFO] stock | Upsert daily_kline 1916 条
+2025-10-16 10:21:24 [    INFO] stock | update 920834 三维装备 daily kline data to database done.
+2025-10-16 10:25:42 [    INFO] stock | (310/5436) fetching 001203 大中矿业 daily kline data.
+2025-10-16 10:25:42 [    INFO] stock | (311/5436) fetching 300936 中英科技 daily kline data.
+2025-10-16 10:26:35 [    INFO] stock | (312/5436) fetching 603103 横店影视 daily kline data.
+2025-10-16 10:27:34 [    INFO] stock | Upsert daily_kline 3075 条
+2025-10-16 10:27:34 [    INFO] stock | update 603103 横店影视 daily kline data to database done.
+2025-10-16 10:33:00 [    INFO] stock | (313/5436) fetching 300352 北信源 daily kline data.
+2025-10-16 10:33:35 [    INFO] stock | (314/5436) fetching 603788 宁波高发 daily kline data.
+2025-10-16 10:34:09 [    INFO] stock | (315/5436) fetching 300439 美康生物 daily kline data.
+2025-10-16 10:34:50 [    INFO] stock | Upsert daily_kline 8183 条
+2025-10-16 10:34:50 [    INFO] stock | update 300439 美康生物 daily kline data to database done.
+2025-10-16 10:39:28 [    INFO] stock | (316/5436) fetching 300171 东富龙 daily kline data.
+2025-10-16 10:40:00 [    INFO] stock | (317/5436) fetching 601686 友发集团 daily kline data.
+2025-10-16 10:40:38 [    INFO] stock | (318/5436) fetching 300393 中来股份 daily kline data.
+2025-10-16 10:40:38 [    INFO] stock | (319/5436) fetching 603590 康辰药业 daily kline data.
+2025-10-16 10:41:18 [    INFO] stock | (320/5436) fetching 600133 东湖高新 daily kline data.
+2025-10-16 10:41:46 [    INFO] stock | (321/5436) fetching 301063 海锅股份 daily kline data.
+2025-10-16 10:42:55 [    INFO] stock | Upsert daily_kline 13747 条
+2025-10-16 10:42:55 [    INFO] stock | update 301063 海锅股份 daily kline data to database done.
+2025-10-16 10:51:08 [    INFO] stock | (322/5436) fetching 603379 三美股份 daily kline data.
+2025-10-16 10:52:01 [    INFO] stock | (323/5436) fetching 002583 海能达 daily kline data.
+2025-10-16 10:53:04 [    INFO] stock | (324/5436) fetching 600105 永鼎股份 daily kline data.
+2025-10-16 10:54:11 [    INFO] stock | Upsert daily_kline 11662 条
+2025-10-16 10:54:11 [    INFO] stock | update 600105 永鼎股份 daily kline data to database done.
+2025-10-16 11:03:20 [    INFO] stock | (325/5436) fetching 000636 风华高科 daily kline data.
+2025-10-16 11:03:53 [    INFO] stock | (326/5436) fetching 002095 生 意 宝 daily kline data.
+2025-10-16 11:04:24 [    INFO] stock | (327/5436) fetching 600027 华电国际 daily kline data.
+2025-10-16 11:04:24 [    INFO] stock | (328/5436) fetching 300135 宝利国际 daily kline data.
+2025-10-16 11:04:24 [    INFO] stock | (329/5436) fetching 688528 秦川物联 daily kline data.
+2025-10-16 11:05:04 [    INFO] stock | (330/5436) fetching 000036 华联控股 daily kline data.
+2025-10-16 11:05:04 [    INFO] stock | (331/5436) fetching 600433 冠豪高新 daily kline data.
+2025-10-16 11:05:42 [    INFO] stock | (332/5436) fetching 688391 钜泉科技 daily kline data.
+2025-10-16 11:05:42 [    INFO] stock | (333/5436) fetching 600834 申通地铁 daily kline data.
+2025-10-16 11:06:31 [    INFO] stock | Upsert daily_kline 25225 条
+2025-10-16 11:06:31 [    INFO] stock | update 600834 申通地铁 daily kline data to database done.
+2025-10-16 11:15:15 [    INFO] stock | (334/5436) fetching 002034 旺能环境 daily kline data.
+2025-10-16 11:15:51 [    INFO] stock | (335/5436) fetching 300053 航宇微 daily kline data.
+2025-10-16 11:16:21 [    INFO] stock | (336/5436) fetching 000630 铜陵有色 daily kline data.
+2025-10-16 11:17:06 [    INFO] stock | Upsert daily_kline 15315 条
+2025-10-16 11:17:06 [    INFO] stock | update 000630 铜陵有色 daily kline data to database done.
+2025-10-16 11:26:31 [    INFO] stock | (337/5436) fetching 301305 朗坤科技 daily kline data.
+2025-10-16 11:27:12 [    INFO] stock | (338/5436) fetching 605005 合兴股份 daily kline data.
+2025-10-16 11:27:12 [    INFO] stock | (339/5436) fetching 300209 有棵树 daily kline data.
+2025-10-16 11:27:12 [    INFO] stock | (340/5436) fetching 688583 思看科技 daily kline data.
+2025-10-16 11:27:49 [    INFO] stock | (341/5436) fetching 000617 中油资本 daily kline data.
+2025-10-16 11:28:21 [    INFO] stock | (342/5436) fetching 688313 仕佳光子 daily kline data.
+2025-10-16 11:28:21 [    INFO] stock | (343/5436) fetching 301630 同宇新材 daily kline data.
+2025-10-16 11:29:01 [    INFO] stock | (344/5436) fetching 603239 浙江仙通 daily kline data.
+2025-10-16 11:29:01 [    INFO] stock | (345/5436) fetching 600557 康缘药业 daily kline data.
+2025-10-16 11:29:39 [    INFO] stock | Upsert daily_kline 13140 条
+2025-10-16 11:29:39 [    INFO] stock | update 600557 康缘药业 daily kline data to database done.
+2025-10-16 11:35:13 [    INFO] stock | (346/5436) fetching 300597 吉大通信 daily kline data.
+2025-10-16 11:35:52 [    INFO] stock | (347/5436) fetching 301276 嘉曼服饰 daily kline data.
+2025-10-16 11:35:52 [    INFO] stock | (348/5436) fetching 601872 招商轮船 daily kline data.
+2025-10-16 11:36:34 [    INFO] stock | Upsert daily_kline 6558 条
+2025-10-16 11:36:34 [    INFO] stock | update 601872 招商轮船 daily kline data to database done.
+2025-10-16 11:44:04 [    INFO] stock | (349/5436) fetching 603008 喜临门 daily kline data.
+2025-10-16 11:44:04 [    INFO] stock | (350/5436) fetching 603416 信捷电气 daily kline data.
+2025-10-16 11:44:04 [    INFO] stock | (351/5436) fetching 000881 中广核技 daily kline data.
+2025-10-16 11:44:39 [    INFO] stock | Upsert daily_kline 6338 条
+2025-10-16 11:44:39 [    INFO] stock | update 000881 中广核技 daily kline data to database done.
+2025-10-16 11:49:48 [    INFO] stock | (352/5436) fetching 600548 深高速 daily kline data.
+2025-10-16 11:50:29 [    INFO] stock | (353/5436) fetching 920033 康普化学 daily kline data.
+2025-10-16 11:51:32 [    INFO] stock | (354/5436) fetching 300779 惠城环保 daily kline data.
+2025-10-16 11:52:18 [    INFO] stock | Upsert daily_kline 7930 条
+2025-10-16 11:52:18 [    INFO] stock | update 300779 惠城环保 daily kline data to database done.
+2025-10-16 12:01:36 [    INFO] stock | (355/5436) fetching 301511 德福科技 daily kline data.
+2025-10-16 12:01:36 [    INFO] stock | (356/5436) fetching 002230 科大讯飞 daily kline data.
+2025-10-16 12:01:36 [    INFO] stock | (357/5436) fetching 920976 视声智能 daily kline data.
+2025-10-16 12:02:10 [    INFO] stock | Upsert daily_kline 505 条
+2025-10-16 12:02:10 [    INFO] stock | update 920976 视声智能 daily kline data to database done.
+2025-10-16 12:10:30 [    INFO] stock | (358/5436) fetching 001225 和泰机电 daily kline data.
+2025-10-16 12:10:30 [    INFO] stock | (359/5436) fetching 300627 华测导航 daily kline data.
+2025-10-16 12:10:30 [    INFO] stock | (360/5436) fetching 002064 华峰化学 daily kline data.
+2025-10-16 12:10:30 [    INFO] stock | (361/5436) fetching 603888 新华网 daily kline data.
+2025-10-16 12:11:03 [    INFO] stock | (362/5436) fetching 300083 创世纪 daily kline data.
+2025-10-16 12:11:44 [    INFO] stock | (363/5436) fetching 002048 宁波华翔 daily kline data.
+2025-10-16 12:11:44 [    INFO] stock | (364/5436) fetching 001285 N瑞立科密 daily kline data.
+2025-10-16 12:12:27 [    INFO] stock | (365/5436) fetching 001326 联域股份 daily kline data.
+2025-10-16 12:12:57 [    INFO] stock | (366/5436) fetching 600048 保利发展 daily kline data.
+2025-10-16 12:13:36 [    INFO] stock | Upsert daily_kline 10872 条
+2025-10-16 12:13:36 [    INFO] stock | update 600048 保利发展 daily kline data to database done.
+2025-10-16 12:22:41 [    INFO] stock | (367/5436) fetching 600235 民丰特纸 daily kline data.
+2025-10-16 12:22:41 [    INFO] stock | (368/5436) fetching 600180 瑞茂通 daily kline data.
+2025-10-16 12:23:13 [    INFO] stock | (369/5436) fetching 601068 中铝国际 daily kline data.
+2025-10-16 12:23:53 [    INFO] stock | Upsert daily_kline 7892 条
+2025-10-16 12:23:53 [    INFO] stock | update 601068 中铝国际 daily kline data to database done.
+2025-10-16 12:29:11 [    INFO] stock | (370/5436) fetching 300777 中简科技 daily kline data.
+2025-10-16 12:29:11 [    INFO] stock | (371/5436) fetching 300315 掌趣科技 daily kline data.
+2025-10-16 12:29:11 [    INFO] stock | (372/5436) fetching 920608 丰安股份 daily kline data.
+2025-10-16 12:29:51 [    INFO] stock | Upsert daily_kline 678 条
+2025-10-16 12:29:51 [    INFO] stock | update 920608 丰安股份 daily kline data to database done.
+2025-10-16 12:36:43 [    INFO] stock | (373/5436) fetching 300095 华伍股份 daily kline data.
+2025-10-16 12:37:40 [    INFO] stock | (374/5436) fetching 600825 新华传媒 daily kline data.
+2025-10-16 12:37:40 [    INFO] stock | (375/5436) fetching 601988 中国银行 daily kline data.
+2025-10-16 12:38:21 [    INFO] stock | Upsert daily_kline 8278 条
+2025-10-16 12:38:21 [    INFO] stock | update 601988 中国银行 daily kline data to database done.
+2025-10-16 12:42:25 [    INFO] stock | (376/5436) fetching 002418 康盛股份 daily kline data.
+2025-10-16 12:43:07 [    INFO] stock | (377/5436) fetching 603889 新澳股份 daily kline data.
+2025-10-16 12:43:07 [    INFO] stock | (378/5436) fetching 002623 亚玛顿 daily kline data.
+2025-10-16 12:43:54 [    INFO] stock | Upsert daily_kline 6885 条
+2025-10-16 12:43:54 [    INFO] stock | update 002623 亚玛顿 daily kline data to database done.
+2025-10-16 12:49:00 [    INFO] stock | (379/5436) fetching 300451 创业慧康 daily kline data.
+2025-10-16 12:49:00 [    INFO] stock | (380/5436) fetching 002365 永安药业 daily kline data.
+2025-10-16 12:49:36 [    INFO] stock | (381/5436) fetching 000691 *ST亚太 daily kline data.
+2025-10-16 12:50:09 [    INFO] stock | Upsert daily_kline 10111 条
+2025-10-16 12:50:09 [    INFO] stock | update 000691 *ST亚太 daily kline data to database done.
+2025-10-16 12:59:40 [    INFO] stock | (382/5436) fetching 002567 唐人神 daily kline data.
+2025-10-16 12:59:40 [    INFO] stock | (383/5436) fetching 002123 梦网科技 daily kline data.
+2025-10-16 13:00:11 [    INFO] stock | (384/5436) fetching 300280 紫天退 daily kline data.
+2025-10-16 13:01:06 [    INFO] stock | Upsert daily_kline 7213 条
+2025-10-16 13:01:06 [    INFO] stock | update 300280 紫天退 daily kline data to database done.
+2025-10-16 13:05:15 [    INFO] stock | (385/5436) fetching 600735 新华锦 daily kline data.
+2025-10-16 13:05:15 [    INFO] stock | (386/5436) fetching 601236 红塔证券 daily kline data.
+2025-10-16 13:05:55 [    INFO] stock | (387/5436) fetching 300101 振芯科技 daily kline data.
+2025-10-16 13:05:55 [    INFO] stock | (388/5436) fetching 600753 *ST海钦 daily kline data.
+2025-10-16 13:06:33 [    INFO] stock | (389/5436) fetching 688201 信安世纪 daily kline data.
+2025-10-16 13:07:10 [    INFO] stock | (390/5436) fetching 688159 有方科技 daily kline data.
+2025-10-16 13:07:54 [    INFO] stock | Upsert daily_kline 10540 条
+2025-10-16 13:07:54 [    INFO] stock | update 688159 有方科技 daily kline data to database done.
+2025-10-16 13:17:50 [    INFO] stock | (391/5436) fetching 688621 阳光诺和 daily kline data.
+2025-10-16 13:18:29 [    INFO] stock | (392/5436) fetching 920694 中裕科技 daily kline data.
+2025-10-16 13:19:00 [    INFO] stock | (393/5436) fetching 000400 许继电气 daily kline data.
+2025-10-16 13:19:00 [    INFO] stock | (394/5436) fetching 301087 可孚医疗 daily kline data.
+2025-10-16 13:19:56 [    INFO] stock | (395/5436) fetching 002201 九鼎新材 daily kline data.
+2025-10-16 13:19:56 [    INFO] stock | (396/5436) fetching 600742 富维股份 daily kline data.
+2025-10-16 13:19:56 [    INFO] stock | (397/5436) fetching 300148 天舟文化 daily kline data.
+2025-10-16 13:20:51 [    INFO] stock | (398/5436) fetching 002760 凤形股份 daily kline data.
+2025-10-16 13:20:51 [    INFO] stock | (399/5436) fetching 600383 金地集团 daily kline data.
+2025-10-16 13:21:45 [    INFO] stock | Upsert daily_kline 11666 条
+2025-10-16 13:21:45 [    INFO] stock | update 600383 金地集团 daily kline data to database done.
+2025-10-16 13:29:10 [    INFO] stock | (400/5436) fetching 301355 南王科技 daily kline data.
+2025-10-16 13:29:41 [    INFO] stock | (401/5436) fetching 688128 中国电研 daily kline data.
+2025-10-16 13:30:10 [    INFO] stock | (402/5436) fetching 920175 东方碳素 daily kline data.
+2025-10-16 13:30:10 [    INFO] stock | (403/5436) fetching 002475 立讯精密 daily kline data.
+2025-10-16 13:30:49 [    INFO] stock | (404/5436) fetching 002882 金龙羽 daily kline data.
+2025-10-16 13:31:44 [    INFO] stock | (405/5436) fetching 603866 桃李面包 daily kline data.
+2025-10-16 13:32:31 [    INFO] stock | Upsert daily_kline 9999 条
+2025-10-16 13:32:31 [    INFO] stock | update 603866 桃李面包 daily kline data to database done.
+2025-10-16 13:41:33 [    INFO] stock | (406/5436) fetching 600075 新疆天业 daily kline data.
+2025-10-16 13:42:05 [    INFO] stock | (407/5436) fetching 600126 杭钢股份 daily kline data.
+2025-10-16 13:42:05 [    INFO] stock | (408/5436) fetching 600778 友好集团 daily kline data.
+2025-10-16 13:42:47 [    INFO] stock | Upsert daily_kline 13423 条
+2025-10-16 13:42:47 [    INFO] stock | update 600778 友好集团 daily kline data to database done.
+2025-10-16 13:46:52 [    INFO] stock | (409/5436) fetching 920438 戈碧迦 daily kline data.
+2025-10-16 13:46:52 [    INFO] stock | (410/5436) fetching 600486 扬农化工 daily kline data.
+2025-10-16 13:46:52 [    INFO] stock | (411/5436) fetching 002395 双象股份 daily kline data.
+2025-10-16 13:46:52 [    INFO] stock | (412/5436) fetching 300705 九典制药 daily kline data.
+2025-10-16 13:47:32 [    INFO] stock | (413/5436) fetching 688529 豪森智能 daily kline data.
+2025-10-16 13:48:13 [    INFO] stock | (414/5436) fetching 002110 三钢闽光 daily kline data.
+2025-10-16 13:48:13 [    INFO] stock | (415/5436) fetching 300485 赛升药业 daily kline data.
+2025-10-16 13:48:53 [    INFO] stock | (416/5436) fetching 000421 南京公用 daily kline data.
+2025-10-16 13:49:25 [    INFO] stock | (417/5436) fetching 300818 耐普矿机 daily kline data.
+2025-10-16 13:49:25 [    INFO] stock | (418/5436) fetching 301111 粤万年青 daily kline data.
+2025-10-16 13:49:25 [    INFO] stock | (419/5436) fetching 301225 恒勃股份 daily kline data.
+2025-10-16 13:50:04 [    INFO] stock | (420/5436) fetching 603444 吉比特 daily kline data.
+2025-10-16 13:50:41 [    INFO] stock | Upsert daily_kline 15199 条
+2025-10-16 13:50:41 [    INFO] stock | update 603444 吉比特 daily kline data to database done.
+2025-10-16 13:58:45 [    INFO] stock | (421/5436) fetching 601616 广电电气 daily kline data.
+2025-10-16 13:58:45 [    INFO] stock | (422/5436) fetching 002867 周大生 daily kline data.
+2025-10-16 13:59:19 [    INFO] stock | (423/5436) fetching 600251 冠农股份 daily kline data.
+2025-10-16 13:59:56 [    INFO] stock | Upsert daily_kline 7379 条
+2025-10-16 13:59:56 [    INFO] stock | update 600251 冠农股份 daily kline data to database done.
+2025-10-16 14:08:28 [    INFO] stock | (424/5436) fetching 000953 河化股份 daily kline data.
+2025-10-16 14:08:28 [    INFO] stock | (425/5436) fetching 300313 *ST天山 daily kline data.
+2025-10-16 14:09:07 [    INFO] stock | (426/5436) fetching 300272 开能健康 daily kline data.
+2025-10-16 14:09:52 [    INFO] stock | Upsert daily_kline 6205 条
+2025-10-16 14:09:52 [    INFO] stock | update 300272 开能健康 daily kline data to database done.
+2025-10-16 14:17:50 [    INFO] stock | (427/5436) fetching 601456 国联民生 daily kline data.
+2025-10-16 14:17:50 [    INFO] stock | (428/5436) fetching 300878 维康药业 daily kline data.
+2025-10-16 14:17:50 [    INFO] stock | (429/5436) fetching 603123 翠微股份 daily kline data.
+2025-10-16 14:17:50 [    INFO] stock | (430/5436) fetching 000698 沈阳化工 daily kline data.
+2025-10-16 14:18:20 [    INFO] stock | (431/5436) fetching 002808 *ST恒久 daily kline data.
+2025-10-16 14:18:57 [    INFO] stock | (432/5436) fetching 002824 和胜股份 daily kline data.
+2025-10-16 14:18:57 [    INFO] stock | (433/5436) fetching 300647 超频三 daily kline data.
+2025-10-16 14:19:53 [    INFO] stock | (434/5436) fetching 300161 华中数控 daily kline data.
+2025-10-16 14:20:25 [    INFO] stock | (435/5436) fetching 920267 鑫汇科 daily kline data.
+2025-10-16 14:20:25 [    INFO] stock | (436/5436) fetching 300430 诚益通 daily kline data.
+2025-10-16 14:21:02 [    INFO] stock | (437/5436) fetching 002649 博彦科技 daily kline data.
+2025-10-16 14:21:41 [    INFO] stock | (438/5436) fetching 301369 联动科技 daily kline data.
+2025-10-16 14:22:27 [    INFO] stock | Upsert daily_kline 20838 条
+2025-10-16 14:22:27 [    INFO] stock | update 301369 联动科技 daily kline data to database done.
+2025-10-16 14:28:59 [    INFO] stock | (439/5436) fetching 301468 博盈特焊 daily kline data.
+2025-10-16 14:29:57 [    INFO] stock | (440/5436) fetching 920914 远航精密 daily kline data.
+2025-10-16 14:30:58 [    INFO] stock | (441/5436) fetching 688363 华熙生物 daily kline data.
+2025-10-16 14:31:39 [    INFO] stock | Upsert daily_kline 2672 条
+2025-10-16 14:31:39 [    INFO] stock | update 688363 华熙生物 daily kline data to database done.
+2025-10-16 14:37:35 [    INFO] stock | (442/5436) fetching 000860 顺鑫农业 daily kline data.
+2025-10-16 14:38:11 [    INFO] stock | (443/5436) fetching 601007 金陵饭店 daily kline data.
+2025-10-16 14:38:52 [    INFO] stock | (444/5436) fetching 688001 华兴源创 daily kline data.
+2025-10-16 14:38:52 [    INFO] stock | (445/5436) fetching 920378 泰德股份 daily kline data.
+2025-10-16 14:39:29 [    INFO] stock | (446/5436) fetching 603778 国晟科技 daily kline data.
+2025-10-16 14:40:10 [    INFO] stock | (447/5436) fetching 603017 中衡设计 daily kline data.
+2025-10-16 14:40:51 [    INFO] stock | Upsert daily_kline 16590 条
+2025-10-16 14:40:51 [    INFO] stock | update 603017 中衡设计 daily kline data to database done.
+2025-10-16 14:47:25 [    INFO] stock | (448/5436) fetching 002177 御银股份 daily kline data.
+2025-10-16 14:48:06 [    INFO] stock | (449/5436) fetching 002291 遥望科技 daily kline data.
+2025-10-16 14:49:00 [    INFO] stock | (450/5436) fetching 000612 焦作万方 daily kline data.
+2025-10-16 14:49:39 [    INFO] stock | Upsert daily_kline 14748 条
+2025-10-16 14:49:39 [    INFO] stock | update 000612 焦作万方 daily kline data to database done.
+2025-10-16 14:54:48 [    INFO] stock | (451/5436) fetching 002225 濮耐股份 daily kline data.
+2025-10-16 14:55:48 [    INFO] stock | (452/5436) fetching 300472 *ST新元 daily kline data.
+2025-10-16 14:56:30 [    INFO] stock | (453/5436) fetching 300697 电工合金 daily kline data.
+2025-10-16 14:57:30 [    INFO] stock | Upsert daily_kline 8373 条
+2025-10-16 14:57:30 [    INFO] stock | update 300697 电工合金 daily kline data to database done.
+2025-10-16 15:05:42 [    INFO] stock | (454/5436) fetching 002532 天山铝业 daily kline data.
+2025-10-16 15:06:16 [    INFO] stock | (455/5436) fetching 920866 绿亨科技 daily kline data.
+2025-10-16 15:06:50 [    INFO] stock | (456/5436) fetching 920556 雅达股份 daily kline data.
+2025-10-16 15:07:37 [    INFO] stock | Upsert daily_kline 4767 条
+2025-10-16 15:07:37 [    INFO] stock | update 920556 雅达股份 daily kline data to database done.
+2025-10-16 15:12:47 [    INFO] stock | (457/5436) fetching 920634 新威凌 daily kline data.
+2025-10-16 15:13:17 [    INFO] stock | (458/5436) fetching 002729 好利科技 daily kline data.
+2025-10-16 15:13:17 [    INFO] stock | (459/5436) fetching 688550 瑞联新材 daily kline data.
+2025-10-16 15:13:59 [    INFO] stock | Upsert daily_kline 1922 条
+2025-10-16 15:13:59 [    INFO] stock | update 688550 瑞联新材 daily kline data to database done.
+2025-10-16 15:21:46 [    INFO] stock | (460/5436) fetching 920471 美邦科技 daily kline data.
+2025-10-16 15:22:41 [    INFO] stock | (461/5436) fetching 301603 乔锋智能 daily kline data.
+2025-10-16 15:23:24 [    INFO] stock | (462/5436) fetching 300266 兴源环境 daily kline data.
+2025-10-16 15:23:24 [    INFO] stock | (463/5436) fetching 000917 电广传媒 daily kline data.
+2025-10-16 15:24:00 [    INFO] stock | (464/5436) fetching 600768 宁波富邦 daily kline data.
+2025-10-16 15:24:00 [    INFO] stock | (465/5436) fetching 688531 日联科技 daily kline data.
+2025-10-16 15:25:06 [    INFO] stock | Upsert daily_kline 7520 条
+2025-10-16 15:25:06 [    INFO] stock | update 688531 日联科技 daily kline data to database done.
+2025-10-16 15:29:47 [    INFO] stock | (466/5436) fetching 002105 信隆健康 daily kline data.
+2025-10-16 15:30:20 [    INFO] stock | (467/5436) fetching 688032 禾迈股份 daily kline data.
+2025-10-16 15:30:20 [    INFO] stock | (468/5436) fetching 002361 神剑股份 daily kline data.
+2025-10-16 15:30:20 [    INFO] stock | (469/5436) fetching 000564 供销大集 daily kline data.
+2025-10-16 15:30:20 [    INFO] stock | (470/5436) fetching 002746 仙坛股份 daily kline data.
+2025-10-16 15:30:50 [    INFO] stock | (471/5436) fetching 002889 东方嘉盛 daily kline data.
+2025-10-16 15:31:33 [    INFO] stock | Upsert daily_kline 9079 条
+2025-10-16 15:31:33 [    INFO] stock | update 002889 东方嘉盛 daily kline data to database done.
+2025-10-16 15:41:02 [    INFO] stock | (472/5436) fetching 000096 广聚能源 daily kline data.
+2025-10-16 15:41:32 [    INFO] stock | (473/5436) fetching 003016 欣贺股份 daily kline data.
+2025-10-16 15:42:07 [    INFO] stock | (474/5436) fetching 002695 煌上煌 daily kline data.
+2025-10-16 15:42:07 [    INFO] stock | (475/5436) fetching 688322 奥比中光 daily kline data.
+2025-10-16 15:42:50 [    INFO] stock | (476/5436) fetching 688298 东方生物 daily kline data.
+2025-10-16 15:42:50 [    INFO] stock | (477/5436) fetching 300480 光力科技 daily kline data.
+2025-10-16 15:43:53 [    INFO] stock | Upsert daily_kline 10473 条
+2025-10-16 15:43:53 [    INFO] stock | update 300480 光力科技 daily kline data to database done.
+2025-10-16 15:48:37 [    INFO] stock | (478/5436) fetching 002774 快意电梯 daily kline data.
+2025-10-16 15:48:37 [    INFO] stock | (479/5436) fetching 600784 鲁银投资 daily kline data.
+2025-10-16 15:49:17 [    INFO] stock | (480/5436) fetching 603369 今世缘 daily kline data.
+2025-10-16 15:49:50 [    INFO] stock | Upsert daily_kline 9294 条
+2025-10-16 15:49:50 [    INFO] stock | update 603369 今世缘 daily kline data to database done.
+2025-10-16 15:55:37 [    INFO] stock | (481/5436) fetching 300812 易天股份 daily kline data.
+2025-10-16 15:56:09 [    INFO] stock | (482/5436) fetching 688039 当虹科技 daily kline data.
+2025-10-16 15:56:47 [    INFO] stock | (483/5436) fetching 603290 斯达半导 daily kline data.
+2025-10-16 15:57:48 [    INFO] stock | Upsert daily_kline 4178 条
+2025-10-16 15:57:48 [    INFO] stock | update 603290 斯达半导 daily kline data to database done.
+2025-10-16 16:07:13 [    INFO] stock | (484/5436) fetching 300511 雪榕生物 daily kline data.
+2025-10-16 16:07:13 [    INFO] stock | (485/5436) fetching 688326 经纬恒润 daily kline data.
+2025-10-16 16:07:45 [    INFO] stock | (486/5436) fetching 002229 鸿博股份 daily kline data.
+2025-10-16 16:07:45 [    INFO] stock | (487/5436) fetching 688768 容知日新 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (488/5436) fetching 920720 吉冈精密 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (489/5436) fetching 603667 五洲新春 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (490/5436) fetching 300896 爱美客 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (491/5436) fetching 002346 柘中股份 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (492/5436) fetching 603813 *ST原尚 daily kline data.
+2025-10-16 16:08:27 [    INFO] stock | (493/5436) fetching 300469 信息发展 daily kline data.
+2025-10-16 16:09:05 [    INFO] stock | (494/5436) fetching 002701 奥瑞金 daily kline data.
+2025-10-16 16:09:05 [    INFO] stock | (495/5436) fetching 603979 金诚信 daily kline data.
+2025-10-16 16:09:05 [    INFO] stock | (496/5436) fetching 300069 金利华电 daily kline data.
+2025-10-16 16:09:47 [    INFO] stock | (497/5436) fetching 600664 哈药股份 daily kline data.
+2025-10-16 16:10:24 [    INFO] stock | (498/5436) fetching 300270 中威电子 daily kline data.
+2025-10-16 16:11:09 [    INFO] stock | Upsert daily_kline 18827 条
+2025-10-16 16:11:09 [    INFO] stock | update 300270 中威电子 daily kline data to database done.
+2025-10-16 16:20:18 [    INFO] stock | (499/5436) fetching 600577 精达股份 daily kline data.
+2025-10-16 16:20:47 [    INFO] stock | (500/5436) fetching 300285 国瓷材料 daily kline data.
+2025-10-16 16:20:47 [    INFO] stock | (501/5436) fetching 300756 金马游乐 daily kline data.
+2025-10-16 16:20:47 [    INFO] stock | (502/5436) fetching 300410 正业科技 daily kline data.
+2025-10-16 16:20:47 [    INFO] stock | (503/5436) fetching 002065 东华软件 daily kline data.
+2025-10-16 16:21:20 [    INFO] stock | (504/5436) fetching 600868 梅雁吉祥 daily kline data.
+2025-10-16 16:22:02 [    INFO] stock | Upsert daily_kline 16972 条
+2025-10-16 16:22:02 [    INFO] stock | update 600868 梅雁吉祥 daily kline data to database done.
+2025-10-16 16:27:20 [    INFO] stock | (505/5436) fetching 688015 交控科技 daily kline data.
+2025-10-16 16:28:00 [    INFO] stock | (506/5436) fetching 688608 恒玄科技 daily kline data.
+2025-10-16 16:28:39 [    INFO] stock | (507/5436) fetching 600697 欧亚集团 daily kline data.
+2025-10-16 16:28:39 [    INFO] stock | (508/5436) fetching 600323 瀚蓝环境 daily kline data.
+2025-10-16 16:29:19 [    INFO] stock | (509/5436) fetching 000779 甘咨询 daily kline data.
+2025-10-16 16:29:19 [    INFO] stock | (510/5436) fetching 300523 辰安科技 daily kline data.
+2025-10-16 16:30:02 [    INFO] stock | Upsert daily_kline 10698 条
+2025-10-16 16:30:02 [    INFO] stock | update 300523 辰安科技 daily kline data to database done.
+2025-10-16 16:38:56 [    INFO] stock | (511/5436) fetching 920992 中科美菱 daily kline data.
+2025-10-16 16:38:56 [    INFO] stock | (512/5436) fetching 300568 星源材质 daily kline data.
+2025-10-16 16:38:56 [    INFO] stock | (513/5436) fetching 688267 中触媒 daily kline data.
+2025-10-16 16:38:56 [    INFO] stock | (514/5436) fetching 688301 奕瑞科技 daily kline data.
+2025-10-16 16:38:56 [    INFO] stock | (515/5436) fetching 603172 万丰股份 daily kline data.
+2025-10-16 16:40:00 [    INFO] stock | (516/5436) fetching 920089 禾昌聚合 daily kline data.
+2025-10-16 16:40:35 [    INFO] stock | Upsert daily_kline 1533 条
+2025-10-16 16:40:35 [    INFO] stock | update 920089 禾昌聚合 daily kline data to database done.
+2025-10-16 16:48:42 [    INFO] stock | (517/5436) fetching 301499 维科精密 daily kline data.
+2025-10-16 16:49:19 [    INFO] stock | (518/5436) fetching 301078 孩子王 daily kline data.
+2025-10-16 16:49:48 [    INFO] stock | (519/5436) fetching 601319 中国人保 daily kline data.
+2025-10-16 16:50:25 [    INFO] stock | Upsert daily_kline 3171 条
+2025-10-16 16:50:25 [    INFO] stock | update 601319 中国人保 daily kline data to database done.
+2025-10-16 16:57:04 [    INFO] stock | (520/5436) fetching 688361 中科飞测 daily kline data.
+2025-10-16 16:57:42 [    INFO] stock | (521/5436) fetching 002397 梦洁股份 daily kline data.
+2025-10-16 16:57:42 [    INFO] stock | (522/5436) fetching 002290 禾盛新材 daily kline data.
+2025-10-16 16:58:16 [    INFO] stock | Upsert daily_kline 4336 条
+2025-10-16 16:58:16 [    INFO] stock | update 002290 禾盛新材 daily kline data to database done.
+2025-10-16 17:07:44 [    INFO] stock | (523/5436) fetching 300246 宝莱特 daily kline data.
+2025-10-16 17:08:26 [    INFO] stock | (524/5436) fetching 300967 晓鸣股份 daily kline data.
+2025-10-16 17:08:56 [    INFO] stock | (525/5436) fetching 002168 *ST惠程 daily kline data.
+2025-10-16 17:08:56 [    INFO] stock | (526/5436) fetching 002577 雷柏科技 daily kline data.
+2025-10-16 17:09:35 [    INFO] stock | (527/5436) fetching 600537 亿晶光电 daily kline data.
+2025-10-16 17:09:35 [    INFO] stock | (528/5436) fetching 301210 金杨股份 daily kline data.
+2025-10-16 17:10:16 [    INFO] stock | Upsert daily_kline 8442 条
+2025-10-16 17:10:16 [    INFO] stock | update 301210 金杨股份 daily kline data to database done.
+2025-10-16 17:14:58 [    INFO] stock | (529/5436) fetching 300122 智飞生物 daily kline data.
+2025-10-16 17:15:29 [    INFO] stock | (530/5436) fetching 300845 捷安高科 daily kline data.
+2025-10-16 17:16:08 [    INFO] stock | (531/5436) fetching 003039 顺控发展 daily kline data.
+2025-10-16 17:16:51 [    INFO] stock | Upsert daily_kline 5955 条
+2025-10-16 17:16:51 [    INFO] stock | update 003039 顺控发展 daily kline data to database done.
+2025-10-16 17:26:43 [    INFO] stock | (532/5436) fetching 600704 物产中大 daily kline data.
+2025-10-16 17:27:47 [    INFO] stock | (533/5436) fetching 300332 天壕能源 daily kline data.
+2025-10-16 17:27:47 [    INFO] stock | (534/5436) fetching 002114 罗平锌电 daily kline data.
+2025-10-16 17:27:47 [    INFO] stock | (535/5436) fetching 300542 新晨科技 daily kline data.
+2025-10-16 17:27:47 [    INFO] stock | (536/5436) fetching 600848 上海临港 daily kline data.
+2025-10-16 17:28:44 [    INFO] stock | (537/5436) fetching 301292 海科新源 daily kline data.
+2025-10-16 17:29:20 [    INFO] stock | Upsert daily_kline 14603 条
+2025-10-16 17:29:20 [    INFO] stock | update 301292 海科新源 daily kline data to database done.
+2025-10-16 17:35:26 [    INFO] stock | (538/5436) fetching 002777 久远银海 daily kline data.
+2025-10-16 17:36:26 [    INFO] stock | (539/5436) fetching 688357 建龙微纳 daily kline data.
+2025-10-16 17:36:26 [    INFO] stock | (540/5436) fetching 002523 天桥起重 daily kline data.
+2025-10-16 17:37:12 [    INFO] stock | Upsert daily_kline 5841 条
+2025-10-16 17:37:12 [    INFO] stock | update 002523 天桥起重 daily kline data to database done.
+2025-10-16 17:42:44 [    INFO] stock | (541/5436) fetching 300004 南风股份 daily kline data.
+2025-10-16 17:43:14 [    INFO] stock | (542/5436) fetching 688237 超卓航科 daily kline data.
+2025-10-16 17:43:50 [    INFO] stock | (543/5436) fetching 002053 云南能投 daily kline data.
+2025-10-16 17:43:50 [    INFO] stock | (544/5436) fetching 688601 力芯微 daily kline data.
+2025-10-16 17:43:50 [    INFO] stock | (545/5436) fetching 688133 泰坦科技 daily kline data.
+2025-10-16 17:43:50 [    INFO] stock | (546/5436) fetching 603615 茶花股份 daily kline data.
+2025-10-16 17:43:50 [    INFO] stock | (547/5436) fetching 600599 *ST熊猫 daily kline data.
+2025-10-16 17:44:30 [    INFO] stock | (548/5436) fetching 603757 大元泵业 daily kline data.
+2025-10-16 17:44:30 [    INFO] stock | (549/5436) fetching 002446 盛路通信 daily kline data.
+2025-10-16 17:45:13 [    INFO] stock | Upsert daily_kline 13583 条
+2025-10-16 17:45:13 [    INFO] stock | update 002446 盛路通信 daily kline data to database done.
+2025-10-16 17:50:45 [    INFO] stock | (550/5436) fetching 002895 川恒股份 daily kline data.
+2025-10-16 17:50:45 [    INFO] stock | (551/5436) fetching 002812 恩捷股份 daily kline data.
+2025-10-16 17:51:15 [    INFO] stock | (552/5436) fetching 688280 精进电动 daily kline data.
+2025-10-16 17:51:15 [    INFO] stock | (553/5436) fetching 000672 上峰水泥 daily kline data.
+2025-10-16 17:51:50 [    INFO] stock | (554/5436) fetching 603589 口子窖 daily kline data.
+2025-10-16 17:52:28 [    INFO] stock | (555/5436) fetching 600594 益佰制药 daily kline data.
+2025-10-16 17:53:13 [    INFO] stock | Upsert daily_kline 15097 条
+2025-10-16 17:53:13 [    INFO] stock | update 600594 益佰制药 daily kline data to database done.
+2025-10-16 17:59:19 [    INFO] stock | (556/5436) fetching 605499 东鹏饮料 daily kline data.
+2025-10-16 17:59:53 [    INFO] stock | (557/5436) fetching 002805 丰元股份 daily kline data.
+2025-10-16 17:59:53 [    INFO] stock | (558/5436) fetching 603601 再升科技 daily kline data.
+2025-10-16 18:00:33 [    INFO] stock | Upsert daily_kline 3602 条
+2025-10-16 18:00:33 [    INFO] stock | update 603601 再升科技 daily kline data to database done.
+2025-10-16 18:09:46 [    INFO] stock | (559/5436) fetching 300475 香农芯创 daily kline data.
+2025-10-16 18:10:23 [    INFO] stock | (560/5436) fetching 688343 云天励飞 daily kline data.
+2025-10-16 18:11:05 [    INFO] stock | (561/5436) fetching 920478 峆一药业 daily kline data.
+2025-10-16 18:11:05 [    INFO] stock | (562/5436) fetching 600960 渤海汽车 daily kline data.
+2025-10-16 18:11:47 [    INFO] stock | (563/5436) fetching 000025 特  力Ａ daily kline data.
+2025-10-16 18:11:47 [    INFO] stock | (564/5436) fetching 601668 中国建筑 daily kline data.
+2025-10-16 18:12:25 [    INFO] stock | Upsert daily_kline 12010 条
+2025-10-16 18:12:25 [    INFO] stock | update 601668 中国建筑 daily kline data to database done.
+2025-10-16 18:20:08 [    INFO] stock | (565/5436) fetching 002178 延华智能 daily kline data.
+2025-10-16 18:20:47 [    INFO] stock | (566/5436) fetching 001226 拓山重工 daily kline data.
+2025-10-16 18:20:47 [    INFO] stock | (567/5436) fetching 600444 国机通用 daily kline data.
+2025-10-16 18:20:47 [    INFO] stock | (568/5436) fetching 600885 宏发股份 daily kline data.
+2025-10-16 18:21:16 [    INFO] stock | (569/5436) fetching 002594 比亚迪 daily kline data.
+2025-10-16 18:21:16 [    INFO] stock | (570/5436) fetching 603697 有友食品 daily kline data.
+2025-10-16 18:21:56 [    INFO] stock | Upsert daily_kline 12725 条
+2025-10-16 18:21:56 [    INFO] stock | update 603697 有友食品 daily kline data to database done.
+2025-10-16 18:29:31 [    INFO] stock | (571/5436) fetching 600581 八一钢铁 daily kline data.
+2025-10-16 18:30:04 [    INFO] stock | (572/5436) fetching 600439 瑞贝卡 daily kline data.
+2025-10-16 18:30:04 [    INFO] stock | (573/5436) fetching 688396 华润微 daily kline data.
+2025-10-16 18:30:38 [    INFO] stock | Upsert daily_kline 6756 条
+2025-10-16 18:30:38 [    INFO] stock | update 688396 华润微 daily kline data to database done.
+2025-10-16 18:39:16 [    INFO] stock | (574/5436) fetching 920527 夜光明 daily kline data.
+2025-10-16 18:39:55 [    INFO] stock | (575/5436) fetching 301258 富士莱 daily kline data.
+2025-10-16 18:40:24 [    INFO] stock | (576/5436) fetching 002371 北方华创 daily kline data.
+2025-10-16 18:40:24 [    INFO] stock | (577/5436) fetching 301519 舜禹股份 daily kline data.
+2025-10-16 18:40:55 [    INFO] stock | (578/5436) fetching 600769 祥龙电业 daily kline data.
+2025-10-16 18:41:36 [    INFO] stock | (579/5436) fetching 301291 明阳电气 daily kline data.
+2025-10-16 18:41:36 [    INFO] stock | (580/5436) fetching 002899 英派斯 daily kline data.
+2025-10-16 18:42:18 [    INFO] stock | (581/5436) fetching 300665 飞鹿股份 daily kline data.
+2025-10-16 18:42:18 [    INFO] stock | (582/5436) fetching 688107 安路科技 daily kline data.
+2025-10-16 18:42:18 [    INFO] stock | (583/5436) fetching 603439 贵州三力 daily kline data.
+2025-10-16 18:42:18 [    INFO] stock | (584/5436) fetching 002205 国统股份 daily kline data.
+2025-10-16 18:42:55 [    INFO] stock | (585/5436) fetching 301050 雷电微力 daily kline data.
+2025-10-16 18:42:55 [    INFO] stock | (586/5436) fetching 600678 四川金顶 daily kline data.
+2025-10-16 18:43:57 [    INFO] stock | (587/5436) fetching 300903 科翔股份 daily kline data.
+2025-10-16 18:44:39 [    INFO] stock | (588/5436) fetching 001335 信凯科技 daily kline data.
+2025-10-16 18:45:24 [    INFO] stock | Upsert daily_kline 23590 条
+2025-10-16 18:45:24 [    INFO] stock | update 001335 信凯科技 daily kline data to database done.
+2025-10-16 18:51:26 [    INFO] stock | (589/5436) fetching 002247 聚力文化 daily kline data.
+2025-10-16 18:52:02 [    INFO] stock | (590/5436) fetching 001373 翔腾新材 daily kline data.
+2025-10-16 18:52:40 [    INFO] stock | (591/5436) fetching 003041 真爱美家 daily kline data.
+2025-10-16 18:52:40 [    INFO] stock | (592/5436) fetching 920689 克莱特 daily kline data.
+2025-10-16 18:52:40 [    INFO] stock | (593/5436) fetching 002150 通润装备 daily kline data.
+2025-10-16 18:53:37 [    INFO] stock | (594/5436) fetching 688137 近岸蛋白 daily kline data.
+2025-10-16 18:53:37 [    INFO] stock | (595/5436) fetching 605183 确成股份 daily kline data.
+2025-10-16 18:53:37 [    INFO] stock | (596/5436) fetching 688411 海博思创 daily kline data.
+2025-10-16 18:53:37 [    INFO] stock | (597/5436) fetching 300162 雷曼光电 daily kline data.
+2025-10-16 18:54:21 [    INFO] stock | Upsert daily_kline 12395 条
+2025-10-16 18:54:21 [    INFO] stock | update 300162 雷曼光电 daily kline data to database done.
+2025-10-16 19:02:06 [    INFO] stock | (598/5436) fetching 002112 三变科技 daily kline data.
+2025-10-16 19:02:06 [    INFO] stock | (599/5436) fetching 002849 威星智能 daily kline data.
+2025-10-16 19:02:38 [    INFO] stock | (600/5436) fetching 603102 百合股份 daily kline data.
+2025-10-16 19:03:09 [    INFO] stock | Upsert daily_kline 2992 条
+2025-10-16 19:03:09 [    INFO] stock | update 603102 百合股份 daily kline data to database done.
+2025-10-16 19:08:57 [    INFO] stock | (601/5436) fetching 920926 鸿智科技 daily kline data.
+2025-10-16 19:08:57 [    INFO] stock | (602/5436) fetching 605086 龙高股份 daily kline data.
+2025-10-16 19:09:48 [    INFO] stock | (603/5436) fetching 002391 长青股份 daily kline data.
+2025-10-16 19:10:21 [    INFO] stock | Upsert daily_kline 4833 条
+2025-10-16 19:10:21 [    INFO] stock | update 002391 长青股份 daily kline data to database done.
+2025-10-16 19:16:40 [    INFO] stock | (604/5436) fetching 605365 立达信 daily kline data.
+2025-10-16 19:16:40 [    INFO] stock | (605/5436) fetching 002204 大连重工 daily kline data.
+2025-10-16 19:17:40 [    INFO] stock | (606/5436) fetching 000543 皖能电力 daily kline data.
+2025-10-16 19:18:23 [    INFO] stock | Upsert daily_kline 11903 条
+2025-10-16 19:18:23 [    INFO] stock | update 000543 皖能电力 daily kline data to database done.
+2025-10-16 19:27:44 [    INFO] stock | (607/5436) fetching 600389 江山股份 daily kline data.
+2025-10-16 19:28:20 [    INFO] stock | (608/5436) fetching 920476 海能技术 daily kline data.
+2025-10-16 19:28:57 [    INFO] stock | (609/5436) fetching 603330 天洋新材 daily kline data.
+2025-10-16 19:29:34 [    INFO] stock | Upsert daily_kline 8598 条
+2025-10-16 19:29:34 [    INFO] stock | update 603330 天洋新材 daily kline data to database done.
+2025-10-16 19:36:11 [    INFO] stock | (610/5436) fetching 603299 苏盐井神 daily kline data.
+2025-10-16 19:36:11 [    INFO] stock | (611/5436) fetching 688295 中复神鹰 daily kline data.
+2025-10-16 19:37:13 [    INFO] stock | (612/5436) fetching 688501 青达环保 daily kline data.
+2025-10-16 19:37:54 [    INFO] stock | Upsert daily_kline 1873 条
+2025-10-16 19:37:54 [    INFO] stock | update 688501 青达环保 daily kline data to database done.
+2025-10-16 19:45:31 [    INFO] stock | (613/5436) fetching 002782 可立克 daily kline data.
+2025-10-16 19:46:00 [    INFO] stock | (614/5436) fetching 600716 凤凰股份 daily kline data.
+2025-10-16 19:46:00 [    INFO] stock | (615/5436) fetching 002996 顺博合金 daily kline data.
+2025-10-16 19:46:00 [    INFO] stock | (616/5436) fetching 002425 ST凯文 daily kline data.
+2025-10-16 19:46:00 [    INFO] stock | (617/5436) fetching 920701 豪声电子 daily kline data.
+2025-10-16 19:46:40 [    INFO] stock | (618/5436) fetching 688607 康众医疗 daily kline data.
+2025-10-16 19:47:15 [    INFO] stock | Upsert daily_kline 4047 条
+2025-10-16 19:47:15 [    INFO] stock | update 688607 康众医疗 daily kline data to database done.
+2025-10-16 19:54:24 [    INFO] stock | (619/5436) fetching 300032 金龙机电 daily kline data.
+2025-10-16 19:54:53 [    INFO] stock | (620/5436) fetching 603382 XD海阳科 daily kline data.
+2025-10-16 19:55:35 [    INFO] stock | (621/5436) fetching 600120 浙江东方 daily kline data.
+2025-10-16 19:55:35 [    INFO] stock | (622/5436) fetching 688665 四方光电 daily kline data.
+2025-10-16 19:56:05 [    INFO] stock | (623/5436) fetching 002125 湘潭电化 daily kline data.
+2025-10-16 19:56:47 [    INFO] stock | (624/5436) fetching 301107 瑜欣电子 daily kline data.
+2025-10-16 19:56:47 [    INFO] stock | (625/5436) fetching 600515 海南机场 daily kline data.
+2025-10-16 19:56:47 [    INFO] stock | (626/5436) fetching 603210 泰鸿万立 daily kline data.
+2025-10-16 19:57:21 [    INFO] stock | (627/5436) fetching 300810 中科海讯 daily kline data.
+2025-10-16 19:57:59 [    INFO] stock | Upsert daily_kline 10688 条
+2025-10-16 19:57:59 [    INFO] stock | update 300810 中科海讯 daily kline data to database done.
+2025-10-16 20:02:10 [    INFO] stock | (628/5436) fetching 603859 能科科技 daily kline data.
+2025-10-16 20:02:40 [    INFO] stock | (629/5436) fetching 000798 中水渔业 daily kline data.
+2025-10-16 20:02:40 [    INFO] stock | (630/5436) fetching 002837 英维克 daily kline data.
+2025-10-16 20:03:15 [    INFO] stock | Upsert daily_kline 4224 条
+2025-10-16 20:03:15 [    INFO] stock | update 002837 英维克 daily kline data to database done.
+2025-10-16 20:11:50 [    INFO] stock | (631/5436) fetching 688325 赛微微电 daily kline data.
+2025-10-16 20:12:20 [    INFO] stock | (632/5436) fetching 600418 江淮汽车 daily kline data.
+2025-10-16 20:13:01 [    INFO] stock | (633/5436) fetching 601360 三六零 daily kline data.
+2025-10-16 20:13:45 [    INFO] stock | Upsert daily_kline 9713 条
+2025-10-16 20:13:45 [    INFO] stock | update 601360 三六零 daily kline data to database done.
+2025-10-16 20:18:37 [    INFO] stock | (634/5436) fetching 300995 奇德新材 daily kline data.
+2025-10-16 20:19:16 [    INFO] stock | (635/5436) fetching 688151 华强科技 daily kline data.
+2025-10-16 20:19:16 [    INFO] stock | (636/5436) fetching 605333 沪光股份 daily kline data.
+2025-10-16 20:19:57 [    INFO] stock | Upsert daily_kline 2303 条
+2025-10-16 20:19:57 [    INFO] stock | update 605333 沪光股份 daily kline data to database done.
+2025-10-16 20:27:07 [    INFO] stock | (637/5436) fetching 920985 海泰新能 daily kline data.
+2025-10-16 20:27:07 [    INFO] stock | (638/5436) fetching 300602 飞荣达 daily kline data.
+2025-10-16 20:27:07 [    INFO] stock | (639/5436) fetching 600129 太极集团 daily kline data.
+2025-10-16 20:27:56 [    INFO] stock | Upsert daily_kline 6538 条
+2025-10-16 20:27:56 [    INFO] stock | update 600129 太极集团 daily kline data to database done.
+2025-10-16 20:37:42 [    INFO] stock | (640/5436) fetching 600875 东方电气 daily kline data.
+2025-10-16 20:38:22 [    INFO] stock | (641/5436) fetching 605077 XD华康股 daily kline data.
+2025-10-16 20:38:52 [    INFO] stock | (642/5436) fetching 601811 新华文轩 daily kline data.
+2025-10-16 20:38:52 [    INFO] stock | (643/5436) fetching 000851 *ST高鸿 daily kline data.
+2025-10-16 20:39:26 [    INFO] stock | (644/5436) fetching 002227 奥 特 迅 daily kline data.
+2025-10-16 20:39:57 [    INFO] stock | (645/5436) fetching 300620 光库科技 daily kline data.
+2025-10-16 20:40:36 [    INFO] stock | Upsert daily_kline 20660 条
+2025-10-16 20:40:36 [    INFO] stock | update 300620 光库科技 daily kline data to database done.
+2025-10-16 20:48:41 [    INFO] stock | (646/5436) fetching 002179 中航光电 daily kline data.
+2025-10-16 20:49:18 [    INFO] stock | (647/5436) fetching 600717 天津港 daily kline data.
+2025-10-16 20:49:51 [    INFO] stock | (648/5436) fetching 688375 国博电子 daily kline data.
+2025-10-16 20:49:51 [    INFO] stock | (649/5436) fetching 000755 山西高速 daily kline data.
+2025-10-16 20:50:33 [    INFO] stock | (650/5436) fetching 920436 大地电气 daily kline data.
+2025-10-16 20:50:33 [    INFO] stock | (651/5436) fetching 002581 ST未名 daily kline data.
+2025-10-16 20:51:21 [    INFO] stock | Upsert daily_kline 21160 条
+2025-10-16 20:51:21 [    INFO] stock | update 002581 ST未名 daily kline data to database done.
+2025-10-16 20:59:36 [    INFO] stock | (652/5436) fetching 603529 爱玛科技 daily kline data.
+2025-10-16 21:00:08 [    INFO] stock | (653/5436) fetching 603693 江苏新能 daily kline data.
+2025-10-16 21:00:49 [    INFO] stock | (654/5436) fetching 603860 中公高科 daily kline data.
+2025-10-16 21:01:30 [    INFO] stock | Upsert daily_kline 4784 条
+2025-10-16 21:01:30 [    INFO] stock | update 603860 中公高科 daily kline data to database done.
+2025-10-16 21:09:16 [    INFO] stock | (655/5436) fetching 920519 万德股份 daily kline data.
+2025-10-16 21:09:16 [    INFO] stock | (656/5436) fetching 002104 恒宝股份 daily kline data.
+2025-10-16 21:09:16 [    INFO] stock | (657/5436) fetching 688389 普门科技 daily kline data.
+2025-10-16 21:09:16 [    INFO] stock | (658/5436) fetching 300776 帝尔激光 daily kline data.
+2025-10-16 21:09:59 [    INFO] stock | (659/5436) fetching 689009 九号公司 daily kline data.
+2025-10-16 21:10:38 [    INFO] stock | (660/5436) fetching 300252 金信诺 daily kline data.
+2025-10-16 21:10:38 [    INFO] stock | (661/5436) fetching 300124 汇川技术 daily kline data.
+2025-10-16 21:10:38 [    INFO] stock | (662/5436) fetching 600408 安泰集团 daily kline data.
+2025-10-16 21:11:13 [    INFO] stock | (663/5436) fetching 605366 宏柏新材 daily kline data.
+2025-10-16 21:11:55 [    INFO] stock | Upsert daily_kline 9196 条
+2025-10-16 21:11:55 [    INFO] stock | update 605366 宏柏新材 daily kline data to database done.
+2025-10-16 21:20:37 [    INFO] stock | (664/5436) fetching 603179 新泉股份 daily kline data.
+2025-10-16 21:20:37 [    INFO] stock | (665/5436) fetching 688286 敏芯股份 daily kline data.
+2025-10-16 21:21:16 [    INFO] stock | (666/5436) fetching 605100 华丰股份 daily kline data.
+2025-10-16 21:22:02 [    INFO] stock | Upsert daily_kline 2499 条
+2025-10-16 21:22:02 [    INFO] stock | update 605100 华丰股份 daily kline data to database done.
+2025-10-16 21:26:33 [    INFO] stock | (667/5436) fetching 002191 劲嘉股份 daily kline data.
+2025-10-16 21:27:14 [    INFO] stock | (668/5436) fetching 301183 东田微 daily kline data.
+2025-10-16 21:27:48 [    INFO] stock | (669/5436) fetching 600596 新安股份 daily kline data.
+2025-10-16 21:28:25 [    INFO] stock | Upsert daily_kline 10770 条
+2025-10-16 21:28:25 [    INFO] stock | update 600596 新安股份 daily kline data to database done.
+2025-10-16 21:34:17 [    INFO] stock | (670/5436) fetching 300365 恒华科技 daily kline data.
+2025-10-16 21:34:54 [    INFO] stock | (671/5436) fetching 002265 建设工业 daily kline data.
+2025-10-16 21:35:35 [    INFO] stock | (672/5436) fetching 300904 威力传动 daily kline data.
+2025-10-16 21:36:15 [    INFO] stock | Upsert daily_kline 7348 条
+2025-10-16 21:36:15 [    INFO] stock | update 300904 威力传动 daily kline data to database done.
+2025-10-16 21:42:06 [    INFO] stock | (673/5436) fetching 688033 天宜新材 daily kline data.
+2025-10-16 21:42:06 [    INFO] stock | (674/5436) fetching 603739 蔚蓝生物 daily kline data.
+2025-10-16 21:42:49 [    INFO] stock | (675/5436) fetching 000526 学大教育 daily kline data.
+2025-10-16 21:42:49 [    INFO] stock | (676/5436) fetching 601939 建设银行 daily kline data.
+2025-10-16 21:42:49 [    INFO] stock | (677/5436) fetching 301217 铜冠铜箔 daily kline data.
+2025-10-16 21:43:22 [    INFO] stock | (678/5436) fetching 003037 三和管桩 daily kline data.
+2025-10-16 21:44:07 [    INFO] stock | Upsert daily_kline 3650 条
+2025-10-16 21:44:07 [    INFO] stock | update 003037 三和管桩 daily kline data to database done.
+2025-10-16 21:50:08 [    INFO] stock | (679/5436) fetching 600720 中交设计 daily kline data.
+2025-10-16 21:50:08 [    INFO] stock | (680/5436) fetching 300155 安居宝 daily kline data.
+2025-10-16 21:50:08 [    INFO] stock | (681/5436) fetching 300221 银禧科技 daily kline data.
+2025-10-16 21:50:40 [    INFO] stock | Upsert daily_kline 3409 条
+2025-10-16 21:50:40 [    INFO] stock | update 300221 银禧科技 daily kline data to database done.
+2025-10-16 21:58:17 [    INFO] stock | (682/5436) fetching 688111 金山办公 daily kline data.
+2025-10-16 21:58:59 [    INFO] stock | (683/5436) fetching 300107 建新股份 daily kline data.
+2025-10-16 21:59:39 [    INFO] stock | (684/5436) fetching 603656 泰禾智能 daily kline data.
+2025-10-16 22:00:27 [    INFO] stock | Upsert daily_kline 7169 条
+2025-10-16 22:00:27 [    INFO] stock | update 603656 泰禾智能 daily kline data to database done.
+2025-10-16 22:08:07 [    INFO] stock | (685/5436) fetching 688332 中科蓝讯 daily kline data.
+2025-10-16 22:08:47 [    INFO] stock | (686/5436) fetching 301083 百胜智能 daily kline data.
+2025-10-16 22:08:47 [    INFO] stock | (687/5436) fetching 000880 潍柴重机 daily kline data.
+2025-10-16 22:09:28 [    INFO] stock | Upsert daily_kline 7160 条
+2025-10-16 22:09:28 [    INFO] stock | update 000880 潍柴重机 daily kline data to database done.
+2025-10-16 22:16:39 [    INFO] stock | (688/5436) fetching 603662 柯力传感 daily kline data.
+2025-10-16 22:17:21 [    INFO] stock | (689/5436) fetching 300177 中海达 daily kline data.
+2025-10-16 22:17:52 [    INFO] stock | (690/5436) fetching 600708 光明地产 daily kline data.
+2025-10-16 22:19:00 [    INFO] stock | Upsert daily_kline 11963 条
+2025-10-16 22:19:00 [    INFO] stock | update 600708 光明地产 daily kline data to database done.
+2025-10-16 22:27:29 [    INFO] stock | (691/5436) fetching 003021 兆威机电 daily kline data.
+2025-10-16 22:28:11 [    INFO] stock | (692/5436) fetching 002694 顾地科技 daily kline data.
+2025-10-16 22:28:45 [    INFO] stock | (693/5436) fetching 300368 汇金股份 daily kline data.
+2025-10-16 22:28:45 [    INFO] stock | (694/5436) fetching 300802 矩子科技 daily kline data.
+2025-10-16 22:29:26 [    INFO] stock | (695/5436) fetching 605368 XD蓝天燃 daily kline data.
+2025-10-16 22:30:06 [    INFO] stock | (696/5436) fetching 300424 航新科技 daily kline data.
+2025-10-16 22:30:46 [    INFO] stock | Upsert daily_kline 9146 条
+2025-10-16 22:30:46 [    INFO] stock | update 300424 航新科技 daily kline data to database done.
+2025-10-16 22:36:40 [    INFO] stock | (697/5436) fetching 000796 凯撒旅业 daily kline data.
+2025-10-16 22:37:12 [    INFO] stock | (698/5436) fetching 603113 金能科技 daily kline data.
+2025-10-16 22:37:12 [    INFO] stock | (699/5436) fetching 600173 卧龙新能 daily kline data.
+2025-10-16 22:37:56 [    INFO] stock | Upsert daily_kline 12297 条
+2025-10-16 22:37:56 [    INFO] stock | update 600173 卧龙新能 daily kline data to database done.
+2025-10-16 22:42:40 [    INFO] stock | (700/5436) fetching 600698 湖南天雁 daily kline data.
+2025-10-16 22:43:14 [    INFO] stock | (701/5436) fetching 300681 英搏尔 daily kline data.
+2025-10-16 22:43:14 [    INFO] stock | (702/5436) fetching 603669 灵康药业 daily kline data.
+2025-10-16 22:43:14 [    INFO] stock | (703/5436) fetching 301512 智信精密 daily kline data.
+2025-10-16 22:43:46 [    INFO] stock | (704/5436) fetching 002919 名臣健康 daily kline data.
+2025-10-16 22:43:46 [    INFO] stock | (705/5436) fetching 300230 永利股份 daily kline data.
+2025-10-16 22:44:30 [    INFO] stock | Upsert daily_kline 10881 条
+2025-10-16 22:44:30 [    INFO] stock | update 300230 永利股份 daily kline data to database done.
+2025-10-16 22:51:33 [    INFO] stock | (706/5436) fetching 688711 宏微科技 daily kline data.
+2025-10-16 22:52:17 [    INFO] stock | (707/5436) fetching 688156 路德环境 daily kline data.
+2025-10-16 22:52:17 [    INFO] stock | (708/5436) fetching 002765 蓝黛科技 daily kline data.
+2025-10-16 22:52:17 [    INFO] stock | (709/5436) fetching 601717 中创智领 daily kline data.
+2025-10-16 22:52:53 [    INFO] stock | (710/5436) fetching 002010 传化智联 daily kline data.
+2025-10-16 22:53:30 [    INFO] stock | (711/5436) fetching 300354 东华测试 daily kline data.
+2025-10-16 22:53:30 [    INFO] stock | (712/5436) fetching 002538 司尔特 daily kline data.
+2025-10-16 22:54:02 [    INFO] stock | (713/5436) fetching 688629 华丰科技 daily kline data.
+2025-10-16 22:54:02 [    INFO] stock | (714/5436) fetching 003008 开普检测 daily kline data.
+2025-10-16 22:54:02 [    INFO] stock | (715/5436) fetching 688530 欧莱新材 daily kline data.
+2025-10-16 22:54:37 [    INFO] stock | (716/5436) fetching 603072 天和磁材 daily kline data.
+2025-10-16 22:55:13 [    INFO] stock | (717/5436) fetching 301215 中汽股份 daily kline data.
+2025-10-16 22:55:53 [    INFO] stock | Upsert daily_kline 14380 条
+2025-10-16 22:55:53 [    INFO] stock | update 301215 中汽股份 daily kline data to database done.
+2025-10-16 23:00:05 [    INFO] stock | (718/5436) fetching 002107 沃华医药 daily kline data.
+2025-10-16 23:00:05 [    INFO] stock | (719/5436) fetching 600889 南京化纤 daily kline data.
+2025-10-16 23:00:05 [    INFO] stock | (720/5436) fetching 300816 艾可蓝 daily kline data.
+2025-10-16 23:00:05 [    INFO] stock | (721/5436) fetching 300939 秋田微 daily kline data.
+2025-10-16 23:00:48 [    INFO] stock | (722/5436) fetching 000403 派林生物 daily kline data.
+2025-10-16 23:00:48 [    INFO] stock | (723/5436) fetching 688687 凯因科技 daily kline data.
+2025-10-16 23:01:29 [    INFO] stock | Upsert daily_kline 2261 条
+2025-10-16 23:01:29 [    INFO] stock | update 688687 凯因科技 daily kline data to database done.
+2025-10-16 23:11:05 [    INFO] stock | (724/5436) fetching 603861 白云电器 daily kline data.
+2025-10-16 23:11:50 [    INFO] stock | (725/5436) fetching 000756 新华制药 daily kline data.
+2025-10-16 23:11:50 [    INFO] stock | (726/5436) fetching 300481 濮阳惠成 daily kline data.
+2025-10-16 23:12:23 [    INFO] stock | Upsert daily_kline 4712 条
+2025-10-16 23:12:23 [    INFO] stock | update 300481 濮阳惠成 daily kline data to database done.
+2025-10-16 23:21:05 [    INFO] stock | (727/5436) fetching 601669 中国电建 daily kline data.
+2025-10-16 23:21:48 [    INFO] stock | (728/5436) fetching 600468 百利电气 daily kline data.
+2025-10-16 23:21:48 [    INFO] stock | (729/5436) fetching 300617 安靠智电 daily kline data.
+2025-10-16 23:22:31 [    INFO] stock | Upsert daily_kline 5369 条
+2025-10-16 23:22:31 [    INFO] stock | update 300617 安靠智电 daily kline data to database done.
+2025-10-16 23:29:57 [    INFO] stock | (730/5436) fetching 300958 建工修复 daily kline data.
+2025-10-16 23:29:57 [    INFO] stock | (731/5436) fetching 301079 邵阳液压 daily kline data.
+2025-10-16 23:30:36 [    INFO] stock | (732/5436) fetching 603150 万朗磁塑 daily kline data.
+2025-10-16 23:30:36 [    INFO] stock | (733/5436) fetching 600501 航天晨光 daily kline data.
+2025-10-16 23:31:10 [    INFO] stock | (734/5436) fetching 002987 京北方 daily kline data.
+2025-10-16 23:31:52 [    INFO] stock | (735/5436) fetching 603995 甬金股份 daily kline data.
+2025-10-16 23:32:34 [    INFO] stock | Upsert daily_kline 9502 条
+2025-10-16 23:32:34 [    INFO] stock | update 603995 甬金股份 daily kline data to database done.
+2025-10-16 23:41:49 [    INFO] stock | (736/5436) fetching 605266 健之佳 daily kline data.
+2025-10-16 23:42:27 [    INFO] stock | (737/5436) fetching 603626 科森科技 daily kline data.
+2025-10-16 23:42:27 [    INFO] stock | (738/5436) fetching 300708 聚灿光电 daily kline data.
+2025-10-16 23:42:27 [    INFO] stock | (739/5436) fetching 301306 西测测试 daily kline data.
+2025-10-16 23:43:06 [    INFO] stock | (740/5436) fetching 920564 天润科技 daily kline data.
+2025-10-16 23:43:06 [    INFO] stock | (741/5436) fetching 600650 锦江在线 daily kline data.
+2025-10-16 23:43:06 [    INFO] stock | (742/5436) fetching 001215 千味央厨 daily kline data.
+2025-10-16 23:44:10 [    INFO] stock | (743/5436) fetching 002272 川润股份 daily kline data.
+2025-10-16 23:44:10 [    INFO] stock | (744/5436) fetching 688409 富创精密 daily kline data.
+2025-10-16 23:44:10 [    INFO] stock | (745/5436) fetching 300036 超图软件 daily kline data.
+2025-10-16 23:44:52 [    INFO] stock | (746/5436) fetching 603867 新化股份 daily kline data.
+2025-10-16 23:45:27 [    INFO] stock | (747/5436) fetching 688193 仁度生物 daily kline data.
+2025-10-16 23:46:07 [    INFO] stock | Upsert daily_kline 9061 条
+2025-10-16 23:46:07 [    INFO] stock | update 688193 仁度生物 daily kline data to database done.
+2025-10-16 23:54:17 [    INFO] stock | (748/5436) fetching 603596 伯特利 daily kline data.
+2025-10-16 23:54:59 [    INFO] stock | (749/5436) fetching 300683 海特生物 daily kline data.
+2025-10-16 23:55:34 [    INFO] stock | (750/5436) fetching 688329 艾隆科技 daily kline data.
+2025-10-16 23:55:34 [    INFO] stock | (751/5436) fetching 300435 中泰股份 daily kline data.
+2025-10-16 23:56:06 [    INFO] stock | (752/5436) fetching 600475 华光环能 daily kline data.
+2025-10-16 23:56:35 [    INFO] stock | (753/5436) fetching 002725 跃岭股份 daily kline data.
+2025-10-16 23:57:13 [    INFO] stock | Upsert daily_kline 14188 条
+2025-10-16 23:57:13 [    INFO] stock | update 002725 跃岭股份 daily kline data to database done.

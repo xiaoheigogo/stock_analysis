@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\test_basic.py", line 15, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'

@@ -1,0 +1,1034 @@
+2025-10-05 09:35:09 [    INFO] stock |       trade_date
+0     1990-12-19
+1     1990-12-20
+2     1990-12-21
+3     1990-12-24
+4     1990-12-25
+...          ...
+8550  2025-12-25
+8551  2025-12-26
+8552  2025-12-29
+8553  2025-12-30
+8554  2025-12-31
+
+[8555 rows x 1 columns]
+2025-10-05 09:35:09 [    INFO] stock | Done
+2025-10-05 10:20:22 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:21:09 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:23:21 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:23:22 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 69, in execute
+    cur.execute(sql, params)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: 错误:  语法错误 在 "(" 或附近的
+LINE 1: CREATE TABLE IF NOT EXISTS "stock_list" ("id" INT(8), "marke...
+                                                         ^
+
+2025-10-05 10:24:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:24:57 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 69, in execute
+    cur.execute(sql, params)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedObject: 错误:  类型 "timestampptz" 不存在
+LINE 1: ...ustry" VARCHAR(8), "is_hs300" BOOL, "update_time" timestampp...
+                                                             ^
+
+2025-10-05 10:26:38 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:26:39 [    INFO] stock | 表 stock_list 创建/已存在
+2025-10-05 10:26:39 [    INFO] stock | 表 daily_kline 创建/已存在
+2025-10-05 10:26:39 [    INFO] stock | 表 trade_date 创建/已存在
+2025-10-05 10:39:06 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:42:28 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:42:29 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 113, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: 错误:  语法错误 在输入的末尾
+LINE 1: ...1991-05-13'::date) ON CONFLICT ("trade_date") DO UPDATE SET 
+                                                                       ^
+
+2025-10-05 10:43:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:43:21 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 113, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: 错误:  语法错误 在输入的末尾
+LINE 1: ...1991-05-13'::date) ON CONFLICT ("trade_date") DO UPDATE SET 
+                                                                       ^
+
+2025-10-05 10:48:49 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:49:22 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:49:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:49:58 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 114, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: 错误:  语法错误 在输入的末尾
+LINE 1: ...1991-05-13'::date) ON CONFLICT ("trade_date") DO UPDATE SET 
+                                                                       ^
+
+2025-10-05 10:50:49 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:50:50 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 114, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: 错误:  语法错误 在输入的末尾
+LINE 1: ...1991-05-13'::date) ON CONFLICT ("trade_date") DO UPDATE SET 
+                                                                       ^
+
+2025-10-05 10:52:52 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:57:26 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:57:28 [    INFO] stock | 交易日期trade_date更新完成.
+2025-10-05 10:59:41 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 10:59:43 [    INFO] stock | 交易日期trade_date更新完成.
+2025-10-05 11:12:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:12:18 [    INFO] stock | 更新交易日期trade_date表
+2025-10-05 11:12:21 [    INFO] stock | 交易日期trade_date更新完成.
+2025-10-05 11:12:21 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:15:46 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:15:46 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:19:56 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:19:56 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:34:44 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:34:44 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:35:15 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 11:39:00 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:39:00 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:39:30 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 11:43:08 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 11:43:08 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 11:43:55 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 12:07:30 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 12:07:30 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 12:07:55 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 12:07:55 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 12:08:25 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:16:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:16:45 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:16:49 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:18:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:18:32 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:18:33 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:27:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:27:40 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:27:51 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:27:51 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:27:59 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:36:38 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:36:38 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:36:39 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:41:47 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:41:47 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:41:48 [    INFO] stock | get delist_sh:   ts_code   list_date delist_date
+0  000003  1991-01-14  2002-06-14
+1  000005  1990-12-10  2024-04-26
+2  000013  1992-05-06  2004-09-20
+3  000015  1992-06-25  2001-10-25
+4  000018  1992-06-16  2020-01-07
+2025-10-05 14:41:49 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:43:49 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:43:49 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:47:59 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:47:59 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:49:48 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:49:48 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:50:26 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:50:26 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:50:27 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:51:05 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:51:05 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:51:06 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 14:57:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 14:57:12 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 14:57:43 [    INFO] stock | get board_info_sz:   ts_code board ts_name   list_date industry market
+0  000001    主板    平安银行  1991-04-03    J 金融业     SZ
+1  000002    主板   万  科Ａ  1991-01-29    K 房地产     SZ
+2  000004    主板   *ST国华  1990-12-01   I 信息技术     SZ
+3  000006    主板    深振业Ａ  1992-04-27    K 房地产     SZ
+4  000007    主板     全新好  1992-04-13    K 房地产     SZ
+2025-10-05 14:57:44 [    INFO] stock | get board_info_bj:   ts_code ts_name   list_date              industry market
+0  920000    安徽凤凰  2020-12-23                 汽车制造业     BJ
+1  920001    纬达光电  2022-12-27      计算机、通信和其他电子设备制造业     BJ
+2  920002    万达轴承  2024-05-30               通用设备制造业     BJ
+3  920005    鼎佳精密  2025-07-31      计算机、通信和其他电子设备制造业     BJ
+4  920006    晟楠科技  2023-05-18  铁路、船舶、航空航天和其他运输设备制造业     BJ
+2025-10-05 14:57:46 [    INFO] stock | get board_info_sh:   ts_code ts_name   list_date
+0  600000    浦发银行  1999-11-10
+1  600004    白云机场  2003-04-28
+2  600006    东风股份  1999-07-27
+3  600007    中国国贸  1999-03-12
+4  600008    首创环保  2000-04-27
+2025-10-05 14:57:48 [    INFO] stock | get delist_sh:   ts_code ts_name   list_date delist_date
+0  600001    邯郸钢铁  1998-01-22  2009-12-29
+1  600002    齐鲁退市  1998-04-08  2006-04-24
+2  600003   ST东北高  1999-08-10  2010-02-26
+3  600005    武钢股份  1999-08-03  2017-02-14
+4  600065  *ST联 谊  1997-05-23  2007-12-13
+2025-10-05 14:57:49 [    INFO] stock | get delist_sz:   ts_code   list_date delist_date
+0  000003  1991-01-14  2002-06-14
+1  000005  1990-12-10  2024-04-26
+2  000013  1992-05-06  2004-09-20
+3  000015  1992-06-25  2001-10-25
+4  000018  1992-06-16  2020-01-07
+2025-10-05 14:57:51 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:07:14 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:07:14 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:07:50 [    INFO] stock | get board_info_sz:   ts_code   list_date market
+0  000001  1991-04-03     SZ
+1  000002  1991-01-29     SZ
+2  000004  1990-12-01     SZ
+3  000006  1992-04-27     SZ
+4  000007  1992-04-13     SZ
+2025-10-05 15:07:51 [    INFO] stock | get board_info_bj:   ts_code   list_date market
+0  920000  2020-12-23     BJ
+1  920001  2022-12-27     BJ
+2  920002  2024-05-30     BJ
+3  920005  2025-07-31     BJ
+4  920006  2023-05-18     BJ
+2025-10-05 15:07:53 [    INFO] stock | get board_info_sh:   ts_code   list_date market
+0  600000  1999-11-10     SH
+1  600004  2003-04-28     SH
+2  600006  1999-07-27     SH
+3  600007  1999-03-12     SH
+4  600008  2000-04-27     SH
+2025-10-05 15:07:55 [    INFO] stock | get delist_sh:   ts_code delist_date
+0  600001  2009-12-29
+1  600002  2006-04-24
+2  600003  2010-02-26
+3  600005  2017-02-14
+4  600065  2007-12-13
+2025-10-05 15:07:57 [    INFO] stock | get delist_sz:   ts_code delist_date
+0  000003  2002-06-14
+1  000005  2024-04-26
+2  000013  2004-09-20
+3  000015  2001-10-25
+4  000018  2020-01-07
+2025-10-05 15:07:59 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:16:16 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:16:16 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:16:56 [    INFO] stock | get board_info_sz:   ts_code   list_date market
+0  000001  1991-04-03     SZ
+1  000002  1991-01-29     SZ
+2  000004  1990-12-01     SZ
+3  000006  1992-04-27     SZ
+4  000007  1992-04-13     SZ
+2025-10-05 15:16:57 [    INFO] stock | get board_info_bj:   ts_code   list_date market
+0  920000  2020-12-23     BJ
+1  920001  2022-12-27     BJ
+2  920002  2024-05-30     BJ
+3  920005  2025-07-31     BJ
+4  920006  2023-05-18     BJ
+2025-10-05 15:17:00 [    INFO] stock | get board_info_sh:   ts_code   list_date market
+0  600000  1999-11-10     SH
+1  600004  2003-04-28     SH
+2  600006  1999-07-27     SH
+3  600007  1999-03-12     SH
+4  600008  2000-04-27     SH
+2025-10-05 15:17:02 [    INFO] stock | get delist_sh:   ts_code delist_date
+0  600001  2009-12-29
+1  600002  2006-04-24
+2  600003  2010-02-26
+3  600005  2017-02-14
+4  600065  2007-12-13
+2025-10-05 15:17:04 [    INFO] stock | get delist_sz:   ts_code delist_date
+0  000003  2002-06-14
+1  000005  2024-04-26
+2  000013  2004-09-20
+3  000015  2001-10-25
+4  000018  2020-01-07
+2025-10-05 15:17:07 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:17:07 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_x market_x list_date_y market_y list_date market delist_date_x delist_date_y is_hs300
+0     000001    平安银行  1991-04-03       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+1     000002   万  科Ａ  1991-01-29       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+2     000004   *ST国华  1990-12-01       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+3     000006    深振业Ａ  1992-04-27       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+4     000007     全新好  1992-04-13       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+...      ...     ...         ...      ...         ...      ...       ...    ...           ...           ...      ...
+5431  920978    开特股份         NaN      NaN  2023-09-28       BJ       NaN    NaN           NaN           NaN      NaN
+5432  920981    晶赛科技         NaN      NaN  2021-11-15       BJ       NaN    NaN           NaN           NaN      NaN
+5433  920982    锦波生物         NaN      NaN  2023-07-20       BJ       NaN    NaN           NaN           NaN      NaN
+5434  920985    海泰新能         NaN      NaN  2022-08-08       BJ       NaN    NaN           NaN           NaN      NaN
+5435  920992    中科美菱         NaN      NaN  2022-10-18       BJ       NaN    NaN           NaN           NaN      NaN
+
+[5436 rows x 11 columns]
+2025-10-05 15:23:02 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:23:02 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:23:42 [    INFO] stock | get board_info_sz:   ts_code   list_date market
+0  000001  1991-04-03     SZ
+1  000002  1991-01-29     SZ
+2  000004  1990-12-01     SZ
+3  000006  1992-04-27     SZ
+4  000007  1992-04-13     SZ
+2025-10-05 15:23:43 [    INFO] stock | get board_info_bj:   ts_code   list_date market
+0  920000  2020-12-23     BJ
+1  920001  2022-12-27     BJ
+2  920002  2024-05-30     BJ
+3  920005  2025-07-31     BJ
+4  920006  2023-05-18     BJ
+2025-10-05 15:23:47 [    INFO] stock | get board_info_sh:   ts_code   list_date market
+0  600000  1999-11-10     SH
+1  600004  2003-04-28     SH
+2  600006  1999-07-27     SH
+3  600007  1999-03-12     SH
+4  600008  2000-04-27     SH
+2025-10-05 15:23:49 [    INFO] stock | get delist_sh:   ts_code delist_date
+0  600001  2009-12-29
+1  600002  2006-04-24
+2  600003  2010-02-26
+3  600005  2017-02-14
+4  600065  2007-12-13
+2025-10-05 15:23:58 [    INFO] stock | get delist_sz:   ts_code delist_date
+0  000003  2002-06-14
+1  000005  2024-04-26
+2  000013  2004-09-20
+3  000015  2001-10-25
+4  000018  2020-01-07
+2025-10-05 15:24:00 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:24:00 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_x market_x list_date_y market_y list_date market delist_date_x delist_date_y is_hs300
+0     000001    平安银行  1991-04-03       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+1     000002   万  科Ａ  1991-01-29       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+2     000004   *ST国华  1990-12-01       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+3     000006    深振业Ａ  1992-04-27       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+4     000007     全新好  1992-04-13       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+...      ...     ...         ...      ...         ...      ...       ...    ...           ...           ...      ...
+5431  920978    开特股份         NaN      NaN  2023-09-28       BJ       NaN    NaN           NaN           NaN      NaN
+5432  920981    晶赛科技         NaN      NaN  2021-11-15       BJ       NaN    NaN           NaN           NaN      NaN
+5433  920982    锦波生物         NaN      NaN  2023-07-20       BJ       NaN    NaN           NaN           NaN      NaN
+5434  920985    海泰新能         NaN      NaN  2022-08-08       BJ       NaN    NaN           NaN           NaN      NaN
+5435  920992    中科美菱         NaN      NaN  2022-10-18       BJ       NaN    NaN           NaN           NaN      NaN
+
+[5436 rows x 11 columns]
+2025-10-05 15:29:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:29:27 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:30:09 [    INFO] stock | get board_info_sz:   ts_code   list_date market
+0  000001  1991-04-03     SZ
+1  000002  1991-01-29     SZ
+2  000004  1990-12-01     SZ
+3  000006  1992-04-27     SZ
+4  000007  1992-04-13     SZ
+2025-10-05 15:30:09 [    INFO] stock | get board_info_bj:   ts_code   list_date market
+0  920000  2020-12-23     BJ
+1  920001  2022-12-27     BJ
+2  920002  2024-05-30     BJ
+3  920005  2025-07-31     BJ
+4  920006  2023-05-18     BJ
+2025-10-05 15:30:12 [    INFO] stock | get board_info_sh:   ts_code   list_date market
+0  600000  1999-11-10     SH
+1  600004  2003-04-28     SH
+2  600006  1999-07-27     SH
+3  600007  1999-03-12     SH
+4  600008  2000-04-27     SH
+2025-10-05 15:30:14 [    INFO] stock | get delist_sh:   ts_code delist_date
+0  600001  2009-12-29
+1  600002  2006-04-24
+2  600003  2010-02-26
+3  600005  2017-02-14
+4  600065  2007-12-13
+2025-10-05 15:30:16 [    INFO] stock | get delist_sz:   ts_code delist_date
+0  000003  2002-06-14
+1  000005  2024-04-26
+2  000013  2004-09-20
+3  000015  2001-10-25
+4  000018  2020-01-07
+2025-10-05 15:30:17 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:30:17 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_x market_x list_date_y market_y list_date market delist_date_x delist_date_y is_hs300
+0     000001    平安银行  1991-04-03       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+1     000002   万  科Ａ  1991-01-29       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+2     000004   *ST国华  1990-12-01       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+3     000006    深振业Ａ  1992-04-27       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+4     000007     全新好  1992-04-13       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+...      ...     ...         ...      ...         ...      ...       ...    ...           ...           ...      ...
+5431  920978    开特股份         NaN      NaN  2023-09-28       BJ       NaN    NaN           NaN           NaN      NaN
+5432  920981    晶赛科技         NaN      NaN  2021-11-15       BJ       NaN    NaN           NaN           NaN      NaN
+5433  920982    锦波生物         NaN      NaN  2023-07-20       BJ       NaN    NaN           NaN           NaN      NaN
+5434  920985    海泰新能         NaN      NaN  2022-08-08       BJ       NaN    NaN           NaN           NaN      NaN
+5435  920992    中科美菱         NaN      NaN  2022-10-18       BJ       NaN    NaN           NaN           NaN      NaN
+
+[5436 rows x 11 columns]
+2025-10-05 15:31:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:31:32 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:32:11 [    INFO] stock | get board_info_sz:   ts_code   list_date market
+0  000001  1991-04-03     SZ
+1  000002  1991-01-29     SZ
+2  000004  1990-12-01     SZ
+3  000006  1992-04-27     SZ
+4  000007  1992-04-13     SZ
+2025-10-05 15:32:12 [    INFO] stock | get board_info_bj:   ts_code   list_date market
+0  920000  2020-12-23     BJ
+1  920001  2022-12-27     BJ
+2  920002  2024-05-30     BJ
+3  920005  2025-07-31     BJ
+4  920006  2023-05-18     BJ
+2025-10-05 15:32:16 [    INFO] stock | get board_info_sh:   ts_code   list_date market
+0  600000  1999-11-10     SH
+1  600004  2003-04-28     SH
+2  600006  1999-07-27     SH
+3  600007  1999-03-12     SH
+4  600008  2000-04-27     SH
+2025-10-05 15:32:18 [    INFO] stock | get delist_sh:   ts_code delist_date
+0  600001  2009-12-29
+1  600002  2006-04-24
+2  600003  2010-02-26
+3  600005  2017-02-14
+4  600065  2007-12-13
+2025-10-05 15:32:20 [    INFO] stock | get delist_sz:   ts_code delist_date
+0  000003  2002-06-14
+1  000005  2024-04-26
+2  000013  2004-09-20
+3  000015  2001-10-25
+4  000018  2020-01-07
+2025-10-05 15:32:22 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:32:22 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_x market_x list_date_y market_y list_date market delist_date_x delist_date_y is_hs300
+0     000001    平安银行  1991-04-03       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+1     000002   万  科Ａ  1991-01-29       SZ         NaN      NaN       NaN    NaN           NaN           NaN     True
+2     000004   *ST国华  1990-12-01       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+3     000006    深振业Ａ  1992-04-27       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+4     000007     全新好  1992-04-13       SZ         NaN      NaN       NaN    NaN           NaN           NaN      NaN
+...      ...     ...         ...      ...         ...      ...       ...    ...           ...           ...      ...
+5431  920978    开特股份         NaN      NaN  2023-09-28       BJ       NaN    NaN           NaN           NaN      NaN
+5432  920981    晶赛科技         NaN      NaN  2021-11-15       BJ       NaN    NaN           NaN           NaN      NaN
+5433  920982    锦波生物         NaN      NaN  2023-07-20       BJ       NaN    NaN           NaN           NaN      NaN
+5434  920985    海泰新能         NaN      NaN  2022-08-08       BJ       NaN    NaN           NaN           NaN      NaN
+5435  920992    中科美菱         NaN      NaN  2022-10-18       BJ       NaN    NaN           NaN           NaN      NaN
+
+[5436 rows x 11 columns]
+2025-10-05 15:37:10 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:37:10 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:39:26 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:39:26 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:39:55 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market
+0  000001   1991-04-03     SZ
+1  000002   1991-01-29     SZ
+2  000004   1990-12-01     SZ
+3  000006   1992-04-27     SZ
+4  000007   1992-04-13     SZ
+2025-10-05 15:39:56 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market
+0  920000   2020-12-23     BJ
+1  920001   2022-12-27     BJ
+2  920002   2024-05-30     BJ
+3  920005   2025-07-31     BJ
+4  920006   2023-05-18     BJ
+2025-10-05 15:39:59 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market
+0  600000   1999-11-10     SH
+1  600004   2003-04-28     SH
+2  600006   1999-07-27     SH
+3  600007   1999-03-12     SH
+4  600008   2000-04-27     SH
+2025-10-05 15:40:00 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 15:40:01 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 15:40:03 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:40:03 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_x list_date_bj market_y list_date_sh market delist_date_sh delist_date_sz is_hs300
+0     000001    平安银行   1991-04-03       SZ          NaN      NaN          NaN    NaN            NaN            NaN     True
+1     000002   万  科Ａ   1991-01-29       SZ          NaN      NaN          NaN    NaN            NaN            NaN     True
+2     000004   *ST国华   1990-12-01       SZ          NaN      NaN          NaN    NaN            NaN            NaN      NaN
+3     000006    深振业Ａ   1992-04-27       SZ          NaN      NaN          NaN    NaN            NaN            NaN      NaN
+4     000007     全新好   1992-04-13       SZ          NaN      NaN          NaN    NaN            NaN            NaN      NaN
+...      ...     ...          ...      ...          ...      ...          ...    ...            ...            ...      ...
+5431  920978    开特股份          NaN      NaN   2023-09-28       BJ          NaN    NaN            NaN            NaN      NaN
+5432  920981    晶赛科技          NaN      NaN   2021-11-15       BJ          NaN    NaN            NaN            NaN      NaN
+5433  920982    锦波生物          NaN      NaN   2023-07-20       BJ          NaN    NaN            NaN            NaN      NaN
+5434  920985    海泰新能          NaN      NaN   2022-08-08       BJ          NaN    NaN            NaN            NaN      NaN
+5435  920992    中科美菱          NaN      NaN   2022-10-18       BJ          NaN    NaN            NaN            NaN      NaN
+
+[5436 rows x 11 columns]
+2025-10-05 15:49:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:49:32 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:50:04 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 15:50:05 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 15:50:09 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 15:50:11 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 15:50:12 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 15:50:14 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:50:14 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 15:50:14 [    INFO] stock | stock list infos: 
+     market ts_code ts_name board   list_date  delist_date industry  is_hs300                      update_time
+0        SZ  000001    平安银行    主板  1991-04-03          NaN       其它      True 2025-10-05 15:50:14.349904+08:00
+1        SZ  000002   万  科Ａ    主板  1991-01-29          NaN       其它      True 2025-10-05 15:50:14.349904+08:00
+2        SZ  000004   *ST国华    主板  1990-12-01          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+3        SZ  000006    深振业Ａ    主板  1992-04-27          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+4        SZ  000007     全新好    主板  1992-04-13          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+...     ...     ...     ...   ...         ...          ...      ...       ...                              ...
+5431     BJ  920978    开特股份    主板  2023-09-28          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+5432     BJ  920981    晶赛科技    主板  2021-11-15          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+5433     BJ  920982    锦波生物    主板  2023-07-20          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+5434     BJ  920985    海泰新能    主板  2022-08-08          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+5435     BJ  920992    中科美菱    主板  2022-10-18          NaN       其它     False 2025-10-05 15:50:14.349904+08:00
+
+[5436 rows x 9 columns]
+2025-10-05 15:50:14 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 15:52:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 15:52:40 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 15:53:18 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 15:53:18 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 15:53:21 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 15:53:23 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 15:53:25 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 15:53:27 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 15:53:27 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 15:53:27 [    INFO] stock | stock list infos: 
+     market ts_code ts_name board   list_date  delist_date industry  is_hs300                      update_time
+0        SZ  000001    平安银行    主板  1991-04-03          NaN       其它      True 2025-10-05 15:53:27.953303+08:00
+1        SZ  000002   万  科Ａ    主板  1991-01-29          NaN       其它      True 2025-10-05 15:53:27.953303+08:00
+2        SZ  000004   *ST国华    主板  1990-12-01          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+3        SZ  000006    深振业Ａ    主板  1992-04-27          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+4        SZ  000007     全新好    主板  1992-04-13          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+...     ...     ...     ...   ...         ...          ...      ...       ...                              ...
+5431     BJ  920978    开特股份    主板  2023-09-28          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+5432     BJ  920981    晶赛科技    主板  2021-11-15          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+5433     BJ  920982    锦波生物    主板  2023-07-20          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+5434     BJ  920985    海泰新能    主板  2022-08-08          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+5435     BJ  920992    中科美菱    主板  2022-10-18          NaN       其它     False 2025-10-05 15:53:27.953303+08:00
+
+[5436 rows x 9 columns]
+2025-10-05 15:53:28 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 114, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: 错误:  字段 "delist_date" 的类型为 date, 但表达式的类型为 double precision
+LINE 1: ...UES ('SZ','000001','平安银行','主板','1991-04-03','NaN'::flo...
+                                                             ^
+HINT:  你需要重写或转换表达式
+
+2025-10-05 17:15:07 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:15:07 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 17:15:40 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 17:15:40 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 17:15:44 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 17:15:46 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 17:15:48 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 17:15:50 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 17:15:50 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 17:15:52 [    INFO] stock | stock list infos: 
+     market ts_code ts_name board   list_date  delist_date industry  is_hs300                      update_time
+0        SZ  000001    平安银行    主板  1991-04-03          NaN       其它      True 2025-10-05 17:15:52.346240+08:00
+1        SZ  000002   万  科Ａ    主板  1991-01-29          NaN       其它      True 2025-10-05 17:15:52.346240+08:00
+2        SZ  000004   *ST国华    主板  1990-12-01          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+3        SZ  000006    深振业Ａ    主板  1992-04-27          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+4        SZ  000007     全新好    主板  1992-04-13          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+...     ...     ...     ...   ...         ...          ...      ...       ...                              ...
+5431     BJ  920978    开特股份    主板  2023-09-28          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+5432     BJ  920981    晶赛科技    主板  2021-11-15          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+5433     BJ  920982    锦波生物    主板  2023-07-20          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+5434     BJ  920985    海泰新能    主板  2022-08-08          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+5435     BJ  920992    中科美菱    主板  2022-10-18          NaN       其它     False 2025-10-05 17:15:52.346240+08:00
+
+[5436 rows x 9 columns]
+2025-10-05 17:15:52 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 114, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: 错误:  字段 "delist_date" 的类型为 date, 但表达式的类型为 double precision
+LINE 1: ...UES ('SZ','000001','平安银行','主板','1991-04-03','NaN'::flo...
+                                                             ^
+HINT:  你需要重写或转换表达式
+
+2025-10-05 17:28:06 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:28:06 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 17:28:32 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 17:28:33 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 17:28:35 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 17:28:37 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 17:28:38 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 17:28:40 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 17:28:40 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 17:28:40 [    INFO] stock | stock list infos: 
+     market ts_code ts_name board   list_date delist_date industry  is_hs300                      update_time
+0        SZ  000001    平安银行    主板  1991-04-03         NaT       其它      True 2025-10-05 17:28:40.560769+08:00
+1        SZ  000002   万  科Ａ    主板  1991-01-29         NaT       其它      True 2025-10-05 17:28:40.560769+08:00
+2        SZ  000004   *ST国华    主板  1990-12-01         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+3        SZ  000006    深振业Ａ    主板  1992-04-27         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+4        SZ  000007     全新好    主板  1992-04-13         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+...     ...     ...     ...   ...         ...         ...      ...       ...                              ...
+5431     BJ  920978    开特股份    主板  2023-09-28         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+5432     BJ  920981    晶赛科技    主板  2021-11-15         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+5433     BJ  920982    锦波生物    主板  2023-07-20         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+5434     BJ  920985    海泰新能    主板  2022-08-08         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+5435     BJ  920992    中科美菱    主板  2022-10-18         NaT       其它     False 2025-10-05 17:28:40.560769+08:00
+
+[5436 rows x 9 columns]
+2025-10-05 17:28:40 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 114, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.InvalidDatetimeFormat: 错误:  无效的类型 timestamp 输入语法: "NaT"
+LINE 1: ...SZ','000001','平安银行','主板','1991-04-03'::date,'NaT'::tim...
+                                                             ^
+
+2025-10-05 17:30:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:30:27 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 17:30:53 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 17:30:54 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 17:30:58 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 17:30:59 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 17:31:01 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 17:31:02 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 17:31:02 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 17:31:05 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 17:35:14 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:35:14 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 17:35:42 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 17:35:43 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 17:35:45 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 17:35:47 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 17:35:48 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 17:35:51 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 17:35:51 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 17:35:51 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 17:36:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:36:32 [    INFO] stock | 更新股票列表stock_list表
+2025-10-05 17:37:11 [    INFO] stock | get board_info_sz:   ts_code list_date_sz market_sz
+0  000001   1991-04-03        SZ
+1  000002   1991-01-29        SZ
+2  000004   1990-12-01        SZ
+3  000006   1992-04-27        SZ
+4  000007   1992-04-13        SZ
+2025-10-05 17:37:12 [    INFO] stock | get board_info_bj:   ts_code list_date_bj market_bj
+0  920000   2020-12-23        BJ
+1  920001   2022-12-27        BJ
+2  920002   2024-05-30        BJ
+3  920005   2025-07-31        BJ
+4  920006   2023-05-18        BJ
+2025-10-05 17:37:18 [    INFO] stock | get board_info_sh:   ts_code list_date_sh market_sh
+0  600000   1999-11-10        SH
+1  600004   2003-04-28        SH
+2  600006   1999-07-27        SH
+3  600007   1999-03-12        SH
+4  600008   2000-04-27        SH
+2025-10-05 17:37:21 [    INFO] stock | get delist_sh:   ts_code delist_date_sh
+0  600001     2009-12-29
+1  600002     2006-04-24
+2  600003     2010-02-26
+3  600005     2017-02-14
+4  600065     2007-12-13
+2025-10-05 17:37:23 [    INFO] stock | get delist_sz:   ts_code delist_date_sz
+0  000003     2002-06-14
+1  000005     2024-04-26
+2  000013     2004-09-20
+3  000015     2001-10-25
+4  000018     2020-01-07
+2025-10-05 17:37:25 [    INFO] stock | get hs300_df:   ts_code  is_hs300
+0  000001      True
+1  000002      True
+2  000063      True
+3  000100      True
+4  000157      True
+2025-10-05 17:37:26 [    INFO] stock | merge_df: 
+     ts_code ts_name list_date_sz market_sz list_date_bj market_bj list_date_sh market_sh delist_date_sh delist_date_sz is_hs300   list_date market  delist_date
+0     000001    平安银行   1991-04-03        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-04-03     SZ          NaN
+1     000002   万  科Ａ   1991-01-29        SZ          NaN       NaN          NaN       NaN            NaN            NaN     True  1991-01-29     SZ          NaN
+2     000004   *ST国华   1990-12-01        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1990-12-01     SZ          NaN
+3     000006    深振业Ａ   1992-04-27        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-27     SZ          NaN
+4     000007     全新好   1992-04-13        SZ          NaN       NaN          NaN       NaN            NaN            NaN      NaN  1992-04-13     SZ          NaN
+...      ...     ...          ...       ...          ...       ...          ...       ...            ...            ...      ...         ...    ...          ...
+5431  920978    开特股份          NaN       NaN   2023-09-28        BJ          NaN       NaN            NaN            NaN      NaN  2023-09-28     BJ          NaN
+5432  920981    晶赛科技          NaN       NaN   2021-11-15        BJ          NaN       NaN            NaN            NaN      NaN  2021-11-15     BJ          NaN
+5433  920982    锦波生物          NaN       NaN   2023-07-20        BJ          NaN       NaN            NaN            NaN      NaN  2023-07-20     BJ          NaN
+5434  920985    海泰新能          NaN       NaN   2022-08-08        BJ          NaN       NaN            NaN            NaN      NaN  2022-08-08     BJ          NaN
+5435  920992    中科美菱          NaN       NaN   2022-10-18        BJ          NaN       NaN            NaN            NaN      NaN  2022-10-18     BJ          NaN
+
+[5436 rows x 14 columns]
+2025-10-05 17:37:26 [    INFO] stock | stock list infos: 
+     market ts_code ts_name board   list_date delist_date industry  is_hs300                      update_time
+0        SZ  000001    平安银行    主板  1991-04-03        None       其它      True 2025-10-05 17:37:26.271004+08:00
+1        SZ  000002   万  科Ａ    主板  1991-01-29        None       其它      True 2025-10-05 17:37:26.271004+08:00
+2        SZ  000004   *ST国华    主板  1990-12-01        None       其它     False 2025-10-05 17:37:26.271004+08:00
+3        SZ  000006    深振业Ａ    主板  1992-04-27        None       其它     False 2025-10-05 17:37:26.271004+08:00
+4        SZ  000007     全新好    主板  1992-04-13        None       其它     False 2025-10-05 17:37:26.271004+08:00
+...     ...     ...     ...   ...         ...         ...      ...       ...                              ...
+5431     BJ  920978    开特股份    主板  2023-09-28        None       其它     False 2025-10-05 17:37:26.271004+08:00
+5432     BJ  920981    晶赛科技    主板  2021-11-15        None       其它     False 2025-10-05 17:37:26.271004+08:00
+5433     BJ  920982    锦波生物    主板  2023-07-20        None       其它     False 2025-10-05 17:37:26.271004+08:00
+5434     BJ  920985    海泰新能    主板  2022-08-08        None       其它     False 2025-10-05 17:37:26.271004+08:00
+5435     BJ  920992    中科美菱    主板  2022-10-18        None       其它     False 2025-10-05 17:37:26.271004+08:00
+
+[5436 rows x 9 columns]
+2025-10-05 17:37:27 [    INFO] stock | Upsert stock_list 5436 条
+2025-10-05 17:37:27 [    INFO] stock | 股票列表stock_list表更新完成。
+2025-10-05 17:45:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:45:50 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:56:27 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:57:25 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:59:22 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 17:59:22 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 44, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 105, in select_table
+    cur.execute(query, where_vals)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python313\Lib\site-packages\psycopg2\extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: 错误:  操作符不存在: date = record
+LINE 1: ..."trade_date" FROM "trade_date" WHERE "trade_date" = ('>=', '...
+                                                             ^
+HINT:  没有匹配指定名称和参数类型的操作符. 您也许需要增加明确的类型转换.
+
+2025-10-05 18:01:17 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 18:01:39 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 18:01:55 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 18:06:52 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 18:07:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-05 18:08:11 [    INFO] stock | PostgreSQL 连接池创建成功

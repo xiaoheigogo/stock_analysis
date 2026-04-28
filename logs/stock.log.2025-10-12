@@ -1,0 +1,1072 @@
+2025-10-12 09:31:21 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 09:31:21 [    INFO] stock | (1/5436) fetching 002906 华阳集团 daily kline data.
+2025-10-12 09:31:57 [    INFO] stock | (2/5436) fetching 600998 九州通 daily kline data.
+2025-10-12 09:32:14 [    INFO] stock | (3/5436) fetching 301307 美利信 daily kline data.
+2025-10-12 09:32:26 [    INFO] stock | (4/5436) fetching 600227 赤天化 daily kline data.
+2025-10-12 09:32:37 [    INFO] stock | (5/5436) fetching 601858 中国科传 daily kline data.
+2025-10-12 09:32:59 [    INFO] stock | Upsert daily_kline 14098 条
+2025-10-12 09:32:59 [    INFO] stock | update 601858 中国科传 daily kline data to database done.
+2025-10-12 09:39:45 [    INFO] stock | (6/5436) fetching 688393 安必平 daily kline data.
+2025-10-12 09:40:06 [    INFO] stock | (7/5436) fetching 920271 邦德股份 daily kline data.
+2025-10-12 09:40:22 [    INFO] stock | (8/5436) fetching 002673 西部证券 daily kline data.
+2025-10-12 09:40:22 [    INFO] stock | (9/5436) fetching 300420 五洋自控 daily kline data.
+2025-10-12 09:40:45 [    INFO] stock | (10/5436) fetching 600478 科力远 daily kline data.
+2025-10-12 09:40:55 [    INFO] stock | Upsert daily_kline 9568 条
+2025-10-12 09:40:55 [    INFO] stock | update 600478 科力远 daily kline data to database done.
+2025-10-12 09:46:42 [    INFO] stock | (11/5436) fetching 301090 华润材料 daily kline data.
+2025-10-12 09:46:53 [    INFO] stock | (12/5436) fetching 000571 新大洲A daily kline data.
+2025-10-12 09:47:08 [    INFO] stock | (13/5436) fetching 600807 济高发展 daily kline data.
+2025-10-12 09:47:16 [    INFO] stock | (14/5436) fetching 300295 三六五网 daily kline data.
+2025-10-12 09:47:36 [    INFO] stock | (15/5436) fetching 300031 宝通科技 daily kline data.
+2025-10-12 09:47:57 [    INFO] stock | Upsert daily_kline 22156 条
+2025-10-12 09:47:57 [    INFO] stock | update 300031 宝通科技 daily kline data to database done.
+2025-10-12 09:56:26 [    INFO] stock | (16/5436) fetching 300669 沪宁股份 daily kline data.
+2025-10-12 09:56:50 [    INFO] stock | (17/5436) fetching 300277 海联讯 daily kline data.
+2025-10-12 09:57:04 [    INFO] stock | (18/5436) fetching 000652 泰达股份 daily kline data.
+2025-10-12 09:57:14 [    INFO] stock | (19/5436) fetching 000762 西藏矿业 daily kline data.
+2025-10-12 09:57:26 [    INFO] stock | (20/5436) fetching 600409 三友化工 daily kline data.
+2025-10-12 09:57:52 [    INFO] stock | Upsert daily_kline 24045 条
+2025-10-12 09:57:52 [    INFO] stock | update 600409 三友化工 daily kline data to database done.
+2025-10-12 10:04:07 [    INFO] stock | (21/5436) fetching 002094 青岛金王 daily kline data.
+2025-10-12 10:04:28 [    INFO] stock | (22/5436) fetching 600780 通宝能源 daily kline data.
+2025-10-12 10:04:50 [    INFO] stock | (23/5436) fetching 688199 久日新材 daily kline data.
+2025-10-12 10:05:06 [    INFO] stock | (24/5436) fetching 600865 百大集团 daily kline data.
+2025-10-12 10:05:36 [    INFO] stock | (25/5436) fetching 300400 劲拓股份 daily kline data.
+2025-10-12 10:06:12 [    INFO] stock | Upsert daily_kline 22422 条
+2025-10-12 10:06:13 [    INFO] stock | update 300400 劲拓股份 daily kline data to database done.
+2025-10-12 10:16:04 [    INFO] stock | (26/5436) fetching 002791 坚朗五金 daily kline data.
+2025-10-12 10:16:13 [    INFO] stock | (27/5436) fetching 003006 百亚股份 daily kline data.
+2025-10-12 10:16:24 [    INFO] stock | (28/5436) fetching 605133 嵘泰股份 daily kline data.
+2025-10-12 10:16:35 [    INFO] stock | (29/5436) fetching 002792 通宇通讯 daily kline data.
+2025-10-12 10:16:35 [    INFO] stock | (30/5436) fetching 688092 爱科科技 daily kline data.
+2025-10-12 10:16:50 [    INFO] stock | Upsert daily_kline 5757 条
+2025-10-12 10:16:50 [    INFO] stock | update 688092 爱科科技 daily kline data to database done.
+2025-10-12 10:24:50 [    INFO] stock | (31/5436) fetching 603156 养元饮品 daily kline data.
+2025-10-12 10:24:59 [    INFO] stock | (32/5436) fetching 603150 万朗磁塑 daily kline data.
+2025-10-12 10:25:14 [    INFO] stock | (33/5436) fetching 301288 *ST清研 daily kline data.
+2025-10-12 10:25:37 [    INFO] stock | (34/5436) fetching 600959 江苏有线 daily kline data.
+2025-10-12 10:25:51 [    INFO] stock | (35/5436) fetching 688133 泰坦科技 daily kline data.
+2025-10-12 10:26:14 [    INFO] stock | Upsert daily_kline 7219 条
+2025-10-12 10:26:14 [    INFO] stock | update 688133 泰坦科技 daily kline data to database done.
+2025-10-12 10:31:01 [    INFO] stock | (36/5436) fetching 605218 伟时电子 daily kline data.
+2025-10-12 10:31:16 [    INFO] stock | (37/5436) fetching 688699 明微电子 daily kline data.
+2025-10-12 10:31:27 [    INFO] stock | (38/5436) fetching 688279 峰岹科技 daily kline data.
+2025-10-12 10:31:43 [    INFO] stock | (39/5436) fetching 601616 广电电气 daily kline data.
+2025-10-12 10:31:53 [    INFO] stock | (40/5436) fetching 603327 福蓉科技 daily kline data.
+2025-10-12 10:32:12 [    INFO] stock | Upsert daily_kline 8313 条
+2025-10-12 10:32:12 [    INFO] stock | update 603327 福蓉科技 daily kline data to database done.
+2025-10-12 10:40:18 [    INFO] stock | (41/5436) fetching 300489 光智科技 daily kline data.
+2025-10-12 10:40:30 [    INFO] stock | (42/5436) fetching 002127 南极电商 daily kline data.
+2025-10-12 10:40:50 [    INFO] stock | (43/5436) fetching 601916 浙商银行 daily kline data.
+2025-10-12 10:41:02 [    INFO] stock | (44/5436) fetching 002145 中核钛白 daily kline data.
+2025-10-12 10:41:24 [    INFO] stock | (45/5436) fetching 603863 松炀资源 daily kline data.
+2025-10-12 10:41:47 [    INFO] stock | Upsert daily_kline 13582 条
+2025-10-12 10:41:47 [    INFO] stock | update 603863 松炀资源 daily kline data to database done.
+2025-10-12 10:50:30 [    INFO] stock | (46/5436) fetching 001289 龙源电力 daily kline data.
+2025-10-12 10:50:46 [    INFO] stock | (47/5436) fetching 000678 襄阳轴承 daily kline data.
+2025-10-12 10:50:55 [    INFO] stock | (48/5436) fetching 301196 唯科科技 daily kline data.
+2025-10-12 10:51:07 [    INFO] stock | (49/5436) fetching 002480 新筑股份 daily kline data.
+2025-10-12 10:51:18 [    INFO] stock | (50/5436) fetching 002658 雪迪龙 daily kline data.
+2025-10-12 10:51:40 [    INFO] stock | Upsert daily_kline 15268 条
+2025-10-12 10:51:40 [    INFO] stock | update 002658 雪迪龙 daily kline data to database done.
+2025-10-12 10:56:27 [    INFO] stock | (51/5436) fetching 002886 沃特股份 daily kline data.
+2025-10-12 10:56:36 [    INFO] stock | (52/5436) fetching 601012 隆基绿能 daily kline data.
+2025-10-12 10:56:54 [    INFO] stock | (53/5436) fetching 300871 回盛生物 daily kline data.
+2025-10-12 10:57:13 [    INFO] stock | (54/5436) fetching 300134 大富科技 daily kline data.
+2025-10-12 10:57:32 [    INFO] stock | (55/5436) fetching 603955 大千生态 daily kline data.
+2025-10-12 10:57:41 [    INFO] stock | Upsert daily_kline 11772 条
+2025-10-12 10:57:41 [    INFO] stock | update 603955 大千生态 daily kline data to database done.
+2025-10-12 11:07:14 [    INFO] stock | (56/5436) fetching 300281 金明精机 daily kline data.
+2025-10-12 11:07:20 [    INFO] stock | (57/5436) fetching 300760 迈瑞医疗 daily kline data.
+2025-10-12 11:07:30 [    INFO] stock | (58/5436) fetching 002765 蓝黛科技 daily kline data.
+2025-10-12 11:07:41 [    INFO] stock | (59/5436) fetching 688663 新风光 daily kline data.
+2025-10-12 11:08:02 [    INFO] stock | (60/5436) fetching 300840 酷特智能 daily kline data.
+2025-10-12 11:08:02 [    INFO] stock | (61/5436) fetching 603299 苏盐井神 daily kline data.
+2025-10-12 11:08:17 [    INFO] stock | (62/5436) fetching 002895 川恒股份 daily kline data.
+2025-10-12 11:08:35 [    INFO] stock | (63/5436) fetching 920519 万德股份 daily kline data.
+2025-10-12 11:08:57 [    INFO] stock | (64/5436) fetching 002434 万里扬 daily kline data.
+2025-10-12 11:09:16 [    INFO] stock | (65/5436) fetching 002940 昂利康 daily kline data.
+2025-10-12 11:09:40 [    INFO] stock | Upsert daily_kline 18477 条
+2025-10-12 11:09:40 [    INFO] stock | update 002940 昂利康 daily kline data to database done.
+2025-10-12 11:14:27 [    INFO] stock | (66/5436) fetching 600547 山东黄金 daily kline data.
+2025-10-12 11:14:51 [    INFO] stock | (67/5436) fetching 002790 瑞尔特 daily kline data.
+2025-10-12 11:15:08 [    INFO] stock | (68/5436) fetching 002932 明德生物 daily kline data.
+2025-10-12 11:15:20 [    INFO] stock | (69/5436) fetching 601231 环旭电子 daily kline data.
+2025-10-12 11:15:41 [    INFO] stock | (70/5436) fetching 600802 福建水泥 daily kline data.
+2025-10-12 11:16:03 [    INFO] stock | Upsert daily_kline 20168 条
+2025-10-12 11:16:03 [    INFO] stock | update 600802 福建水泥 daily kline data to database done.
+2025-10-12 11:23:36 [    INFO] stock | (71/5436) fetching 301107 瑜欣电子 daily kline data.
+2025-10-12 11:23:50 [    INFO] stock | (72/5436) fetching 920392 佳合科技 daily kline data.
+2025-10-12 11:24:12 [    INFO] stock | (73/5436) fetching 300895 铜牛信息 daily kline data.
+2025-10-12 11:24:29 [    INFO] stock | (74/5436) fetching 603978 深圳新星 daily kline data.
+2025-10-12 11:24:45 [    INFO] stock | (75/5436) fetching 000888 峨眉山Ａ daily kline data.
+2025-10-12 11:25:04 [    INFO] stock | Upsert daily_kline 11372 条
+2025-10-12 11:25:04 [    INFO] stock | update 000888 峨眉山Ａ daily kline data to database done.
+2025-10-12 11:29:24 [    INFO] stock | (76/5436) fetching 688716 中研股份 daily kline data.
+2025-10-12 11:29:44 [    INFO] stock | (77/5436) fetching 920407 驰诚股份 daily kline data.
+2025-10-12 11:29:59 [    INFO] stock | (78/5436) fetching 601111 中国国航 daily kline data.
+2025-10-12 11:30:23 [    INFO] stock | (79/5436) fetching 688503 聚和材料 daily kline data.
+2025-10-12 11:30:31 [    INFO] stock | (80/5436) fetching 688548 广钢气体 daily kline data.
+2025-10-12 11:30:44 [    INFO] stock | Upsert daily_kline 6913 条
+2025-10-12 11:30:44 [    INFO] stock | update 688548 广钢气体 daily kline data to database done.
+2025-10-12 11:37:01 [    INFO] stock | (81/5436) fetching 002520 日发精机 daily kline data.
+2025-10-12 11:37:18 [    INFO] stock | (82/5436) fetching 688216 气派科技 daily kline data.
+2025-10-12 11:37:24 [    INFO] stock | (83/5436) fetching 600288 大恒科技 daily kline data.
+2025-10-12 11:37:39 [    INFO] stock | (84/5436) fetching 300019 硅宝科技 daily kline data.
+2025-10-12 11:38:01 [    INFO] stock | (85/5436) fetching 688629 华丰科技 daily kline data.
+2025-10-12 11:38:09 [    INFO] stock | Upsert daily_kline 14682 条
+2025-10-12 11:38:09 [    INFO] stock | update 688629 华丰科技 daily kline data to database done.
+2025-10-12 11:43:02 [    INFO] stock | (86/5436) fetching 688183 生益电子 daily kline data.
+2025-10-12 11:43:14 [    INFO] stock | (87/5436) fetching 003023 彩虹集团 daily kline data.
+2025-10-12 11:43:27 [    INFO] stock | (88/5436) fetching 920175 东方碳素 daily kline data.
+2025-10-12 11:43:36 [    INFO] stock | (89/5436) fetching 600422 昆药集团 daily kline data.
+2025-10-12 11:43:47 [    INFO] stock | (90/5436) fetching 002309 中利集团 daily kline data.
+2025-10-12 11:43:59 [    INFO] stock | Upsert daily_kline 12355 条
+2025-10-12 11:43:59 [    INFO] stock | update 002309 中利集团 daily kline data to database done.
+2025-10-12 11:48:57 [    INFO] stock | (91/5436) fetching 300852 四会富仕 daily kline data.
+2025-10-12 11:49:07 [    INFO] stock | (92/5436) fetching 300251 光线传媒 daily kline data.
+2025-10-12 11:49:25 [    INFO] stock | (93/5436) fetching 000333 美的集团 daily kline data.
+2025-10-12 11:49:40 [    INFO] stock | (94/5436) fetching 300673 佩蒂股份 daily kline data.
+2025-10-12 11:49:47 [    INFO] stock | (95/5436) fetching 000400 许继电气 daily kline data.
+2025-10-12 11:50:04 [    INFO] stock | Upsert daily_kline 16085 条
+2025-10-12 11:50:04 [    INFO] stock | update 000400 许继电气 daily kline data to database done.
+2025-10-12 11:54:43 [    INFO] stock | (96/5436) fetching 002370 亚太药业 daily kline data.
+2025-10-12 11:54:56 [    INFO] stock | (97/5436) fetching 002083 孚日股份 daily kline data.
+2025-10-12 11:55:08 [    INFO] stock | (98/5436) fetching 301517 陕西华达 daily kline data.
+2025-10-12 11:55:19 [    INFO] stock | (99/5436) fetching 001317 三羊马 daily kline data.
+2025-10-12 11:55:34 [    INFO] stock | (100/5436) fetching 000655 金岭矿业 daily kline data.
+2025-10-12 11:55:54 [    INFO] stock | Upsert daily_kline 16264 条
+2025-10-12 11:55:54 [    INFO] stock | update 000655 金岭矿业 daily kline data to database done.
+2025-10-12 12:02:35 [    INFO] stock | (101/5436) fetching 000965 天保基建 daily kline data.
+2025-10-12 12:02:54 [    INFO] stock | (102/5436) fetching 300308 中际旭创 daily kline data.
+2025-10-12 12:03:15 [    INFO] stock | (103/5436) fetching 603903 中持股份 daily kline data.
+2025-10-12 12:03:37 [    INFO] stock | (104/5436) fetching 605566 福莱蒽特 daily kline data.
+2025-10-12 12:03:57 [    INFO] stock | (105/5436) fetching 002970 锐明技术 daily kline data.
+2025-10-12 12:04:12 [    INFO] stock | Upsert daily_kline 13542 条
+2025-10-12 12:04:12 [    INFO] stock | update 002970 锐明技术 daily kline data to database done.
+2025-10-12 12:08:53 [    INFO] stock | (106/5436) fetching 600435 北方导航 daily kline data.
+2025-10-12 12:09:11 [    INFO] stock | (107/5436) fetching 600155 华创云信 daily kline data.
+2025-10-12 12:09:11 [    INFO] stock | (108/5436) fetching 603677 奇精机械 daily kline data.
+2025-10-12 12:09:28 [    INFO] stock | (109/5436) fetching 688302 海创药业 daily kline data.
+2025-10-12 12:09:36 [    INFO] stock | (110/5436) fetching 603113 金能科技 daily kline data.
+2025-10-12 12:09:49 [    INFO] stock | Upsert daily_kline 10136 条
+2025-10-12 12:09:49 [    INFO] stock | update 603113 金能科技 daily kline data to database done.
+2025-10-12 12:13:58 [    INFO] stock | (111/5436) fetching 002454 松芝股份 daily kline data.
+2025-10-12 12:14:17 [    INFO] stock | (112/5436) fetching 301179 泽宇智能 daily kline data.
+2025-10-12 12:14:28 [    INFO] stock | (113/5436) fetching 688330 宏力达 daily kline data.
+2025-10-12 12:14:47 [    INFO] stock | (114/5436) fetching 603178 圣龙股份 daily kline data.
+2025-10-12 12:14:59 [    INFO] stock | (115/5436) fetching 688057 金达莱 daily kline data.
+2025-10-12 12:15:19 [    INFO] stock | Upsert daily_kline 9035 条
+2025-10-12 12:15:19 [    INFO] stock | update 688057 金达莱 daily kline data to database done.
+2025-10-12 12:25:02 [    INFO] stock | (116/5436) fetching 002594 比亚迪 daily kline data.
+2025-10-12 12:25:13 [    INFO] stock | (117/5436) fetching 688677 海泰新光 daily kline data.
+2025-10-12 12:25:30 [    INFO] stock | (118/5436) fetching 600808 马钢股份 daily kline data.
+2025-10-12 12:25:42 [    INFO] stock | (119/5436) fetching 600754 锦江酒店 daily kline data.
+2025-10-12 12:25:54 [    INFO] stock | (120/5436) fetching 300568 星源材质 daily kline data.
+2025-10-12 12:26:10 [    INFO] stock | Upsert daily_kline 21167 条
+2025-10-12 12:26:10 [    INFO] stock | update 300568 星源材质 daily kline data to database done.
+2025-10-12 12:34:04 [    INFO] stock | (121/5436) fetching 002535 林州重机 daily kline data.
+2025-10-12 12:34:16 [    INFO] stock | (122/5436) fetching 000809 和展能源 daily kline data.
+2025-10-12 12:34:26 [    INFO] stock | (123/5436) fetching 603633 徕木股份 daily kline data.
+2025-10-12 12:34:49 [    INFO] stock | (124/5436) fetching 002915 中欣氟材 daily kline data.
+2025-10-12 12:34:58 [    INFO] stock | (125/5436) fetching 002651 利君股份 daily kline data.
+2025-10-12 12:35:22 [    INFO] stock | Upsert daily_kline 17119 条
+2025-10-12 12:35:22 [    INFO] stock | update 002651 利君股份 daily kline data to database done.
+2025-10-12 12:39:23 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 12:40:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 12:40:41 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 12:40:42 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 12:41:31 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 12:41:32 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 12:41:32 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 12:44:03 [    INFO] stock | (126/5436) fetching 300199 翰宇药业 daily kline data.
+2025-10-12 12:44:13 [    INFO] stock | (127/5436) fetching 002996 顺博合金 daily kline data.
+2025-10-12 12:44:25 [    INFO] stock | (128/5436) fetching 603077 和邦生物 daily kline data.
+2025-10-12 12:44:44 [    INFO] stock | (129/5436) fetching 688236 春立医疗 daily kline data.
+2025-10-12 12:44:57 [    INFO] stock | (130/5436) fetching 300575 中旗股份 daily kline data.
+2025-10-12 12:45:15 [    INFO] stock | Upsert daily_kline 10765 条
+2025-10-12 12:45:15 [    INFO] stock | update 300575 中旗股份 daily kline data to database done.
+2025-10-12 12:51:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 12:51:12 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 12:51:12 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 12:53:01 [    INFO] stock | (131/5436) fetching 600455 博通股份 daily kline data.
+2025-10-12 12:53:19 [    INFO] stock | (132/5436) fetching 600586 金晶科技 daily kline data.
+2025-10-12 12:53:38 [    INFO] stock | (133/5436) fetching 002369 卓翼科技 daily kline data.
+2025-10-12 12:53:43 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 12:53:43 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 12:53:43 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 12:53:52 [    INFO] stock | (134/5436) fetching 300099 尤洛卡 daily kline data.
+2025-10-12 12:54:03 [    INFO] stock | (135/5436) fetching 600259 广晟有色 daily kline data.
+2025-10-12 12:54:22 [    INFO] stock | Upsert daily_kline 22609 条
+2025-10-12 12:54:22 [    INFO] stock | update 600259 广晟有色 daily kline data to database done.
+2025-10-12 12:59:49 [    INFO] stock | (136/5436) fetching 002824 和胜股份 daily kline data.
+2025-10-12 13:00:00 [    INFO] stock | (137/5436) fetching 600756 浪潮软件 daily kline data.
+2025-10-12 13:00:19 [    INFO] stock | (138/5436) fetching 603800 洪田股份 daily kline data.
+2025-10-12 13:00:35 [    INFO] stock | (139/5436) fetching 000526 学大教育 daily kline data.
+2025-10-12 13:00:48 [    INFO] stock | (140/5436) fetching 600508 上海能源 daily kline data.
+2025-10-12 13:01:00 [    INFO] stock | Upsert daily_kline 24292 条
+2025-10-12 13:01:00 [    INFO] stock | update 600508 上海能源 daily kline data to database done.
+2025-10-12 13:02:30 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 13:02:30 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 13:02:30 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 13:04:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 13:04:45 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 13:04:45 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 13:05:28 [    INFO] stock | (141/5436) fetching 600876 凯盛新能 daily kline data.
+2025-10-12 13:11:55 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 13:11:59 [    INFO] stock | (1/5436) fetching 601658 邮储银行 daily kline data.
+2025-10-12 13:18:25 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 13:19:52 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 13:19:55 [    INFO] stock | (1/5436) fetching 603199 九华旅游 daily kline data.
+2025-10-12 13:20:15 [    INFO] stock | (2/5436) fetching 688398 赛特新材 daily kline data.
+2025-10-12 13:20:35 [    INFO] stock | (3/5436) fetching 600712 南宁百货 daily kline data.
+2025-10-12 13:20:45 [    INFO] stock | (4/5436) fetching 603236 移远通信 daily kline data.
+2025-10-12 13:20:56 [    INFO] stock | (5/5436) fetching 603112 华翔股份 daily kline data.
+2025-10-12 13:21:08 [    INFO] stock | Upsert daily_kline 13668 条
+2025-10-12 13:21:08 [    INFO] stock | update 603112 华翔股份 daily kline data to database done.
+2025-10-12 13:28:12 [    INFO] stock | (6/5436) fetching 000025 特  力Ａ daily kline data.
+2025-10-12 13:28:12 [    INFO] stock | (7/5436) fetching 600308 华泰股份 daily kline data.
+2025-10-12 13:28:25 [    INFO] stock | (8/5436) fetching 920261 一诺威 daily kline data.
+2025-10-12 13:28:34 [    INFO] stock | (9/5436) fetching 601699 潞安环能 daily kline data.
+2025-10-12 13:28:45 [    INFO] stock | (10/5436) fetching 002347 泰尔股份 daily kline data.
+2025-10-12 13:29:01 [    INFO] stock | Upsert daily_kline 14843 条
+2025-10-12 13:29:01 [    INFO] stock | update 002347 泰尔股份 daily kline data to database done.
+2025-10-12 13:38:20 [    INFO] stock | (11/5436) fetching 300344 ST立方 daily kline data.
+2025-10-12 13:38:35 [    INFO] stock | (12/5436) fetching 601058 赛轮轮胎 daily kline data.
+2025-10-12 13:38:47 [    INFO] stock | (13/5436) fetching 600826 兰生股份 daily kline data.
+2025-10-12 13:39:07 [    INFO] stock | (14/5436) fetching 600658 电子城 daily kline data.
+2025-10-12 13:39:17 [    INFO] stock | (15/5436) fetching 603556 海兴电力 daily kline data.
+2025-10-12 13:39:47 [    INFO] stock | Upsert daily_kline 24051 条
+2025-10-12 13:39:47 [    INFO] stock | update 603556 海兴电力 daily kline data to database done.
+2025-10-12 13:44:39 [    INFO] stock | (16/5436) fetching 600592 龙溪股份 daily kline data.
+2025-10-12 13:44:54 [    INFO] stock | (17/5436) fetching 002276 万马股份 daily kline data.
+2025-10-12 13:45:16 [    INFO] stock | (18/5436) fetching 300862 蓝盾光电 daily kline data.
+2025-10-12 14:07:09 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:07:12 [    INFO] stock | (1/5436) fetching 002224 三 力 士 daily kline data.
+2025-10-12 14:07:12 [    INFO] stock | (2/5436) fetching 688313 仕佳光子 daily kline data.
+2025-10-12 14:07:26 [    INFO] stock | (3/5436) fetching 002397 梦洁股份 daily kline data.
+2025-10-12 14:07:40 [    INFO] stock | (4/5436) fetching 002466 天齐锂业 daily kline data.
+2025-10-12 14:08:01 [    INFO] stock | (5/5436) fetching 688357 建龙微纳 daily kline data.
+2025-10-12 14:08:18 [    INFO] stock | Upsert daily_kline 9895 条
+2025-10-12 14:08:18 [    INFO] stock | update 688357 建龙微纳 daily kline data to database done.
+2025-10-12 14:17:18 [    INFO] stock | (6/5436) fetching 002637 赞宇科技 daily kline data.
+2025-10-12 14:17:39 [    INFO] stock | (7/5436) fetching 002117 东港股份 daily kline data.
+2025-10-12 14:17:58 [    INFO] stock | (8/5436) fetching 600696 *ST岩石 daily kline data.
+2025-10-12 14:18:11 [    INFO] stock | (9/5436) fetching 002293 罗莱生活 daily kline data.
+2025-10-12 14:18:20 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:18:20 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:18:20 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:18:29 [    INFO] stock | (10/5436) fetching 605151 西上海 daily kline data.
+2025-10-12 14:18:50 [    INFO] stock | Upsert daily_kline 20270 条
+2025-10-12 14:18:50 [    INFO] stock | update 605151 西上海 daily kline data to database done.
+2025-10-12 14:19:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:19:18 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:19:18 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:23:28 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:23:28 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:23:28 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:26:05 [    INFO] stock | (11/5436) fetching 603439 贵州三力 daily kline data.
+2025-10-12 14:26:21 [    INFO] stock | (12/5436) fetching 000570 苏常柴Ａ daily kline data.
+2025-10-12 14:26:36 [    INFO] stock | (13/5436) fetching 002510 天汽模 daily kline data.
+2025-10-12 14:26:51 [    INFO] stock | (14/5436) fetching 688602 康鹏科技 daily kline data.
+2025-10-12 14:27:07 [    INFO] stock | (15/5436) fetching 000950 重药控股 daily kline data.
+2025-10-12 14:27:28 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:27:28 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:27:28 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:27:31 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:27:37 [    INFO] stock | Upsert daily_kline 18530 条
+2025-10-12 14:27:37 [    INFO] stock | update 000950 重药控股 daily kline data to database done.
+2025-10-12 14:32:57 [    INFO] stock | (16/5436) fetching 000977 浪潮信息 daily kline data.
+2025-10-12 14:32:58 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:32:59 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:32:59 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:33:03 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:33:06 [    INFO] stock | (17/5436) fetching 600051 宁波联合 daily kline data.
+2025-10-12 14:33:19 [    INFO] stock | (18/5436) fetching 600901 江苏金租 daily kline data.
+2025-10-12 14:33:31 [    INFO] stock | (19/5436) fetching 300945 曼卡龙 daily kline data.
+2025-10-12 14:33:42 [    INFO] stock | (20/5436) fetching 001231 农心科技 daily kline data.
+2025-10-12 14:33:59 [    INFO] stock | Upsert daily_kline 16442 条
+2025-10-12 14:33:59 [    INFO] stock | update 001231 农心科技 daily kline data to database done.
+2025-10-12 14:35:08 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:35:08 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:35:08 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:35:11 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:36:03 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:36:04 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:36:04 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:36:07 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:41:44 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:41:44 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:41:44 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:41:47 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:43:10 [    INFO] stock | (21/5436) fetching 688779 五矿新能 daily kline data.
+2025-10-12 14:47:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:47:16 [    INFO] stock | (1/5436) fetching 601878 浙商证券 daily kline data.
+2025-10-12 14:51:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:51:40 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:51:40 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:51:44 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:51:59 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:52:01 [    INFO] stock | (1/5436) fetching 688606 奥泰生物 daily kline data.
+2025-10-12 14:53:20 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:53:21 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:53:21 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:54:43 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:54:43 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:54:43 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:55:49 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:55:51 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:55:51 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:55:54 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:57:31 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:57:31 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:57:31 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:57:35 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 14:58:56 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 14:58:57 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 14:58:57 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 14:59:00 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:02:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:02:42 [    INFO] stock | (1/5436) fetching 600783 鲁信创投 daily kline data.
+2025-10-12 15:11:35 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:11:35 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:11:35 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:11:39 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:12:47 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:12:47 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:12:47 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:12:51 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:13:37 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:13:39 [    INFO] stock | (1/5436) fetching 003043 华亚智能 daily kline data.
+2025-10-12 15:13:51 [    INFO] stock | (2/5436) fetching 600006 东风股份 daily kline data.
+2025-10-12 15:14:05 [    INFO] stock | (3/5436) fetching 688690 纳微科技 daily kline data.
+2025-10-12 15:14:14 [    INFO] stock | (4/5436) fetching 603789 *ST星农 daily kline data.
+2025-10-12 15:14:27 [    INFO] stock | (5/5436) fetching 002890 弘宇股份 daily kline data.
+2025-10-12 15:14:42 [    INFO] stock | (6/5436) fetching 001226 拓山重工 daily kline data.
+2025-10-12 15:15:04 [    INFO] stock | (7/5436) fetching 002806 华锋股份 daily kline data.
+2025-10-12 15:15:21 [    INFO] stock | (8/5436) fetching 600742 富维股份 daily kline data.
+2025-10-12 15:15:36 [    INFO] stock | (9/5436) fetching 688059 华锐精密 daily kline data.
+2025-10-12 15:15:48 [    INFO] stock | (10/5436) fetching 300276 三丰智能 daily kline data.
+2025-10-12 15:16:12 [    INFO] stock | Upsert daily_kline 27092 条
+2025-10-12 15:16:12 [    INFO] stock | update 300276 三丰智能 daily kline data to database done.
+2025-10-12 15:17:47 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:17:47 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:17:47 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:17:50 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:22:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:22:46 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:22:46 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:22:53 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:24:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:24:13 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:24:13 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:24:19 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:24:57 [    INFO] stock | (11/5436) fetching 300789 唐源电气 daily kline data.
+2025-10-12 15:25:18 [    INFO] stock | (12/5436) fetching 688380 中微半导 daily kline data.
+2025-10-12 15:25:38 [    INFO] stock | (13/5436) fetching 300973 立高食品 daily kline data.
+2025-10-12 15:25:58 [    INFO] stock | (14/5436) fetching 600305 恒顺醋业 daily kline data.
+2025-10-12 15:26:16 [    INFO] stock | (15/5436) fetching 920719 宁新新材 daily kline data.
+2025-10-12 15:26:16 [    INFO] stock | (16/5436) fetching 600141 兴发集团 daily kline data.
+2025-10-12 15:26:44 [    INFO] stock | (17/5436) fetching 605136 丽人丽妆 daily kline data.
+2025-10-12 15:26:48 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:26:48 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:26:48 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:26:51 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:27:03 [    INFO] stock | (18/5436) fetching 603377 ST东时 daily kline data.
+2025-10-12 15:27:21 [    INFO] stock | (19/5436) fetching 600665 天地源 daily kline data.
+2025-10-12 15:27:39 [    INFO] stock | (20/5436) fetching 002314 南山控股 daily kline data.
+2025-10-12 15:27:57 [    INFO] stock | Upsert daily_kline 30340 条
+2025-10-12 15:27:57 [    INFO] stock | update 002314 南山控股 daily kline data to database done.
+2025-10-12 15:28:01 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:28:01 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 15:28:01 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 15:28:04 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 15:36:26 [    INFO] stock | (21/5436) fetching 002181 粤 传 媒 daily kline data.
+2025-10-12 15:36:45 [    INFO] stock | (22/5436) fetching 002105 信隆健康 daily kline data.
+2025-10-12 15:54:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 15:54:43 [    INFO] stock | (1/5436) fetching 002432 九安医疗 daily kline data.
+2025-10-12 15:54:53 [    INFO] stock | (2/5436) fetching 600847 万里股份 daily kline data.
+2025-10-12 15:55:08 [    INFO] stock | (3/5436) fetching 300506 ST名家汇 daily kline data.
+2025-10-12 15:55:16 [    INFO] stock | (4/5436) fetching 000737 北方铜业 daily kline data.
+2025-10-12 15:55:31 [    INFO] stock | (5/5436) fetching 600882 妙可蓝多 daily kline data.
+2025-10-12 15:55:48 [    INFO] stock | Upsert daily_kline 26963 条
+2025-10-12 15:55:48 [    INFO] stock | update 600882 妙可蓝多 daily kline data to database done.
+2025-10-12 16:01:48 [    INFO] stock | (6/5436) fetching 600331 宏达股份 daily kline data.
+2025-10-12 16:02:01 [    INFO] stock | (7/5436) fetching 000707 双环科技 daily kline data.
+2025-10-12 16:02:20 [    INFO] stock | (8/5436) fetching 002579 中京电子 daily kline data.
+2025-10-12 16:02:40 [    INFO] stock | (9/5436) fetching 600280 中央商场 daily kline data.
+2025-10-12 16:02:54 [    INFO] stock | (10/5436) fetching 600971 恒源煤电 daily kline data.
+2025-10-12 16:03:18 [    INFO] stock | Upsert daily_kline 26385 条
+2025-10-12 16:03:18 [    INFO] stock | update 600971 恒源煤电 daily kline data to database done.
+2025-10-12 16:03:24 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:03:24 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 16:03:24 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 16:03:28 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 16:06:25 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:06:26 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 16:06:26 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 16:06:29 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 16:09:27 [    INFO] stock | (11/5436) fetching 601898 中煤能源 daily kline data.
+2025-10-12 16:09:38 [    INFO] stock | (12/5436) fetching 688656 浩欧博 daily kline data.
+2025-10-12 16:09:58 [    INFO] stock | (13/5436) fetching 603886 元祖股份 daily kline data.
+2025-10-12 16:10:08 [    INFO] stock | (14/5436) fetching 300279 和晶科技 daily kline data.
+2025-10-12 16:10:22 [    INFO] stock | (15/5436) fetching 002114 罗平锌电 daily kline data.
+2025-10-12 16:11:00 [    INFO] stock | Upsert daily_kline 14953 条
+2025-10-12 16:11:00 [    INFO] stock | update 002114 罗平锌电 daily kline data to database done.
+2025-10-12 16:11:02 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:11:03 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 16:11:03 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 16:11:11 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 16:11:12 [    INFO] stock | 000029 清洗完成
+2025-10-12 16:16:27 [    INFO] stock | (16/5436) fetching 301603 乔锋智能 daily kline data.
+2025-10-12 16:22:09 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:22:16 [    INFO] stock | (1/5436) fetching 003039 顺控发展 daily kline data.
+2025-10-12 16:27:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:27:43 [    INFO] stock | (1/5436) fetching 002307 北新路桥 daily kline data.
+2025-10-12 16:36:02 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 16:36:08 [    INFO] stock | (1/5436) fetching 002660 茂硕电源 daily kline data.
+2025-10-12 16:36:21 [    INFO] stock | (2/5436) fetching 000517 荣安地产 daily kline data.
+2025-10-12 16:36:30 [    INFO] stock | (3/5436) fetching 000983 山西焦煤 daily kline data.
+2025-10-12 16:36:48 [    INFO] stock | (4/5436) fetching 301059 金三江 daily kline data.
+2025-10-12 16:37:26 [    INFO] stock | (5/5436) fetching 002444 巨星科技 daily kline data.
+2025-10-12 16:38:20 [    INFO] stock | Upsert daily_kline 20655 条
+2025-10-12 16:38:20 [    INFO] stock | update 002444 巨星科技 daily kline data to database done.
+2025-10-12 16:47:29 [    INFO] stock | (6/5436) fetching 603165 荣晟环保 daily kline data.
+2025-10-12 16:49:03 [    INFO] stock | (7/5436) fetching 300634 彩讯股份 daily kline data.
+2025-10-12 17:23:09 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 17:23:12 [    INFO] stock | (1/5436) fetching 301185 鸥玛软件 daily kline data.
+2025-10-12 17:23:21 [    INFO] stock | (2/5436) fetching 000528 柳    工 daily kline data.
+2025-10-12 17:23:33 [    INFO] stock | (3/5436) fetching 301001 凯淳股份 daily kline data.
+2025-10-12 17:23:45 [    INFO] stock | Upsert daily_kline 9651 条
+2025-10-12 17:23:45 [    INFO] stock | update 301001 凯淳股份 daily kline data to database done.
+2025-10-12 17:32:06 [    INFO] stock | (4/5436) fetching 000050 深天马Ａ daily kline data.
+2025-10-12 17:32:06 [    INFO] stock | (5/5436) fetching 000014 沙河股份 daily kline data.
+2025-10-12 17:32:06 [    INFO] stock | (6/5436) fetching 600884 杉杉股份 daily kline data.
+2025-10-12 17:32:31 [    INFO] stock | Upsert daily_kline 7097 条
+2025-10-12 17:32:31 [    INFO] stock | update 600884 杉杉股份 daily kline data to database done.
+2025-10-12 17:37:16 [    INFO] stock | (7/5436) fetching 688283 坤恒顺维 daily kline data.
+2025-10-12 17:37:36 [    INFO] stock | (8/5436) fetching 300958 建工修复 daily kline data.
+2025-10-12 17:37:57 [    INFO] stock | (9/5436) fetching 002285 世联行 daily kline data.
+2025-10-12 17:38:15 [    INFO] stock | Upsert daily_kline 5851 条
+2025-10-12 17:38:15 [    INFO] stock | update 002285 世联行 daily kline data to database done.
+2025-10-12 17:47:47 [    INFO] stock | (10/5436) fetching 000809 和展能源 daily kline data.
+2025-10-12 17:47:47 [    INFO] stock | (11/5436) fetching 600959 江苏有线 daily kline data.
+2025-10-12 17:47:47 [    INFO] stock | (12/5436) fetching 920576 天力复合 daily kline data.
+2025-10-12 17:47:59 [    INFO] stock | Upsert daily_kline 542 条
+2025-10-12 17:47:59 [    INFO] stock | update 920576 天力复合 daily kline data to database done.
+2025-10-12 17:55:37 [    INFO] stock | (13/5436) fetching 600743 华远控股 daily kline data.
+2025-10-12 17:55:50 [    INFO] stock | (14/5436) fetching 002129 TCL中环 daily kline data.
+2025-10-12 17:55:58 [    INFO] stock | (15/5436) fetching 603020 爱普股份 daily kline data.
+2025-10-12 17:56:20 [    INFO] stock | Upsert daily_kline 13085 条
+2025-10-12 17:56:20 [    INFO] stock | update 603020 爱普股份 daily kline data to database done.
+2025-10-12 18:05:17 [    INFO] stock | (16/5436) fetching 688779 五矿新能 daily kline data.
+2025-10-12 18:05:26 [    INFO] stock | (17/5436) fetching 603611 诺力股份 daily kline data.
+2025-10-12 18:05:42 [    INFO] stock | (18/5436) fetching 688234 天岳先进 daily kline data.
+2025-10-12 18:06:01 [    INFO] stock | Upsert daily_kline 4422 条
+2025-10-12 18:06:01 [    INFO] stock | update 688234 天岳先进 daily kline data to database done.
+2025-10-12 18:14:00 [    INFO] stock | (19/5436) fetching 301383 天键股份 daily kline data.
+2025-10-12 18:14:16 [    INFO] stock | (20/5436) fetching 688577 浙海德曼 daily kline data.
+2025-10-12 18:14:29 [    INFO] stock | (21/5436) fetching 601969 海南矿业 daily kline data.
+2025-10-12 18:14:54 [    INFO] stock | Upsert daily_kline 4375 条
+2025-10-12 18:14:54 [    INFO] stock | update 601969 海南矿业 daily kline data to database done.
+2025-10-12 18:20:00 [    INFO] stock | (22/5436) fetching 301327 华宝新能 daily kline data.
+2025-10-12 18:20:10 [    INFO] stock | (23/5436) fetching 601006 大秦铁路 daily kline data.
+2025-10-12 18:20:32 [    INFO] stock | (24/5436) fetching 688334 西高院 daily kline data.
+2025-10-12 18:20:55 [    INFO] stock | Upsert daily_kline 5933 条
+2025-10-12 18:20:55 [    INFO] stock | update 688334 西高院 daily kline data to database done.
+2025-10-12 18:27:57 [    INFO] stock | (25/5436) fetching 001203 大中矿业 daily kline data.
+2025-10-12 18:28:19 [    INFO] stock | (26/5436) fetching 603615 茶花股份 daily kline data.
+2025-10-12 18:28:29 [    INFO] stock | (27/5436) fetching 300164 通源石油 daily kline data.
+2025-10-12 18:28:47 [    INFO] stock | Upsert daily_kline 6442 条
+2025-10-12 18:28:47 [    INFO] stock | update 300164 通源石油 daily kline data to database done.
+2025-10-12 18:38:31 [    INFO] stock | (28/5436) fetching 601860 紫金银行 daily kline data.
+2025-10-12 18:38:46 [    INFO] stock | (29/5436) fetching 603311 金海高科 daily kline data.
+2025-10-12 18:39:04 [    INFO] stock | (30/5436) fetching 000819 岳阳兴长 daily kline data.
+2025-10-12 18:39:21 [    INFO] stock | Upsert daily_kline 10912 条
+2025-10-12 18:39:21 [    INFO] stock | update 000819 岳阳兴长 daily kline data to database done.
+2025-10-12 18:48:07 [    INFO] stock | (31/5436) fetching 301151 冠龙节能 daily kline data.
+2025-10-12 18:48:15 [    INFO] stock | (32/5436) fetching 601888 中国中免 daily kline data.
+2025-10-12 18:48:15 [    INFO] stock | (33/5436) fetching 002375 亚厦股份 daily kline data.
+2025-10-12 18:48:36 [    INFO] stock | Upsert daily_kline 4565 条
+2025-10-12 18:48:36 [    INFO] stock | update 002375 亚厦股份 daily kline data to database done.
+2025-10-12 18:56:28 [    INFO] stock | (34/5436) fetching 688218 江苏北人 daily kline data.
+2025-10-12 18:56:39 [    INFO] stock | (35/5436) fetching 920403 康农种业 daily kline data.
+2025-10-12 18:57:01 [    INFO] stock | (36/5436) fetching 301113 雅艺科技 daily kline data.
+2025-10-12 18:57:23 [    INFO] stock | Upsert daily_kline 2740 条
+2025-10-12 18:57:23 [    INFO] stock | update 301113 雅艺科技 daily kline data to database done.
+2025-10-12 19:02:15 [    INFO] stock | (37/5436) fetching 002885 京泉华 daily kline data.
+2025-10-12 19:02:35 [    INFO] stock | (38/5436) fetching 688205 德科立 daily kline data.
+2025-10-12 19:02:53 [    INFO] stock | (39/5436) fetching 002107 沃华医药 daily kline data.
+2025-10-12 19:03:13 [    INFO] stock | Upsert daily_kline 7278 条
+2025-10-12 19:03:13 [    INFO] stock | update 002107 沃华医药 daily kline data to database done.
+2025-10-12 19:09:13 [    INFO] stock | (40/5436) fetching 301491 汉桑科技 daily kline data.
+2025-10-12 19:09:34 [    INFO] stock | (41/5436) fetching 603109 神驰机电 daily kline data.
+2025-10-12 19:09:56 [    INFO] stock | (42/5436) fetching 600515 海南机场 daily kline data.
+2025-10-12 19:10:18 [    INFO] stock | Upsert daily_kline 6548 条
+2025-10-12 19:10:18 [    INFO] stock | update 600515 海南机场 daily kline data to database done.
+2025-10-12 19:17:01 [    INFO] stock | (43/5436) fetching 920978 开特股份 daily kline data.
+2025-10-12 19:17:10 [    INFO] stock | (44/5436) fetching 301632 广东建科 daily kline data.
+2025-10-12 19:17:27 [    INFO] stock | (45/5436) fetching 300399 天利科技 daily kline data.
+2025-10-12 19:17:39 [    INFO] stock | Upsert daily_kline 3181 条
+2025-10-12 19:17:39 [    INFO] stock | update 300399 天利科技 daily kline data to database done.
+2025-10-12 19:25:30 [    INFO] stock | (46/5436) fetching 603535 嘉诚国际 daily kline data.
+2025-10-12 19:25:50 [    INFO] stock | (47/5436) fetching 002175 东方智造 daily kline data.
+2025-10-12 19:26:04 [    INFO] stock | (48/5436) fetching 301089 拓新药业 daily kline data.
+2025-10-12 19:26:29 [    INFO] stock | Upsert daily_kline 6896 条
+2025-10-12 19:26:29 [    INFO] stock | update 301089 拓新药业 daily kline data to database done.
+2025-10-12 19:32:38 [    INFO] stock | (49/5436) fetching 300143 盈康生命 daily kline data.
+2025-10-12 19:32:56 [    INFO] stock | (50/5436) fetching 002049 紫光国微 daily kline data.
+2025-10-12 19:33:10 [    INFO] stock | (51/5436) fetching 600200 *ST苏吴 daily kline data.
+2025-10-12 19:33:33 [    INFO] stock | Upsert daily_kline 14071 条
+2025-10-12 19:33:33 [    INFO] stock | update 600200 *ST苏吴 daily kline data to database done.
+2025-10-12 19:39:58 [    INFO] stock | (52/5436) fetching 000639 西王食品 daily kline data.
+2025-10-12 19:40:14 [    INFO] stock | (53/5436) fetching 920826 盖世食品 daily kline data.
+2025-10-12 19:40:33 [    INFO] stock | (54/5436) fetching 002221 东华能源 daily kline data.
+2025-10-12 19:40:59 [    INFO] stock | Upsert daily_kline 12043 条
+2025-10-12 19:40:59 [    INFO] stock | update 002221 东华能源 daily kline data to database done.
+2025-10-12 19:48:33 [    INFO] stock | (55/5436) fetching 002061 浙江交科 daily kline data.
+2025-10-12 19:48:48 [    INFO] stock | (56/5436) fetching 603200 上海洗霸 daily kline data.
+2025-10-12 19:48:59 [    INFO] stock | (57/5436) fetching 603256 宏和科技 daily kline data.
+2025-10-12 19:49:24 [    INFO] stock | Upsert daily_kline 7928 条
+2025-10-12 19:49:24 [    INFO] stock | update 603256 宏和科技 daily kline data to database done.
+2025-10-12 19:57:17 [    INFO] stock | (58/5436) fetching 688223 晶科能源 daily kline data.
+2025-10-12 19:57:17 [    INFO] stock | (59/5436) fetching 000715 中兴商业 daily kline data.
+2025-10-12 19:57:33 [    INFO] stock | (60/5436) fetching 600702 舍得酒业 daily kline data.
+2025-10-12 19:57:48 [    INFO] stock | Upsert daily_kline 13560 条
+2025-10-12 19:57:48 [    INFO] stock | update 600702 舍得酒业 daily kline data to database done.
+2025-10-12 20:05:23 [    INFO] stock | (61/5436) fetching 002111 威海广泰 daily kline data.
+2025-10-12 20:05:39 [    INFO] stock | (62/5436) fetching 300410 正业科技 daily kline data.
+2025-10-12 20:05:48 [    INFO] stock | (63/5436) fetching 601689 拓普集团 daily kline data.
+2025-10-12 20:06:05 [    INFO] stock | Upsert daily_kline 9373 条
+2025-10-12 20:06:05 [    INFO] stock | update 601689 拓普集团 daily kline data to database done.
+2025-10-12 20:11:08 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:11:09 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 20:11:09 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 20:11:17 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 20:11:17 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 79, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 187, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Envs\stock_predict\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: 错误:  关系 "daily_kline" 的 "ma5" 字段不存在
+LINE 1: ..._change_clean", "change_clean", "turnover_clean", "ma5", "ma...
+                                                             ^
+
+2025-10-12 20:15:56 [    INFO] stock | (64/5436) fetching 002886 沃特股份 daily kline data.
+2025-10-12 20:15:57 [    INFO] stock | (65/5436) fetching 001366 播恩集团 daily kline data.
+2025-10-12 20:16:06 [    INFO] stock | (66/5436) fetching 600615 鑫源智造 daily kline data.
+2025-10-12 20:16:06 [    INFO] stock | (67/5436) fetching 603928 兴业股份 daily kline data.
+2025-10-12 20:16:27 [    INFO] stock | (68/5436) fetching 002637 赞宇科技 daily kline data.
+2025-10-12 20:16:27 [    INFO] stock | (69/5436) fetching 603986 兆易创新 daily kline data.
+2025-10-12 20:16:49 [    INFO] stock | Upsert daily_kline 4778 条
+2025-10-12 20:16:49 [    INFO] stock | update 603986 兆易创新 daily kline data to database done.
+2025-10-12 20:21:46 [    INFO] stock | (70/5436) fetching 920670 数字人 daily kline data.
+2025-10-12 20:22:04 [    INFO] stock | (71/5436) fetching 002272 川润股份 daily kline data.
+2025-10-12 20:22:31 [    INFO] stock | (72/5436) fetching 603117 万林物流 daily kline data.
+2025-10-12 20:22:56 [    INFO] stock | Upsert daily_kline 7575 条
+2025-10-12 20:22:56 [    INFO] stock | update 603117 万林物流 daily kline data to database done.
+2025-10-12 20:27:07 [    INFO] stock | (73/5436) fetching 688568 中科星图 daily kline data.
+2025-10-12 20:27:30 [    INFO] stock | (74/5436) fetching 301088 戎美股份 daily kline data.
+2025-10-12 20:27:48 [    INFO] stock | (75/5436) fetching 300205 *ST天喻 daily kline data.
+2025-10-12 20:28:21 [    INFO] stock | Upsert daily_kline 5708 条
+2025-10-12 20:28:21 [    INFO] stock | update 300205 *ST天喻 daily kline data to database done.
+2025-10-12 20:28:48 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:28:48 [    INFO] stock | 表 stock_list 创建/已存在
+2025-10-12 20:28:48 [    INFO] stock | 表 daily_kline 创建/已存在
+2025-10-12 20:28:48 [    INFO] stock | 表 trade_date 创建/已存在
+2025-10-12 20:33:58 [    INFO] stock | (76/5436) fetching 300735 光弘科技 daily kline data.
+2025-10-12 20:34:29 [    INFO] stock | (77/5436) fetching 300428 立中集团 daily kline data.
+2025-10-12 20:34:46 [    INFO] stock | (78/5436) fetching 601699 潞安环能 daily kline data.
+2025-10-12 20:34:46 [    INFO] stock | (79/5436) fetching 301566 达利凯普 daily kline data.
+2025-10-12 20:34:47 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:34:47 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 20:34:47 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 20:34:53 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 20:34:57 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:34:57 [    INFO] stock | upsert 7796 条 clean 数据
+2025-10-12 20:34:57 [    INFO] stock | 000029 清洗完成
+2025-10-12 20:34:57 [    INFO] stock | (80/5436) fetching 688737 中自科技 daily kline data.
+2025-10-12 20:35:10 [    INFO] stock | (81/5436) fetching 600095 湘财股份 daily kline data.
+2025-10-12 20:35:36 [    INFO] stock | Upsert daily_kline 12381 条
+2025-10-12 20:35:36 [    INFO] stock | update 600095 湘财股份 daily kline data to database done.
+2025-10-12 20:42:40 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:42:40 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 20:42:40 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 20:42:48 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:42:49 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 20:42:52 [    INFO] stock | (82/5436) fetching 000420 吉林化纤 daily kline data.
+2025-10-12 20:42:52 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:42:52 [    INFO] stock | upsert 7796 条 clean 数据
+2025-10-12 20:42:52 [    INFO] stock | 000029 清洗完成
+2025-10-12 20:43:03 [    INFO] stock | (83/5436) fetching 603970 中农立华 daily kline data.
+2025-10-12 20:43:03 [    INFO] stock | (84/5436) fetching 603506 南都物业 daily kline data.
+2025-10-12 20:43:23 [    INFO] stock | Upsert daily_kline 8804 条
+2025-10-12 20:43:23 [    INFO] stock | update 603506 南都物业 daily kline data to database done.
+2025-10-12 20:48:33 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:48:33 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 20:48:33 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 20:48:42 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:48:43 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 20:48:46 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:48:46 [    INFO] stock | upsert 7796 条 clean 数据
+2025-10-12 20:48:46 [    INFO] stock | 000029 清洗完成
+2025-10-12 20:51:45 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 20:51:45 [    INFO] stock | 开始清洗 000029 训练段 1993-09-15~2025-09-30
+2025-10-12 20:51:45 [    INFO] stock | getting 000029 raw data from pg. begin_date: 1993-09-15, end_date:2025-09-30.
+2025-10-12 20:51:54 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:51:54 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 20:51:58 [    INFO] stock | Upsert daily_kline 7796 条
+2025-10-12 20:51:58 [    INFO] stock | upsert 7796 条 clean 数据
+2025-10-12 20:51:58 [    INFO] stock | 000029 清洗完成
+2025-10-12 20:52:43 [    INFO] stock | (85/5436) fetching 300603 立昂技术 daily kline data.
+2025-10-12 20:52:54 [    INFO] stock | (86/5436) fetching 601696 中银证券 daily kline data.
+2025-10-12 20:53:03 [    INFO] stock | (87/5436) fetching 002466 天齐锂业 daily kline data.
+2025-10-12 20:53:03 [    INFO] stock | (88/5436) fetching 300015 爱尔眼科 daily kline data.
+2025-10-12 20:53:26 [    INFO] stock | (89/5436) fetching 301032 新柴股份 daily kline data.
+2025-10-12 20:53:43 [    INFO] stock | (90/5436) fetching 000008 神州高铁 daily kline data.
+2025-10-12 20:53:43 [    INFO] stock | (91/5436) fetching 301056 森赫股份 daily kline data.
+2025-10-12 20:54:02 [    INFO] stock | (92/5436) fetching 000058 深 赛 格 daily kline data.
+2025-10-12 20:54:02 [    INFO] stock | (93/5436) fetching 300626 华瑞股份 daily kline data.
+2025-10-12 20:54:24 [    INFO] stock | Upsert daily_kline 11239 条
+2025-10-12 20:54:25 [    INFO] stock | update 300626 华瑞股份 daily kline data to database done.
+2025-10-12 21:03:09 [    INFO] stock | (94/5436) fetching 300132 青松股份 daily kline data.
+2025-10-12 21:03:34 [    INFO] stock | (95/5436) fetching 688786 悦安新材 daily kline data.
+2025-10-12 21:03:49 [    INFO] stock | (96/5436) fetching 688538 和辉光电 daily kline data.
+2025-10-12 21:04:05 [    INFO] stock | Upsert daily_kline 5568 条
+2025-10-12 21:04:05 [    INFO] stock | update 688538 和辉光电 daily kline data to database done.
+2025-10-12 21:08:58 [    INFO] stock | (97/5436) fetching 002361 神剑股份 daily kline data.
+2025-10-12 21:09:09 [    INFO] stock | (98/5436) fetching 000911 广农糖业 daily kline data.
+2025-10-12 21:09:22 [    INFO] stock | (99/5436) fetching 688292 浩瀚深度 daily kline data.
+2025-10-12 21:09:39 [    INFO] stock | Upsert daily_kline 10693 条
+2025-10-12 21:09:39 [    INFO] stock | update 688292 浩瀚深度 daily kline data to database done.
+2025-10-12 21:16:33 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:17:13 [    INFO] stock | (100/5436) fetching 002600 领益智造 daily kline data.
+2025-10-12 21:17:23 [    INFO] stock | (101/5436) fetching 000629 钒钛股份 daily kline data.
+2025-10-12 21:17:25 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:17:32 [    INFO] stock | (102/5436) fetching 301590 优优绿能 daily kline data.
+2025-10-12 21:17:46 [    INFO] stock | Upsert daily_kline 9567 条
+2025-10-12 21:17:46 [    INFO] stock | update 301590 优优绿能 daily kline data to database done.
+2025-10-12 21:22:12 [    INFO] stock | (103/5436) fetching 600420 国药现代 daily kline data.
+2025-10-12 21:22:29 [    INFO] stock | (104/5436) fetching 603115 海星股份 daily kline data.
+2025-10-12 21:22:51 [    INFO] stock | (105/5436) fetching 300113 顺网科技 daily kline data.
+2025-10-12 21:23:12 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:23:16 [    INFO] stock | Upsert daily_kline 10026 条
+2025-10-12 21:23:16 [    INFO] stock | update 300113 顺网科技 daily kline data to database done.
+2025-10-12 21:23:17 [    INFO] stock | 开始清洗 000001 训练段 0    1991-04-03
+Name: list_date, dtype: object~2025-09-30
+2025-10-12 21:23:17 [    INFO] stock | getting 000001 raw data from pg. begin_date: 0    1991-04-03
+Name: list_date, dtype: object, end_date:2025-09-30.
+2025-10-12 21:25:16 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:25:19 [    INFO] stock | 开始清洗 000001 训练段 0    1991-04-03
+Name: list_date, dtype: object~2025-09-30
+2025-10-12 21:25:19 [    INFO] stock | getting 000001 raw data from pg. begin_date: 0    1991-04-03
+Name: list_date, dtype: object, end_date:2025-09-30.
+2025-10-12 21:27:27 [    INFO] stock | (106/5436) fetching 002883 中设股份 daily kline data.
+2025-10-12 21:27:50 [    INFO] stock | (107/5436) fetching 300565 科信技术 daily kline data.
+2025-10-12 21:28:03 [    INFO] stock | (108/5436) fetching 301038 深水规院 daily kline data.
+2025-10-12 21:28:18 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:28:21 [    INFO] stock | Upsert daily_kline 5166 条
+2025-10-12 21:28:21 [    INFO] stock | update 301038 深水规院 daily kline data to database done.
+2025-10-12 21:28:22 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 21:28:22 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 21:28:37 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:28:38 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:28:44 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:28:44 [    INFO] stock | upsert 8423 条 clean 数据
+2025-10-12 21:28:44 [    INFO] stock | 000001 清洗完成
+2025-10-12 21:28:44 [    INFO] stock | 开始清洗 000002 训练段 1991-01-29~2025-09-30
+2025-10-12 21:28:44 [    INFO] stock | getting 000002 raw data from pg. begin_date: 1991-01-29, end_date:2025-09-30.
+2025-10-12 21:29:51 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:29:54 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 21:29:54 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 21:30:04 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:30:04 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:30:07 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:30:07 [    INFO] stock | upsert 8423 条 clean 数据
+2025-10-12 21:30:07 [    INFO] stock | 000001 清洗完成
+2025-10-12 21:30:07 [    INFO] stock | 开始清洗 000002 训练段 1991-01-29~2025-09-30
+2025-10-12 21:30:07 [    INFO] stock | getting 000002 raw data from pg. begin_date: 1991-01-29, end_date:2025-09-30.
+2025-10-12 21:30:15 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:30:15 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:30:19 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:30:19 [    INFO] stock | upsert 8467 条 clean 数据
+2025-10-12 21:30:19 [    INFO] stock | 000002 清洗完成
+2025-10-12 21:30:19 [    INFO] stock | 开始清洗 000004 训练段 1990-12-01~2025-09-30
+2025-10-12 21:30:19 [    INFO] stock | getting 000004 raw data from pg. begin_date: 1990-12-01, end_date:2025-09-30.
+2025-10-12 21:30:25 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 79, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 187, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Envs\stock_predict\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: 错误:  字段 "is_st" 的类型为 boolean, 但表达式的类型为 double precision
+LINE 1: ...ver_raw") VALUES ('1990-12-19'::date,'NaN'::float,'NaN'::flo...
+                                                             ^
+HINT:  你需要重写或转换表达式
+
+2025-10-12 21:35:38 [    INFO] stock | (109/5436) fetching 688411 海博思创 daily kline data.
+2025-10-12 21:36:11 [    INFO] stock | (110/5436) fetching 600089 特变电工 daily kline data.
+2025-10-12 21:36:56 [    INFO] stock | (111/5436) fetching 000721 西安饮食 daily kline data.
+2025-10-12 21:36:57 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:37:13 [    INFO] stock | Upsert daily_kline 13494 条
+2025-10-12 21:37:13 [    INFO] stock | update 000721 西安饮食 daily kline data to database done.
+2025-10-12 21:38:29 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:39:39 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:39:48 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 21:39:48 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 21:40:03 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:40:03 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:40:10 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:40:10 [    INFO] stock | upsert 8423 条 clean 数据
+2025-10-12 21:40:10 [    INFO] stock | 000001 清洗完成
+2025-10-12 21:40:12 [    INFO] stock | 开始清洗 000002 训练段 1991-01-29~2025-09-30
+2025-10-12 21:40:12 [    INFO] stock | getting 000002 raw data from pg. begin_date: 1991-01-29, end_date:2025-09-30.
+2025-10-12 21:40:30 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:40:31 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:40:36 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:40:36 [    INFO] stock | upsert 8467 条 clean 数据
+2025-10-12 21:40:36 [    INFO] stock | 000002 清洗完成
+2025-10-12 21:40:40 [    INFO] stock | 开始清洗 000004 训练段 1991-01-14~2025-09-30
+2025-10-12 21:40:40 [    INFO] stock | getting 000004 raw data from pg. begin_date: 1991-01-14, end_date:2025-09-30.
+2025-10-12 21:40:55 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 79, in get_cursor
+    yield cur
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 187, in upsert
+    execute_values(cur, insert_sql.as_string(cur), [tuple(d[c] for c in cols) for d in data])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Envs\stock_predict\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: 错误:  字段 "is_st" 的类型为 boolean, 但表达式的类型为 double precision
+LINE 1: ...ver_raw") VALUES ('1990-12-19'::date,'NaN'::float,'NaN'::flo...
+                                                             ^
+HINT:  你需要重写或转换表达式
+
+2025-10-12 21:43:51 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:43:55 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 21:43:55 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 21:44:03 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:44:03 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:44:06 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:44:06 [    INFO] stock | upsert 8423 条 clean 数据
+2025-10-12 21:44:06 [    INFO] stock | 000001 清洗完成
+2025-10-12 21:44:07 [    INFO] stock | 开始清洗 000002 训练段 1991-01-29~2025-09-30
+2025-10-12 21:44:07 [    INFO] stock | getting 000002 raw data from pg. begin_date: 1991-01-29, end_date:2025-09-30.
+2025-10-12 21:44:14 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:44:14 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:44:18 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:44:18 [    INFO] stock | upsert 8467 条 clean 数据
+2025-10-12 21:44:18 [    INFO] stock | 000002 清洗完成
+2025-10-12 21:44:19 [    INFO] stock | 开始清洗 000004 训练段 1991-01-14~2025-09-30
+2025-10-12 21:44:19 [    INFO] stock | getting 000004 raw data from pg. begin_date: 1991-01-14, end_date:2025-09-30.
+2025-10-12 21:44:26 [    INFO] stock | Upsert daily_kline 8478 条
+2025-10-12 21:44:26 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:44:29 [    INFO] stock | Upsert daily_kline 8478 条
+2025-10-12 21:44:29 [    INFO] stock | upsert 8478 条 clean 数据
+2025-10-12 21:44:29 [    INFO] stock | 000004 清洗完成
+2025-10-12 21:44:30 [    INFO] stock | 开始清洗 000006 训练段 1992-04-27~2025-09-30
+2025-10-12 21:44:30 [    INFO] stock | getting 000006 raw data from pg. begin_date: 1992-04-27, end_date:2025-09-30.
+2025-10-12 21:44:37 [    INFO] stock | Upsert daily_kline 8152 条
+2025-10-12 21:44:37 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:44:41 [    INFO] stock | Upsert daily_kline 8152 条
+2025-10-12 21:44:41 [    INFO] stock | upsert 8152 条 clean 数据
+2025-10-12 21:44:41 [    INFO] stock | 000006 清洗完成
+2025-10-12 21:44:42 [    INFO] stock | 开始清洗 000007 训练段 1992-04-13~2025-09-30
+2025-10-12 21:44:42 [    INFO] stock | getting 000007 raw data from pg. begin_date: 1992-04-13, end_date:2025-09-30.
+2025-10-12 21:44:48 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 77, in get_cursor
+    conn = self._pool.getconn()
+  File "D:\Envs\stock_predict\Lib\site-packages\psycopg2\pool.py", line 92, in _getconn
+    raise PoolError("connection pool exhausted")
+psycopg2.pool.PoolError: connection pool exhausted
+2025-10-12 21:45:17 [    INFO] stock | (112/5436) fetching 920642 通易航天 daily kline data.
+2025-10-12 21:45:27 [    INFO] stock | (113/5436) fetching 301280 珠城科技 daily kline data.
+2025-10-12 21:45:42 [    INFO] stock | (114/5436) fetching 002703 浙江世宝 daily kline data.
+2025-10-12 21:46:02 [    INFO] stock | Upsert daily_kline 4650 条
+2025-10-12 21:46:02 [    INFO] stock | update 002703 浙江世宝 daily kline data to database done.
+2025-10-12 21:53:53 [    INFO] stock | (115/5436) fetching 601992 金隅集团 daily kline data.
+2025-10-12 21:54:12 [    INFO] stock | (116/5436) fetching 688122 西部超导 daily kline data.
+2025-10-12 21:54:26 [    INFO] stock | (117/5436) fetching 601877 正泰电器 daily kline data.
+2025-10-12 21:54:57 [    INFO] stock | Upsert daily_kline 8698 条
+2025-10-12 21:54:57 [    INFO] stock | update 601877 正泰电器 daily kline data to database done.
+2025-10-12 21:55:32 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 21:55:41 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 21:55:41 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 21:55:58 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:55:59 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:56:05 [    INFO] stock | Upsert daily_kline 8423 条
+2025-10-12 21:56:05 [    INFO] stock | upsert 8423 条 clean 数据
+2025-10-12 21:56:05 [    INFO] stock | 000001 清洗完成
+2025-10-12 21:56:07 [    INFO] stock | 开始清洗 000002 训练段 1991-01-29~2025-09-30
+2025-10-12 21:56:07 [    INFO] stock | getting 000002 raw data from pg. begin_date: 1991-01-29, end_date:2025-09-30.
+2025-10-12 21:56:21 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:56:22 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:56:27 [    INFO] stock | Upsert daily_kline 8467 条
+2025-10-12 21:56:27 [    INFO] stock | upsert 8467 条 clean 数据
+2025-10-12 21:56:27 [    INFO] stock | 000002 清洗完成
+2025-10-12 21:56:29 [    INFO] stock | 开始清洗 000004 训练段 1991-01-14~2025-09-30
+2025-10-12 21:56:29 [    INFO] stock | getting 000004 raw data from pg. begin_date: 1991-01-14, end_date:2025-09-30.
+2025-10-12 21:56:45 [    INFO] stock | Upsert daily_kline 8478 条
+2025-10-12 21:56:45 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:56:51 [    INFO] stock | Upsert daily_kline 8478 条
+2025-10-12 21:56:51 [    INFO] stock | upsert 8478 条 clean 数据
+2025-10-12 21:56:51 [    INFO] stock | 000004 清洗完成
+2025-10-12 21:56:53 [    INFO] stock | 开始清洗 000006 训练段 1992-04-27~2025-09-30
+2025-10-12 21:56:53 [    INFO] stock | getting 000006 raw data from pg. begin_date: 1992-04-27, end_date:2025-09-30.
+2025-10-12 21:57:07 [    INFO] stock | Upsert daily_kline 8152 条
+2025-10-12 21:57:07 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:57:12 [    INFO] stock | Upsert daily_kline 8152 条
+2025-10-12 21:57:12 [    INFO] stock | upsert 8152 条 clean 数据
+2025-10-12 21:57:12 [    INFO] stock | 000006 清洗完成
+2025-10-12 21:57:14 [    INFO] stock | 开始清洗 000007 训练段 1992-04-13~2025-09-30
+2025-10-12 21:57:14 [    INFO] stock | getting 000007 raw data from pg. begin_date: 1992-04-13, end_date:2025-09-30.
+2025-10-12 21:57:31 [    INFO] stock | Upsert daily_kline 8162 条
+2025-10-12 21:57:32 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:57:37 [    INFO] stock | Upsert daily_kline 8162 条
+2025-10-12 21:57:37 [    INFO] stock | upsert 8162 条 clean 数据
+2025-10-12 21:57:37 [    INFO] stock | 000007 清洗完成
+2025-10-12 21:57:41 [    INFO] stock | 开始清洗 000008 训练段 1992-05-07~2025-09-30
+2025-10-12 21:57:41 [    INFO] stock | getting 000008 raw data from pg. begin_date: 1992-05-07, end_date:2025-09-30.
+2025-10-12 21:57:54 [    INFO] stock | Upsert daily_kline 8145 条
+2025-10-12 21:57:55 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:58:00 [    INFO] stock | Upsert daily_kline 8145 条
+2025-10-12 21:58:00 [    INFO] stock | upsert 8145 条 clean 数据
+2025-10-12 21:58:00 [    INFO] stock | 000008 清洗完成
+2025-10-12 21:58:03 [    INFO] stock | 开始清洗 000009 训练段 1991-06-25~2025-09-30
+2025-10-12 21:58:03 [    INFO] stock | getting 000009 raw data from pg. begin_date: 1991-06-25, end_date:2025-09-30.
+2025-10-12 21:58:19 [    INFO] stock | Upsert daily_kline 8365 条
+2025-10-12 21:58:19 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:58:25 [    INFO] stock | Upsert daily_kline 8365 条
+2025-10-12 21:58:25 [    INFO] stock | upsert 8365 条 clean 数据
+2025-10-12 21:58:25 [    INFO] stock | 000009 清洗完成
+2025-10-12 21:58:27 [    INFO] stock | 开始清洗 000010 训练段 1995-10-27~2025-09-30
+2025-10-12 21:58:27 [    INFO] stock | getting 000010 raw data from pg. begin_date: 1995-10-27, end_date:2025-09-30.
+2025-10-12 21:58:42 [    INFO] stock | Upsert daily_kline 7262 条
+2025-10-12 21:58:42 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:58:48 [    INFO] stock | Upsert daily_kline 7262 条
+2025-10-12 21:58:48 [    INFO] stock | upsert 7262 条 clean 数据
+2025-10-12 21:58:48 [    INFO] stock | 000010 清洗完成
+2025-10-12 21:58:51 [    INFO] stock | 开始清洗 000011 训练段 1992-03-30~2025-09-30
+2025-10-12 21:58:51 [    INFO] stock | getting 000011 raw data from pg. begin_date: 1992-03-30, end_date:2025-09-30.
+2025-10-12 21:59:11 [    INFO] stock | Upsert daily_kline 8172 条
+2025-10-12 21:59:11 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:59:15 [    INFO] stock | Upsert daily_kline 8172 条
+2025-10-12 21:59:15 [    INFO] stock | upsert 8172 条 clean 数据
+2025-10-12 21:59:15 [    INFO] stock | 000011 清洗完成
+2025-10-12 21:59:17 [    INFO] stock | 开始清洗 000012 训练段 1992-02-28~2025-09-30
+2025-10-12 21:59:17 [    INFO] stock | getting 000012 raw data from pg. begin_date: 1992-02-28, end_date:2025-09-30.
+2025-10-12 21:59:35 [    INFO] stock | Upsert daily_kline 8193 条
+2025-10-12 21:59:35 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 21:59:42 [    INFO] stock | Upsert daily_kline 8193 条
+2025-10-12 21:59:42 [    INFO] stock | upsert 8193 条 clean 数据
+2025-10-12 21:59:42 [    INFO] stock | 000012 清洗完成
+2025-10-12 21:59:47 [    INFO] stock | 开始清洗 000014 训练段 1992-06-02~2025-09-30
+2025-10-12 21:59:47 [    INFO] stock | getting 000014 raw data from pg. begin_date: 1992-06-02, end_date:2025-09-30.
+2025-10-12 22:00:04 [    INFO] stock | Upsert daily_kline 8127 条
+2025-10-12 22:00:05 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:00:10 [    INFO] stock | Upsert daily_kline 8127 条
+2025-10-12 22:00:10 [    INFO] stock | upsert 8127 条 clean 数据
+2025-10-12 22:00:10 [    INFO] stock | 000014 清洗完成
+2025-10-12 22:00:11 [    INFO] stock | 开始清洗 000016 训练段 1992-03-27~2025-09-30
+2025-10-12 22:00:11 [    INFO] stock | getting 000016 raw data from pg. begin_date: 1992-03-27, end_date:2025-09-30.
+2025-10-12 22:00:25 [    INFO] stock | Upsert daily_kline 8173 条
+2025-10-12 22:00:25 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:00:31 [    INFO] stock | Upsert daily_kline 8173 条
+2025-10-12 22:00:31 [    INFO] stock | upsert 8173 条 clean 数据
+2025-10-12 22:00:31 [    INFO] stock | 000016 清洗完成
+2025-10-12 22:00:34 [    INFO] stock | 开始清洗 000017 训练段 1992-03-31~2025-09-30
+2025-10-12 22:00:34 [    INFO] stock | getting 000017 raw data from pg. begin_date: 1992-03-31, end_date:2025-09-30.
+2025-10-12 22:00:42 [    INFO] stock | (118/5436) fetching 688409 富创精密 daily kline data.
+2025-10-12 22:00:47 [    INFO] stock | Upsert daily_kline 8171 条
+2025-10-12 22:00:47 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:00:53 [    INFO] stock | Upsert daily_kline 8171 条
+2025-10-12 22:00:54 [    INFO] stock | upsert 8171 条 clean 数据
+2025-10-12 22:00:54 [    INFO] stock | 000017 清洗完成
+2025-10-12 22:00:57 [    INFO] stock | 开始清洗 000019 训练段 1992-10-12~2025-09-30
+2025-10-12 22:00:57 [    INFO] stock | getting 000019 raw data from pg. begin_date: 1992-10-12, end_date:2025-09-30.
+2025-10-12 22:01:05 [    INFO] stock | (119/5436) fetching 603777 来伊份 daily kline data.
+2025-10-12 22:01:24 [    INFO] stock | Upsert daily_kline 8035 条
+2025-10-12 22:01:24 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:01:32 [    INFO] stock | (120/5436) fetching 301132 满坤科技 daily kline data.
+2025-10-12 22:01:34 [    INFO] stock | Upsert daily_kline 8035 条
+2025-10-12 22:01:34 [    INFO] stock | upsert 8035 条 clean 数据
+2025-10-12 22:01:34 [    INFO] stock | 000019 清洗完成
+2025-10-12 22:01:35 [    INFO] stock | 开始清洗 000020 训练段 1992-04-28~2025-09-30
+2025-10-12 22:01:35 [    INFO] stock | getting 000020 raw data from pg. begin_date: 1992-04-28, end_date:2025-09-30.
+2025-10-12 22:02:00 [    INFO] stock | Upsert daily_kline 3675 条
+2025-10-12 22:02:00 [    INFO] stock | update 301132 满坤科技 daily kline data to database done.
+2025-10-12 22:02:05 [    INFO] stock | Upsert daily_kline 8151 条
+2025-10-12 22:02:05 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:02:13 [    INFO] stock | Upsert daily_kline 8151 条
+2025-10-12 22:02:13 [    INFO] stock | upsert 8151 条 clean 数据
+2025-10-12 22:02:13 [    INFO] stock | 000020 清洗完成
+2025-10-12 22:02:15 [    INFO] stock | 开始清洗 000021 训练段 1994-02-02~2025-09-30
+2025-10-12 22:02:15 [    INFO] stock | getting 000021 raw data from pg. begin_date: 1994-02-02, end_date:2025-09-30.
+2025-10-12 22:02:39 [    INFO] stock | Upsert daily_kline 7697 条
+2025-10-12 22:02:39 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:02:49 [    INFO] stock | Upsert daily_kline 7697 条
+2025-10-12 22:02:49 [    INFO] stock | upsert 7697 条 clean 数据
+2025-10-12 22:02:49 [    INFO] stock | 000021 清洗完成
+2025-10-12 22:02:50 [    INFO] stock | 开始清洗 000025 训练段 1993-06-21~2025-09-30
+2025-10-12 22:02:50 [    INFO] stock | getting 000025 raw data from pg. begin_date: 1993-06-21, end_date:2025-09-30.
+2025-10-12 22:03:05 [    INFO] stock | Upsert daily_kline 7858 条
+2025-10-12 22:03:06 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:03:11 [    INFO] stock | Upsert daily_kline 7858 条
+2025-10-12 22:03:11 [    INFO] stock | upsert 7858 条 clean 数据
+2025-10-12 22:03:12 [    INFO] stock | 000025 清洗完成
+2025-10-12 22:03:12 [    INFO] stock | 开始清洗 000026 训练段 1993-06-03~2025-09-30
+2025-10-12 22:03:12 [    INFO] stock | getting 000026 raw data from pg. begin_date: 1993-06-03, end_date:2025-09-30.
+2025-10-12 22:03:39 [    INFO] stock | Upsert daily_kline 7870 条
+2025-10-12 22:03:39 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:03:48 [    INFO] stock | Upsert daily_kline 7870 条
+2025-10-12 22:03:48 [    INFO] stock | upsert 7870 条 clean 数据
+2025-10-12 22:03:48 [    INFO] stock | 000026 清洗完成
+2025-10-12 22:03:49 [    INFO] stock | 开始清洗 000027 训练段 1993-09-03~2025-09-30
+2025-10-12 22:03:49 [    INFO] stock | getting 000027 raw data from pg. begin_date: 1993-09-03, end_date:2025-09-30.
+2025-10-12 22:04:02 [    INFO] stock | Upsert daily_kline 7804 条
+2025-10-12 22:04:02 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:04:07 [    INFO] stock | Upsert daily_kline 7804 条
+2025-10-12 22:04:07 [    INFO] stock | upsert 7804 条 clean 数据
+2025-10-12 22:04:07 [    INFO] stock | 000027 清洗完成
+2025-10-12 22:04:07 [    INFO] stock | 开始清洗 000028 训练段 1993-08-09~2025-09-30
+2025-10-12 22:04:07 [    INFO] stock | getting 000028 raw data from pg. begin_date: 1993-08-09, end_date:2025-09-30.
+2025-10-12 22:04:20 [    INFO] stock | Upsert daily_kline 7823 条
+2025-10-12 22:04:20 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:04:26 [    INFO] stock | Upsert daily_kline 7823 条
+2025-10-12 22:04:26 [    INFO] stock | upsert 7823 条 clean 数据
+2025-10-12 22:04:26 [    INFO] stock | 000028 清洗完成
+2025-10-12 22:04:27 [    INFO] stock | 开始清洗 000030 训练段 1993-09-29~2025-09-30
+2025-10-12 22:04:27 [    INFO] stock | getting 000030 raw data from pg. begin_date: 1993-09-29, end_date:2025-09-30.
+2025-10-12 22:04:37 [    INFO] stock | Upsert daily_kline 7786 条
+2025-10-12 22:04:37 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:04:40 [    INFO] stock | Upsert daily_kline 7786 条
+2025-10-12 22:04:40 [    INFO] stock | upsert 7786 条 clean 数据
+2025-10-12 22:04:40 [    INFO] stock | 000030 清洗完成
+2025-10-12 22:04:41 [    INFO] stock | 开始清洗 000031 训练段 1993-10-08~2025-09-30
+2025-10-12 22:04:41 [    INFO] stock | getting 000031 raw data from pg. begin_date: 1993-10-08, end_date:2025-09-30.
+2025-10-12 22:04:48 [    INFO] stock | Upsert daily_kline 7780 条
+2025-10-12 22:04:48 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:04:51 [    INFO] stock | Upsert daily_kline 7780 条
+2025-10-12 22:04:51 [    INFO] stock | upsert 7780 条 clean 数据
+2025-10-12 22:04:51 [    INFO] stock | 000031 清洗完成
+2025-10-12 22:04:52 [    INFO] stock | 开始清洗 000032 训练段 1993-10-28~2025-09-30
+2025-10-12 22:04:52 [    INFO] stock | getting 000032 raw data from pg. begin_date: 1993-10-28, end_date:2025-09-30.
+2025-10-12 22:04:59 [    INFO] stock | Upsert daily_kline 7766 条
+2025-10-12 22:04:59 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:05:03 [    INFO] stock | Upsert daily_kline 7766 条
+2025-10-12 22:05:03 [    INFO] stock | upsert 7766 条 clean 数据
+2025-10-12 22:05:03 [    INFO] stock | 000032 清洗完成
+2025-10-12 22:05:03 [    INFO] stock | 开始清洗 000034 训练段 1994-05-09~2025-09-30
+2025-10-12 22:05:03 [    INFO] stock | getting 000034 raw data from pg. begin_date: 1994-05-09, end_date:2025-09-30.
+2025-10-12 22:05:10 [    INFO] stock | Upsert daily_kline 7635 条
+2025-10-12 22:05:10 [    INFO] stock | scaler saved → D:\pyProject\pythonProject\09-stock_analysis\stock_predict\data_process\scaler_X.pkl
+2025-10-12 22:05:14 [    INFO] stock | Upsert daily_kline 7635 条
+2025-10-12 22:05:14 [    INFO] stock | upsert 7635 条 clean 数据
+2025-10-12 22:05:14 [    INFO] stock | 000034 清洗完成
+2025-10-12 22:05:14 [    INFO] stock | 开始清洗 000035 训练段 1994-04-08~2025-09-30
+2025-10-12 22:05:14 [    INFO] stock | getting 000035 raw data from pg. begin_date: 1994-04-08, end_date:2025-09-30.
+2025-10-12 22:05:19 [   ERROR] stock | 数据库操作异常
+Traceback (most recent call last):
+  File "D:\pyProject\pythonProject\09-stock_analysis\stock_predict\utils\db_conn.py", line 77, in get_cursor
+    conn = self._pool.getconn()
+  File "D:\Envs\stock_predict\Lib\site-packages\psycopg2\pool.py", line 92, in _getconn
+    raise PoolError("connection pool exhausted")
+psycopg2.pool.PoolError: connection pool exhausted
+2025-10-12 22:11:50 [    INFO] stock | (121/5436) fetching 300618 寒锐钴业 daily kline data.
+2025-10-12 22:12:09 [    INFO] stock | (122/5436) fetching 920640 富士达 daily kline data.
+2025-10-12 22:12:23 [    INFO] stock | (123/5436) fetching 300001 特锐德 daily kline data.
+2025-10-12 22:12:41 [    INFO] stock | Upsert daily_kline 7123 条
+2025-10-12 22:12:41 [    INFO] stock | update 300001 特锐德 daily kline data to database done.
+2025-10-12 22:18:57 [    INFO] stock | (124/5436) fetching 000544 中原环保 daily kline data.
+2025-10-12 22:19:13 [    INFO] stock | (125/5436) fetching 002773 康弘药业 daily kline data.
+2025-10-12 22:19:28 [    INFO] stock | (126/5436) fetching 000538 云南白药 daily kline data.
+2025-10-12 22:19:53 [    INFO] stock | Upsert daily_kline 17498 条
+2025-10-12 22:19:53 [    INFO] stock | update 000538 云南白药 daily kline data to database done.
+2025-10-12 22:24:35 [    INFO] stock | (127/5436) fetching 301070 开勒股份 daily kline data.
+2025-10-12 22:24:50 [    INFO] stock | (128/5436) fetching 300948 冠中生态 daily kline data.
+2025-10-12 22:25:03 [    INFO] stock | (129/5436) fetching 002727 一心堂 daily kline data.
+2025-10-12 22:25:22 [    INFO] stock | Upsert daily_kline 4732 条
+2025-10-12 22:25:22 [    INFO] stock | update 002727 一心堂 daily kline data to database done.
+2025-10-12 22:35:02 [    INFO] stock | (130/5436) fetching 688200 华峰测控 daily kline data.
+2025-10-12 22:35:18 [    INFO] stock | (131/5436) fetching 002110 三钢闽光 daily kline data.
+2025-10-12 22:35:32 [    INFO] stock | (132/5436) fetching 001331 胜通能源 daily kline data.
+2025-10-12 22:35:51 [    INFO] stock | Upsert daily_kline 6354 条
+2025-10-12 22:35:51 [    INFO] stock | update 001331 胜通能源 daily kline data to database done.
+2025-10-12 22:44:04 [    INFO] stock | (133/5436) fetching 601515 东峰集团 daily kline data.
+2025-10-12 22:44:19 [    INFO] stock | (134/5436) fetching 600239 云南城投 daily kline data.
+2025-10-12 22:44:40 [    INFO] stock | (135/5436) fetching 301148 嘉戎技术 daily kline data.
+2025-10-12 22:45:04 [    INFO] stock | Upsert daily_kline 9850 条
+2025-10-12 22:45:04 [    INFO] stock | update 301148 嘉戎技术 daily kline data to database done.
+2025-10-12 22:46:15 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 22:46:20 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 22:46:20 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 22:46:51 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 22:46:56 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 22:46:56 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 22:48:07 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 22:48:19 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 22:48:19 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 22:50:29 [    INFO] stock | (136/5436) fetching 603180 金牌家居 daily kline data.
+2025-10-12 22:50:47 [    INFO] stock | (137/5436) fetching 688027 国盾量子 daily kline data.
+2025-10-12 22:51:07 [    INFO] stock | (138/5436) fetching 688180 君实生物 daily kline data.
+2025-10-12 22:51:21 [    INFO] stock | PostgreSQL 连接池创建成功
+2025-10-12 22:51:26 [    INFO] stock | 开始清洗 000001 训练段 1991-04-03~2025-09-30
+2025-10-12 22:51:26 [    INFO] stock | getting 000001 raw data from pg. begin_date: 1991-04-03, end_date:2025-09-30.
+2025-10-12 22:51:29 [    INFO] stock | Upsert daily_kline 4577 条
+2025-10-12 22:51:29 [    INFO] stock | update 688180 君实生物 daily kline data to database done.
+2025-10-12 22:57:09 [    INFO] stock | (139/5436) fetching 605111 新洁能 daily kline data.
+2025-10-12 22:57:25 [    INFO] stock | (140/5436) fetching 002826 易明医药 daily kline data.
+2025-10-12 22:57:43 [    INFO] stock | (141/5436) fetching 688391 钜泉科技 daily kline data.
+2025-10-12 22:57:56 [    INFO] stock | Upsert daily_kline 4093 条
+2025-10-12 22:57:56 [    INFO] stock | update 688391 钜泉科技 daily kline data to database done.
+2025-10-12 23:04:28 [    INFO] stock | (142/5436) fetching 601139 深圳燃气 daily kline data.
+2025-10-12 23:04:36 [    INFO] stock | (143/5436) fetching 920971 天马新材 daily kline data.
+2025-10-12 23:04:53 [    INFO] stock | (144/5436) fetching 300838 浙江力诺 daily kline data.
+2025-10-12 23:05:16 [    INFO] stock | Upsert daily_kline 5838 条
+2025-10-12 23:05:16 [    INFO] stock | update 300838 浙江力诺 daily kline data to database done.
+2025-10-12 23:12:48 [    INFO] stock | (145/5436) fetching 000430 ST张家界 daily kline data.
+2025-10-12 23:12:48 [    INFO] stock | (146/5436) fetching 603301 振德医疗 daily kline data.
+2025-10-12 23:13:04 [    INFO] stock | (147/5436) fetching 001259 利仁科技 daily kline data.
+2025-10-12 23:13:17 [    INFO] stock | Upsert daily_kline 2566 条
+2025-10-12 23:13:17 [    INFO] stock | update 001259 利仁科技 daily kline data to database done.
+2025-10-12 23:19:46 [    INFO] stock | (148/5436) fetching 688488 艾迪药业 daily kline data.
+2025-10-12 23:20:05 [    INFO] stock | (149/5436) fetching 000410 沈阳机床 daily kline data.
+2025-10-12 23:20:16 [    INFO] stock | (150/5436) fetching 920720 吉冈精密 daily kline data.
+2025-10-12 23:20:39 [    INFO] stock | Upsert daily_kline 9133 条
+2025-10-12 23:20:39 [    INFO] stock | update 920720 吉冈精密 daily kline data to database done.
+2025-10-12 23:27:49 [    INFO] stock | (151/5436) fetching 603790 雅运股份 daily kline data.
+2025-10-12 23:27:57 [    INFO] stock | (152/5436) fetching 301330 熵基科技 daily kline data.
+2025-10-12 23:28:05 [    INFO] stock | (153/5436) fetching 301086 鸿富瀚 daily kline data.
+2025-10-12 23:28:22 [    INFO] stock | Upsert daily_kline 3421 条
+2025-10-12 23:28:22 [    INFO] stock | update 301086 鸿富瀚 daily kline data to database done.
+2025-10-12 23:36:55 [    INFO] stock | (154/5436) fetching 603681 永冠新材 daily kline data.
+2025-10-12 23:37:11 [    INFO] stock | (155/5436) fetching 688252 天德钰 daily kline data.
+2025-10-12 23:37:29 [    INFO] stock | (156/5436) fetching 920425 乐创技术 daily kline data.
+2025-10-12 23:37:48 [    INFO] stock | Upsert daily_kline 2969 条
+2025-10-12 23:37:48 [    INFO] stock | update 920425 乐创技术 daily kline data to database done.
+2025-10-12 23:42:29 [    INFO] stock | (157/5436) fetching 301290 东星医疗 daily kline data.
+2025-10-12 23:42:40 [    INFO] stock | (158/5436) fetching 600135 乐凯胶片 daily kline data.
+2025-10-12 23:42:55 [    INFO] stock | (159/5436) fetching 300715 凯伦股份 daily kline data.
+2025-10-12 23:43:05 [    INFO] stock | Upsert daily_kline 9237 条
+2025-10-12 23:43:05 [    INFO] stock | update 300715 凯伦股份 daily kline data to database done.
+2025-10-12 23:47:37 [    INFO] stock | (160/5436) fetching 000608 *ST阳光 daily kline data.
+2025-10-12 23:47:55 [    INFO] stock | (161/5436) fetching 002953 日丰股份 daily kline data.
+2025-10-12 23:48:09 [    INFO] stock | (162/5436) fetching 600621 华鑫股份 daily kline data.
+2025-10-12 23:48:24 [    INFO] stock | Upsert daily_kline 16143 条
+2025-10-12 23:48:24 [    INFO] stock | update 600621 华鑫股份 daily kline data to database done.
+2025-10-12 23:56:13 [    INFO] stock | (163/5436) fetching 688559 海目星 daily kline data.
+2025-10-12 23:56:33 [    INFO] stock | (164/5436) fetching 920207 众诚科技 daily kline data.
+2025-10-12 23:56:40 [    INFO] stock | (165/5436) fetching 600720 中交设计 daily kline data.
+2025-10-12 23:57:01 [    INFO] stock | Upsert daily_kline 8935 条
+2025-10-12 23:57:01 [    INFO] stock | update 600720 中交设计 daily kline data to database done.
