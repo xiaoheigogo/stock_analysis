@@ -1,6 +1,0 @@
-2025-10-22 06:56:18 [    INFO] stock | PostgreSQL 连接池创建成功
-2025-10-22 06:56:22 [    INFO] stock | (1/5436) fetching 600085 同仁堂 daily kline data.
-2025-10-22 06:56:22 [    INFO] stock | (2/5436) fetching 301126 达嘉维康 daily kline data.
-2025-10-22 06:56:22 [    INFO] stock | (3/5436) fetching 603205 健尔康 daily kline data.
-2025-10-22 06:56:22 [    INFO] stock | (4/5436) fetching 600525 ST长园 daily kline data.
-2025-10-22 21:39:25 [    INFO] stock | PostgreSQL 连接池创建成功

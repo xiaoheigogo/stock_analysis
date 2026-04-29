@@ -22,6 +22,18 @@ output/
 *.dump
 *.sql
 
+# Backup files
+*.backup
+
+# Test artifacts
+test_output.txt
+
+# Build artifacts
+stock_predict.egg-info/
+dist/
+build/
+*.egg
+
 # IDE
 .vscode/
 .idea/
@@ -35,3 +47,10 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Proxy configs (may contain keys)
+data_process/airport.yaml
+data_process/free.yaml
+
+# Reference papers (large binaries)
+00-reference/
