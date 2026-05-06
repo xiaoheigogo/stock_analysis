@@ -218,8 +218,7 @@ class Trainer:
                 self.optimizer,
                 mode='min',
                 factor=0.5,
-                patience=5,
-                verbose=True
+                patience=5
             )
         elif self.args.scheduler == 'cosine':
             self.scheduler = optim.lr_scheduler.CosineAnnealingLR(
