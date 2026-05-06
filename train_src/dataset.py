@@ -97,11 +97,11 @@ class StockDataset(Dataset):
         all_data = []
 
         # 对于分类任务，需要原始收盘价计算涨跌幅
+        # 去重：feature_cols 已经包含 close_clean，不要在 SQL 中重复选择
         if self.task_type == 'classification':
-            # 添加原始收盘价列
-            select_cols = self.feature_cols + [self.target_col, 'close_raw']
+            select_cols = list(dict.fromkeys(self.feature_cols + ['close_raw']))
         else:
-            select_cols = self.feature_cols + [self.target_col]
+            select_cols = list(dict.fromkeys(self.feature_cols))
 
         for ts_code in self.ts_codes:
             # 构建SQL查询
