@@ -114,9 +114,14 @@ async def startup_event():
         with open(config_path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
 
-        # 初始化推荐系统（无模型，使用随机预测）
-        recommendation_system = RecommendationSystem()
-        logger.info("推荐系统初始化完成")
+        # 初始化推荐系统（加载最佳模型）
+        model_path = project_root / "output" / "models" / "best_model.pth"
+        if model_path.exists():
+            recommendation_system = RecommendationSystem(model_path=str(model_path))
+            logger.info(f"推荐系统初始化完成，已加载模型: {model_path}")
+        else:
+            logger.warning(f"模型文件不存在: {model_path}，使用随机预测")
+            recommendation_system = RecommendationSystem()
 
         logger.info(f"API服务启动完成，监听 {config.get('api', {}).get('host', '0.0.0.0')}:{config.get('api', {}).get('port', 8000)}")
 

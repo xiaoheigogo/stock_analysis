@@ -425,11 +425,11 @@ class Trainer:
 
         # 保存汇总统计
         summary = {
-            'epoch': epoch,
+            'epoch': int(epoch),
             'mode': mode,
-            'total_samples': len(df),
-            'avg_mse': df['mse'].mean(),
-            'avg_mae': df['mae'].mean(),
+            'total_samples': int(len(df)),
+            'avg_mse': float(df['mse'].mean()),
+            'avg_mae': float(df['mae'].mean()),
             'timestamp': datetime.now().isoformat()
         }
 
