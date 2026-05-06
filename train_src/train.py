@@ -395,12 +395,22 @@ class Trainer:
         # 创建DataFrame
         results = []
         for i, meta in enumerate(metadata):
+            if isinstance(meta, dict):
+                ts_code = meta.get('ts_code', '')
+                trade_date = meta.get('trade_date', '')
+                seq_len = meta.get('seq_len', 0)
+                pred_len = meta.get('pred_len', 0)
+            else:
+                ts_code = ''
+                trade_date = str(meta) if meta else ''
+                seq_len = 0
+                pred_len = 0
             results.append({
                 'epoch': epoch,
-                'ts_code': meta['ts_code'],
-                'trade_date': meta['trade_date'],
-                'seq_len': meta['seq_len'],
-                'pred_len': meta['pred_len'],
+                'ts_code': ts_code,
+                'trade_date': trade_date,
+                'seq_len': seq_len,
+                'pred_len': pred_len,
                 'prediction': predictions_np[i].tolist(),
                 'target': targets_np[i].tolist(),
                 'mse': np.mean((predictions_np[i] - targets_np[i]) ** 2),

@@ -8,7 +8,7 @@ A stock prediction system using deep learning models (LSTM, GRU, BiLSTM, CNN-LST
 
 ## Environment
 
-- **Virtual env**: `venv38/` (Python 3.8)
+- **Virtual env**: `venv38/` (Python 3.12.3, 名称含误导)
 - Activate: `source venv38/bin/activate`
 - Install deps: `pip install -r requirements.txt` (install PyTorch separately — CPU: `pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu`, CUDA 12.1: use `cu121` index)
 - **Config**: `config.yaml` for DB, proxy, model params. Database credentials can also come from env vars (`POSTGRES_HOST`, `POSTGRES_PORT`, `POSTGRES_DB`, `POSTGRES_USER`, `POSTGRES_PASSWORD`).
