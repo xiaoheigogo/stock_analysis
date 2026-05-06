@@ -1,0 +1,52 @@
+<h2>Phase 1 详细设计 — 方案 C</h2>
+<p class="subtitle">三阶段：准备修复 → 核心训练 → 集成展示</p>
+
+<div class="section">
+  <h3>📋 阶段一：准备 & 修复 (预计 0.5 天)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#fff0f0;"><td style="padding:8px; width:24px;">🔴</td><td style="padding:8px;"><strong>修复 SQL 注入</strong> — <code>clean_normalize.py:277</code> is_cleaned() f-string → %s 参数化</td></tr>
+    <tr style="background:#fff8f0;"><td style="padding:8px;">🟡</td><td style="padding:8px;"><strong>动态日期</strong> — <code>clean_normalize.py:310</code> '2025-09-30' → date.today()</td></tr>
+    <tr style="background:#fff8f0;"><td style="padding:8px;">🟡</td><td style="padding:8px;"><strong>更新 trade_date</strong> — 补齐 2026 年交易日历</td></tr>
+    <tr style="background:#fff8f0;"><td style="padding:8px;">🟡</td><td style="padding:8px;"><strong>增量补齐数据</strong> — 对精选 3-5 只个股拉取 2025-10-01 后缺失数据</td></tr>
+    <tr style="background:#f0fff0;"><td style="padding:8px;">🟢</td><td style="padding:8px;"><strong>清理冗余</strong> — 删除 get_exchange_data/ get_tranning_data/ sql_utils.py *.backup</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>🧠 阶段二：核心训练 (预计 2 天)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr><td style="padding:8px; width:24px;">1</td><td style="padding:8px;"><strong>精选个股</strong> — 000001(平安银行) 000002(万科A) 000004(国华网安)，数据最长最全</td></tr>
+    <tr><td style="padding:8px;">2</td><td style="padding:8px;"><strong>清洗数据</strong> — MA5/MA10/MACD/RSI14 + StandardScaler → scaler_X.pkl</td></tr>
+    <tr><td style="padding:8px;">3</td><td style="padding:8px;"><strong>串行训练</strong> — 统一参数 seq_len=30 pred_len=10 epochs=50 batch=32<br>顺序：LSTM → GRU → CNN-LSTM → Transformer</td></tr>
+    <tr><td style="padding:8px;">4</td><td style="padding:8px;"><strong>指标对比</strong> — MSE / MAE / RMSE / 方向准确率，可视化</td></tr>
+    <tr><td style="padding:8px;">5</td><td style="padding:8px;"><strong>保存最优</strong> — best_model.pth (含 optimizer/scheduler 状态)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>🚀 阶段三：集成展示 (预计 1 天)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr><td style="padding:8px; width:24px;">1</td><td style="padding:8px;"><strong>模型接入</strong> — recommendation_system 加载 best_model.pth，替换 np.random</td></tr>
+    <tr><td style="padding:8px;">2</td><td style="padding:8px;"><strong>CLI 实现</strong> — main.py predict 命令：批量预测 + 输出结果</td></tr>
+    <tr><td style="padding:8px;">3</td><td style="padding:8px;"><strong>API 端点</strong> — /api/predict /api/recommend 返回真实预测</td></tr>
+    <tr><td style="padding:8px;">4</td><td style="padding:8px;"><strong>前端改造</strong> — 移除 5 处模拟回退，展示真实预测数据</td></tr>
+    <tr><td style="padding:8px;">5</td><td style="padding:8px;"><strong>启动验证</strong> — uvicorn 启动，浏览器端到端验证</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>🔑 关键文件改动清单</h3>
+  <div class="mockup">
+    <div class="mockup-body" style="font-size:13px; line-height:2;">
+      <strong>修改:</strong>
+      <code>data_process/clean_normalize.py</code> — SQL 注入 + 动态日期<br>
+      <code>recommendation_system.py</code> — 加载真实模型<br>
+      <code>main.py</code> — 实现 predict 命令<br>
+      <code>app/main.py</code> — 模型加载 + 健康检查<br>
+      <code>frontend/static/js/app.js</code> — 移除模拟回退<br>
+      <code>frontend/templates/index.html</code> — 真实数据展示<br><br>
+      <strong>删除:</strong>
+      <code>get_exchange_data/</code> <code>get_tranning_data/</code> <code>data_process/sql_utils.py</code> <code>*.backup</code>
+    </div>
+  </div>
+</div>

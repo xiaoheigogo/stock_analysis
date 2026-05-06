@@ -1,0 +1,86 @@
+<h2>Phase 1 代码审计结果</h2>
+<p class="subtitle">3/3 个 Explore Agent 完成探索，发现 7 个问题</p>
+
+<div class="section">
+  <h3>🔴 严重问题 (1)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#fff0f0;">
+      <td style="padding:12px; border:1px solid #ffcccc; width:80px;"><span class="label">SQL 注入</span></td>
+      <td style="padding:12px; border:1px solid #ffcccc;">
+        <strong>clean_normalize.py:277</strong> — <code>is_cleaned()</code> 使用 f-string 拼接 SQL<br>
+        <code style="font-size:12px;">sql = f"... WHERE ts_code = '{ts_code}' AND trade_date = '{train_date}'"</code><br>
+        而同一文件其他函数全部使用参数化 <code>%s</code> 占位符
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>🟡 中等问题 (3)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#fffff0;">
+      <td style="padding:10px; border:1px solid #ffebcc; width:80px;"><span class="label">硬编码日期</span></td>
+      <td style="padding:10px; border:1px solid #ffebcc;">
+        <strong>clean_normalize.py:309-310</strong> — <code>'2025-09-30'</code> 硬编码，应改为 <code>date.today()</code>
+      </td>
+    </tr>
+    <tr style="background:#fffff0;">
+      <td style="padding:10px; border:1px solid #ffebcc;"><span class="label">随机回退</span></td>
+      <td style="padding:10px; border:1px solid #ffebcc;">
+        <strong>recommendation_system.py:183-213</strong> — 模型未加载时静默回退 <code>np.random.uniform()</code><br>
+        <strong>app/main.py:118</strong> — 初始化时未传入模型
+      </td>
+    </tr>
+    <tr style="background:#fffff0;">
+      <td style="padding:10px; border:1px solid #ffebcc;"><span class="label">Scaler 风险</span></td>
+      <td style="padding:10px; border:1px solid #ffebcc;">
+        <strong>clean_normalize.py:247-252</strong> — Scaler 缺失时静默重建，无版本校验
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>🟢 轻微问题 (3)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#f0fff0;">
+      <td style="padding:8px; border:1px solid #ccffcc;"><span class="label">CLI 命令</span></td>
+      <td style="padding:8px; border:1px solid #ccffcc;">
+        <strong>main.py:116-133</strong> — <code>predict</code> 和 <code>server</code> 命令未实现
+      </td>
+    </tr>
+    <tr style="background:#f0fff0;">
+      <td style="padding:8px; border:1px solid #ccffcc;"><span class="label">前端模拟</span></td>
+      <td style="padding:8px; border:1px solid #ccffcc;">
+        <strong>app.js</strong> — 5 处模拟数据回退 (自动补全/推荐/K线/历史/详情)<br>
+        <strong>index.html</strong> — {% raw %} 包裹使 Jinja2 无效
+      </td>
+    </tr>
+    <tr style="background:#f0fff0;">
+      <td style="padding:8px; border:1px solid #ccffcc;"><span class="label">冗余文件</span></td>
+      <td style="padding:8px; border:1px solid #ccffcc;">
+        待清理: <code>get_exchange_data/</code> <code>get_tranning_data/</code> <code>sql_utils.py</code> 及 3 个 .backup
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>📊 数据管道现状</h3>
+  <div class="mockup">
+    <div class="mockup-header">Phase 1 目标：打通端到端链路</div>
+    <div class="mockup-body">
+      <div style="display:flex;align-items:center;justify-content:space-around;padding:16px;flex-wrap:wrap;gap:8px;">
+        <div class="placeholder" style="width:120px;text-align:center;">① 数据就位<br><small>DB dump 恢复<br>+ 增量补齐</small></div>
+        <div style="font-size:24px;">→</div>
+        <div class="placeholder" style="width:120px;text-align:center;">② 清洗验证<br><small>修复 SQL 注入<br>+ 动态日期</small></div>
+        <div style="font-size:24px;">→</div>
+        <div class="placeholder" style="width:120px;text-align:center;">③ 模型训练<br><small>4 模型对比<br>选最优保存</small></div>
+        <div style="font-size:24px;">→</div>
+        <div class="placeholder" style="width:120px;text-align:center;">④ 预测管线<br><small>接入真实模型<br>前端展示</small></div>
+        <div style="font-size:24px;">→</div>
+        <div class="placeholder" style="width:120px;text-align:center;">⑤ Bug修复<br><small>清理冗余<br>更新文档</small></div>
+      </div>
+    </div>
+  </div>
+</div>

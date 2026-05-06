@@ -1,0 +1,89 @@
+<h2>三种实现方案对比</h2>
+<p class="subtitle">基于数据库探查结果：13.2M 行 / 4559 只股票 / 清洗率仅 1.5%</p>
+
+<div class="section">
+  <div class="options">
+    <div class="option" data-choice="a" onclick="toggleSelect(this)">
+      <div class="letter">A</div>
+      <div class="content">
+        <h3>严格按 Phase 1 Plan 原样顺序执行</h3>
+        <p>Step 1→2→3→4→5 依次推进</p>
+        <div class="section">
+          <div class="pros-cons">
+            <div class="pros"><h4>优点</h4><ul><li>与文档一致，可追溯</li><li>每步有明确验收标准</li></ul></div>
+            <div class="cons"><h4>缺点</h4><ul><li>部分步骤可并行却串行了</li><li>trade_date 更新不阻塞后续步骤</li><li>预估 5 天，实际可能更长</li></ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="option" data-choice="b" onclick="toggleSelect(this)">
+      <div class="letter">B</div>
+      <div class="content">
+        <h3>管线优先 - 跳过非阻塞步骤直奔核心</h3>
+        <p>Bug修复 → 清洗 → 训练 → 预测，数据补齐后置</p>
+        <div class="section">
+          <div class="pros-cons">
+            <div class="pros"><h4>优点</h4><ul><li>最快看到预测结果</li><li>先验证核心链路可行性</li><li>约 2-3 天完成</li></ul></div>
+            <div class="cons"><h4>缺点</h4><ul><li>数据 quality 风险累积</li><li>技术债后移</li><li>可能遗漏边界 case</li></ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="option" data-choice="c" onclick="toggleSelect(this)">
+      <div class="letter">C</div>
+      <div class="content">
+        <h3>混合分阶段并行 ⭐ 推荐</h3>
+        <p>三阶段：准备→核心→集成，每阶段内部可并行</p>
+        <div class="section">
+          <div class="pros-cons">
+            <div class="pros"><h4>优点</h4><ul><li>修复关键 bug (SQL注入) 优先</li><li>数据补齐与清洗可后台进行</li><li>训练可 4 模型串行但整体进度快</li><li>干净基础进入 Phase 2</li></ul></div>
+            <div class="cons"><h4>缺点</h4><ul><li>需要协调三个阶段</li><li>预计 3-4 天</li></ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>方案 C 详细分解</h3>
+  <div class="mockup">
+    <div class="mockup-header">三阶段工作流</div>
+    <div class="mockup-body">
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <div style="flex:1; min-width:200px; background:#e8f4fd; padding:12px; border-radius:8px;">
+          <h4>🔧 阶段一：准备</h4>
+          <ul style="font-size:13px; margin:0; padding-left:18px;">
+            <li>修复 SQL 注入 (is_cleaned)</li>
+            <li>修复硬编码日期</li>
+            <li>更新 trade_date 表</li>
+            <li>清理冗余文件</li>
+            <li>增量补齐数据缺口</li>
+          </ul>
+          <p style="font-size:12px; color:#666; margin:8px 0 0;">预计: 0.5 天</p>
+        </div>
+        <div style="flex:1; min-width:200px; background:#e8fde8; padding:12px; border-radius:8px;">
+          <h4>🧠 阶段二：核心</h4>
+          <ul style="font-size:13px; margin:0; padding-left:18px;">
+            <li>清洗 3-5 只精选股票</li>
+            <li>串行训练 4 模型 (LSTM→GRU→CNN-LSTM→Transformer)</li>
+            <li>对比指标选出 best_model</li>
+            <li>保存 best_model.pth</li>
+          </ul>
+          <p style="font-size:12px; color:#666; margin:8px 0 0;">预计: 2 天</p>
+        </div>
+        <div style="flex:1; min-width:200px; background:#fdf4e8; padding:12px; border-radius:8px;">
+          <h4>🚀 阶段三：集成</h4>
+          <ul style="font-size:13px; margin:0; padding-left:18px;">
+            <li>模型接入 recommendation_system</li>
+            <li>实现 main.py predict 命令</li>
+            <li>更新 FastAPI 端点</li>
+            <li>前端替换模拟数据</li>
+            <li>新增预测列表/详情页</li>
+          </ul>
+          <p style="font-size:12px; color:#666; margin:8px 0 0;">预计: 1 天</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
