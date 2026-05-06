@@ -133,7 +133,7 @@ async def startup_event():
 @app.get("/")
 async def root(request: Request):
     """根端点 - 返回前端页面"""
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request, "index.html")
 
 @app.get("/api/")
 async def api_root():
