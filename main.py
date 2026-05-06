@@ -107,6 +107,16 @@ def train_model(args):
         train_args.extend(['--batch_size', str(args.batch_size)])
     if args.output_dir:
         train_args.extend(['--output_dir', args.output_dir])
+    if args.lr is not None:
+        train_args.extend(['--lr', str(args.lr)])
+    if args.loss:
+        train_args.extend(['--loss', args.loss])
+    if args.optimizer:
+        train_args.extend(['--optimizer', args.optimizer])
+    if args.scheduler:
+        train_args.extend(['--scheduler', args.scheduler])
+    if args.task_type:
+        train_args.extend(['--task_type', args.task_type])
 
     # 设置sys.argv并调用train_main
     sys.argv = ['train.py'] + train_args
@@ -114,11 +124,43 @@ def train_model(args):
 
 
 def predict(args):
-    """使用模型进行预测"""
-    logger.info("开始预测...")
+    """使用模型进行批量预测"""
+    from recommendation_system import RecommendationSystem
+    from utils.db_conn import postgres
 
-    # TODO: 实现预测功能
-    logger.warning("预测功能尚未实现")
+    model_path = args.model_path or "output/models/best_model.pth"
+    logger.info(f"加载模型: {model_path}")
+    rs = RecommendationSystem(model_path=model_path)
+
+    if rs.model is None:
+        logger.error("模型加载失败，无法预测")
+        return
+
+    # 获取待预测股票
+    if args.ts_codes:
+        codes = [c.strip() for c in args.ts_codes.split(",")]
+    else:
+        rows = postgres.select(
+            "SELECT DISTINCT ts_code FROM daily_kline WHERE close_clean IS NOT NULL ORDER BY ts_code LIMIT 20")
+        codes = [r['ts_code'] for r in rows]
+
+    logger.info(f"预测 {len(codes)} 只股票...")
+    df = rs.batch_predict(codes, seq_len=args.seq_len, pred_len=args.pred_len)
+
+    if df is not None and len(df) > 0:
+        print("\n" + "=" * 80)
+        print("预测结果 (按预期收益排序)")
+        print("=" * 80)
+        for _, row in df.iterrows():
+            ret = row.get('predicted_return', 0)
+            conf = row.get('confidence', 0)
+            risk = row.get('risk_score', 0)
+            direction = "▲" if ret > 0 else "▼"
+            print(f"{direction} {row.get('ts_code','?'):8s} {row.get('ts_name','?'):10s} "
+                  f"预期收益:{ret:+.2%}  置信度:{conf:.0%}  风险:{risk:.2f}")
+        print("=" * 80)
+    else:
+        logger.warning("预测结果为空")
 
     logger.info("预测完成")
 
@@ -198,15 +240,18 @@ def main():
     train_parser.add_argument('--batch-size', type=int, default=32, help='批量大小')
     train_parser.add_argument('--output-dir', type=str, default='./output',
                              help='输出目录')
+    train_parser.add_argument('--lr', type=float, help='学习率')
+    train_parser.add_argument('--loss', type=str, choices=['mse', 'mae', 'huber'], help='损失函数')
+    train_parser.add_argument('--optimizer', type=str, choices=['adam', 'sgd', 'adamw'], help='优化器')
+    train_parser.add_argument('--scheduler', type=str, choices=['step', 'reduce', 'cosine', 'none'], help='学习率调度器')
+    train_parser.add_argument('--task_type', type=str, choices=['regression', 'classification'], help='任务类型')
 
     # predict 命令
     predict_parser = subparsers.add_parser('predict', help='预测')
-    predict_parser.add_argument('--model-path', type=str, required=True,
-                               help='模型路径')
-    predict_parser.add_argument('--ts-codes', type=str, required=True,
-                               help='股票代码列表，逗号分隔')
-    predict_parser.add_argument('--days', type=int, default=10,
-                               help='预测天数')
+    predict_parser.add_argument('--model-path', type=str, help='模型路径 (默认 output/models/best_model.pth)')
+    predict_parser.add_argument('--ts-codes', type=str, help='股票代码列表，逗号分隔 (不指定则预测前20只)')
+    predict_parser.add_argument('--seq-len', type=int, default=30, help='输入序列长度')
+    predict_parser.add_argument('--pred-len', type=int, default=10, help='预测天数')
 
     # server 命令
     server_parser = subparsers.add_parser('server', help='启动Web服务器')
