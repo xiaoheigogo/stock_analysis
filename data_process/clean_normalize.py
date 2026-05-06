@@ -275,13 +275,12 @@ def find_dirty_stocks():
     return [r['ts_code'] for r in rows]
 
 def is_cleaned(ts_code, train_date):
-    sql = f"""SELECT close_clean FROM daily_kline WHERE ts_code = '{ts_code}' AND trade_date = '{train_date}' ORDER BY trade_date DESC"""
-    date = postgres.select(sql)[0]['close_clean']
-    print(f"ts_code: {ts_code}, date: {date}, type: {type(date)}")
-    if date:
-        return True
-    else:
+    sql = """SELECT close_clean FROM daily_kline WHERE ts_code = %s AND trade_date = %s ORDER BY trade_date DESC"""
+    rows = postgres.select(sql, [ts_code, train_date])
+    if not rows:
         return False
+    val = rows[0]['close_clean']
+    return val is not None
 
 
 if __name__ == "__main__":
@@ -306,8 +305,9 @@ if __name__ == "__main__":
         logger.info(f"====处理第 {i}/{len(raw_stocks)} 支====")
         print(f"ts_code: {ts_code}, first_date: {first_date}")
         # print(f"type: {type(list_date)}")
-        if not is_cleaned(ts_code, '2025-09-30'):
-            clean_data = clean_one_stock(ts_code, first_date, '2025-09-30')
+        today = date.today().strftime('%Y-%m-%d')
+        if not is_cleaned(ts_code, today):
+            clean_data = clean_one_stock(ts_code, first_date, today)
             time.sleep(0.5)
         #     chunk = pd.concat([chunk, clean_data], axis=0, ignore_index=True)
         # if i == batch_size:
