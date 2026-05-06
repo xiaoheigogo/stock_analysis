@@ -130,27 +130,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
 
                 try {
-                    // 模拟搜索结果
-                    this.autoCompleteResults = [
-                        {
-                            ts_code: '000001',
-                            ts_name: '平安银行',
-                            industry: '银行',
-                            list_date: '1991-04-03'
-                        },
-                        {
-                            ts_code: '000002',
-                            ts_name: '万科A',
-                            industry: '房地产',
-                            list_date: '1991-01-29'
-                        },
-                        {
-                            ts_code: '000858',
-                            ts_name: '五粮液',
-                            industry: '食品饮料',
-                            list_date: '1998-04-27'
-                        }
-                    ].filter(stock =>
+                    // 从推荐API获取真实股票列表
+                    const resp = await axios.get('/api/recommend', { params: { top_n: 20 } });
+                    const stocks = (resp.data.recommendations || []).map(r => ({
+                        ts_code: r.ts_code,
+                        ts_name: r.ts_name,
+                        industry: r.industry || ''
+                    }));
+                    this.autoCompleteResults = stocks.filter(stock =>
                         stock.ts_code.includes(this.searchCode) ||
                         stock.ts_name.includes(this.searchCode)
                     ).slice(0, 5);
@@ -175,19 +162,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
 
                 try {
-                    // 模拟获取股票信息
-                    this.selectedStock = {
+                    // 从推荐API获取真实股票信息
+                    const resp = await axios.get('/api/recommend', { params: { top_n: 50 } });
+                    const found = (resp.data.recommendations || []).find(r => r.ts_code === this.searchCode);
+                    this.selectedStock = found || {
                         ts_code: this.searchCode,
-                        ts_name: '示例股票',
-                        industry: '示例行业',
-                        list_date: '2020-01-01'
+                        ts_name: '未找到',
+                        industry: '未知',
+                        list_date: ''
                     };
 
                     // 清除之前的预测结果
                     this.predictionResult = null;
                 } catch (error) {
                     console.error('搜索股票失败:', error);
-                    alert('搜索股票失败: ' + error.message);
+                    this.selectedStock = { ts_code: this.searchCode, ts_name: '查询失败', industry: '', list_date: '' };
                 }
             },
 
@@ -257,39 +246,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.showToast('推荐更新', `已获取${this.recommendations.length}个推荐`, 'success');
                 } catch (error) {
                     console.error('获取推荐失败:', error);
-
-                    // 模拟数据（当API不可用时）
-                    this.recommendations = [
-                        {
-                            ts_code: '000001',
-                            ts_name: '平安银行',
-                            predicted_return: 0.045,
-                            confidence: 0.78,
-                            risk_score: 0.32,
-                            industry: '银行',
-                            reasons: ['预期涨幅超过2%', '模型预测置信度中等', '风险评分较低']
-                        },
-                        {
-                            ts_code: '000002',
-                            ts_name: '万科A',
-                            predicted_return: 0.038,
-                            confidence: 0.72,
-                            risk_score: 0.41,
-                            industry: '房地产',
-                            reasons: ['预期涨幅超过2%', '模型预测置信度中等', '风险评分中等']
-                        },
-                        {
-                            ts_code: '000858',
-                            ts_name: '五粮液',
-                            predicted_return: 0.062,
-                            confidence: 0.85,
-                            risk_score: 0.28,
-                            industry: '食品饮料',
-                            reasons: ['预期涨幅超过5%', '模型预测置信度高', '风险评分较低']
-                        }
-                    ];
-
-                    this.showToast('使用模拟数据', 'API调用失败，使用示例数据', 'warning');
+                    this.recommendations = [];
+                    this.showToast('获取失败', 'API调用失败，请稍后重试', 'error');
                 }
             },
 
@@ -330,27 +288,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 } catch (error) {
                     console.error('加载图表失败:', error);
-
-                    // 模拟数据（当API不可用时）
-                    const dates = [];
-                    const prices = [];
-                    const today = new Date();
-
-                    for (let i = 100; i >= 0; i--) {
-                        const date = new Date(today);
-                        date.setDate(today.getDate() - i);
-                        dates.push(date.toISOString().split('T')[0]);
-
-                        const basePrice = 100 + Math.random() * 20;
-                        prices.push({
-                            open: basePrice + Math.random() * 5 - 2.5,
-                            close: basePrice + Math.random() * 5 - 2.5,
-                            low: basePrice - 2 + Math.random() * 3,
-                            high: basePrice + 2 + Math.random() * 3
-                        });
-                    }
-
-                    this.renderChart(dates, prices);
+                    this.showToast('加载失败', 'K线数据加载失败，请稍后重试', 'error');
+                    this.renderChart([], []);
                     this.showToast('使用模拟数据', 'API调用失败，使用示例数据', 'warning');
                 }
             },
@@ -558,8 +497,8 @@ document.addEventListener('DOMContentLoaded', function() {
             viewStockDetail(stock) {
                 this.modalStockDetail = {
                     ...stock,
-                    current_price: 100 + Math.random() * 50,
-                    market_cap: (100 + Math.random() * 200) * 100000000,
+                    current_price: null,
+                    market_cap: null,
                     trade_status: '正常交易'
                 };
 
@@ -615,38 +554,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // 加载历史预测
             async loadHistory() {
                 try {
-                    // 模拟历史数据
-                    const mockData = [];
-                    const today = new Date();
-
-                    for (let i = 30; i >= 0; i--) {
-                        const date = new Date(today);
-                        date.setDate(today.getDate() - i);
-
-                        const predicted = (Math.random() * 0.1) - 0.05;
-                        const actual = predicted + (Math.random() * 0.04) - 0.02;
-
-                        mockData.push({
-                            id: i,
-                            date: date.toISOString().split('T')[0],
-                            ts_code: ['000001', '000002', '000858', '600519'][Math.floor(Math.random() * 4)],
-                            predicted_return: predicted,
-                            actual_return: actual,
-                            error: actual - predicted,
-                            direction_correct: Math.sign(predicted) === Math.sign(actual)
-                        });
-                    }
-
-                    // 过滤日期范围
-                    this.historyData = mockData.filter(item => {
-                        return (!this.historyStartDate || item.date >= this.historyStartDate) &&
-                               (!this.historyEndDate || item.date <= this.historyEndDate);
-                    });
-
-                    // 计算统计信息
+                    // 等待后端实现历史预测API
+                    this.historyData = [];
                     this.calculateAccuracyStats();
-
-                    this.showToast('历史数据加载', `已加载${this.historyData.length}条记录`, 'success');
+                    this.showToast('提示', '历史预测功能开发中，敬请期待', 'info');
                 } catch (error) {
                     console.error('加载历史数据失败:', error);
                     this.showToast('加载失败', '历史数据加载失败', 'danger');
@@ -659,7 +570,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.accuracyStats = {
                         direction_accuracy: 0,
                         avg_return: 0,
-                        avg_confidence: 0.7,
+                        avg_confidence: 0,
                         total_count: 0
                     };
                     return;
