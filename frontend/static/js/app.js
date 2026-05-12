@@ -464,26 +464,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 叠加预测趋势线
                 if (this.predictionChartData && this.predictionChartData.ts_code === this.chartStockCode
                     && this.predictionChartData.sequence && this.predictionChartData.sequence.length > 0
-                    && this.predictionResult && this.predictionResult.predicted_return) {
+                    && this.predictionResult && this.predictionResult.predicted_return != null) {
 
                     const lastClose = klineData[klineData.length - 1][2]; // 收盘价
                     const lastDateStr = klineData[klineData.length - 1][0];
-                    const predLen = this.predictionChartData.sequence.length;
+                    const seq = this.predictionChartData.sequence;
+                    const predLen = seq.length;
                     const predReturn = this.predictionResult.predicted_return;
 
-                    // 生成未来日期（简单按自然日推算）
+                    // 计算序列中相邻日之间的相对变化率
+                    const seqDeltas = [];
+                    for (let i = 0; i < predLen; i++) {
+                        seqDeltas.push(seq[i] - (i === 0 ? seq[0] : seq[i - 1]));
+                    }
+
+                    // 用 predicted_return 做总方向，序列变化率做日间波动
+                    const dailyBase = predReturn / predLen;
+                    const seqScale = seqDeltas.reduce((s, v) => s + Math.abs(v), 0) || 1;
+
                     const predDates = [];
                     const predValues = [];
                     const lastDate = new Date(lastDateStr);
+                    let price = lastClose;
                     for (let i = 0; i < predLen; i++) {
                         const d = new Date(lastDate);
                         d.setDate(d.getDate() + i + 1);
                         predDates.push(d.toISOString().split('T')[0]);
-                        // 线性递推预测收盘价
-                        predValues.push(lastClose * (1 + predReturn * (i + 1) / predLen));
+                        price = price * (1 + dailyBase + seqDeltas[i] * 0.001 / seqScale);
+                        predValues.push(price);
                     }
 
-                    // 在最后一个实际K线和第一个预测点之间加连线
                     const predLineData = [[lastDateStr, lastClose]];
                     for (let i = 0; i < predLen; i++) {
                         predLineData.push([predDates[i], predValues[i]]);

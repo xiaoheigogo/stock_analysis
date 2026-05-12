@@ -123,7 +123,7 @@ class RecommendationSystem:
             return False
 
         try:
-            checkpoint = torch.load(self.model_path, map_location='cpu')
+            checkpoint = torch.load(self.model_path, map_location='cpu', weights_only=True)
 
             # 从检查点获取模型参数
             args = checkpoint.get('args', {})
