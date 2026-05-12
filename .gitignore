@@ -54,3 +54,6 @@ data_process/free.yaml
 
 # Reference papers (large binaries)
 00-reference/
+
+# OMC (oh-my-claudecode) state files
+.omc/
