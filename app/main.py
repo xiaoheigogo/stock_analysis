@@ -76,6 +76,7 @@ class StockPredictionResponse(BaseModel):
     predicted_return: float
     confidence: float
     risk_score: float
+    predicted_sequence: List[float] = []
     industry: str
     reasons: List[str]
 
@@ -213,6 +214,7 @@ async def predict_stock(request: StockPredictionRequest):
             predicted_return=rec.predicted_return,
             confidence=rec.confidence,
             risk_score=rec.risk_score,
+            predicted_sequence=list(row.get('predicted_sequence', [])),
             industry=rec.industry,
             reasons=rec.reasons
         )
@@ -344,6 +346,9 @@ async def get_stock_data(
         if end_date:
             where_clauses.append("trade_date <= %s")
             params.append(end_date)
+
+        # 过滤无成交量的占位数据
+        where_clauses.append("volumn_raw > 0")
 
         where_sql = " AND ".join(where_clauses)
 

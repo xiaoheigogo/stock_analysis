@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 selectedStock: null,
                 predictionDays: 10,
                 predictionResult: null,
+                predictionChartData: null,  // { ts_code, lastDate, lastClose, sequence }
 
                 // 推荐股票
                 recommendations: [],
@@ -31,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // K线图
                 chartStockCode: '000001',
-                chartPeriod: '1y',
+                chartPeriod: 'all',
                 indicators: {
                     ma5: true,
                     ma10: true,
@@ -204,6 +205,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
 
                     this.predictionResult = response.data;
+
+                    // 保存预测序列数据用于K线图叠加
+                    if (response.data.predicted_sequence && response.data.predicted_sequence.length > 0) {
+                        this.predictionChartData = {
+                            ts_code: response.data.ts_code,
+                            sequence: response.data.predicted_sequence
+                        };
+                    }
+
                     this.currentView = 'search';
 
                     // 恢复按钮状态
@@ -451,6 +461,47 @@ document.addEventListener('DOMContentLoaded', function() {
                     option.series.push(...maSeries);
                 }
 
+                // 叠加预测趋势线
+                if (this.predictionChartData && this.predictionChartData.ts_code === this.chartStockCode
+                    && this.predictionChartData.sequence && this.predictionChartData.sequence.length > 0
+                    && this.predictionResult && this.predictionResult.predicted_return) {
+
+                    const lastClose = klineData[klineData.length - 1][2]; // 收盘价
+                    const lastDateStr = klineData[klineData.length - 1][0];
+                    const predLen = this.predictionChartData.sequence.length;
+                    const predReturn = this.predictionResult.predicted_return;
+
+                    // 生成未来日期（简单按自然日推算）
+                    const predDates = [];
+                    const predValues = [];
+                    const lastDate = new Date(lastDateStr);
+                    for (let i = 0; i < predLen; i++) {
+                        const d = new Date(lastDate);
+                        d.setDate(d.getDate() + i + 1);
+                        predDates.push(d.toISOString().split('T')[0]);
+                        // 线性递推预测收盘价
+                        predValues.push(lastClose * (1 + predReturn * (i + 1) / predLen));
+                    }
+
+                    // 在最后一个实际K线和第一个预测点之间加连线
+                    const predLineData = [[lastDateStr, lastClose]];
+                    for (let i = 0; i < predLen; i++) {
+                        predLineData.push([predDates[i], predValues[i]]);
+                    }
+
+                    option.series.push({
+                        name: '预测趋势',
+                        type: 'line',
+                        data: predLineData,
+                        smooth: true,
+                        lineStyle: { color: '#ff6b6b', type: 'dashed', width: 2 },
+                        itemStyle: { color: '#ff6b6b' },
+                        symbol: 'diamond',
+                        symbolSize: 6,
+                        z: 10
+                    });
+                }
+
                 // 设置图表选项
                 stockChart.setOption(option);
 
@@ -607,6 +658,17 @@ document.addEventListener('DOMContentLoaded', function() {
             // 刷新推荐
             refreshRecommendations() {
                 this.fetchRecommendations();
+            },
+
+            // 在K线图上显示预测趋势
+            showPredictionOnChart() {
+                if (!this.predictionChartData) {
+                    this.showToast('提示', '请先进行预测', 'warning');
+                    return;
+                }
+                this.chartStockCode = this.predictionChartData.ts_code;
+                this.currentView = 'charts';
+                setTimeout(() => this.loadChart(), 100);
             },
 
             // 测试预测

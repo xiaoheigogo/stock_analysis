@@ -387,7 +387,7 @@ def get_model(model_name='lstm', **kwargs):
 
     Args:
         model_name: 模型名称，可选 'lstm', 'gru', 'bilstm', 'cnn_lstm', 'transformer'
-        **kwargs: 模型参数
+        **kwargs: 模型参数（接受通用参数如 hidden_dim, num_layers，自动映射到各模型特定参数）
 
     Returns:
         model: 模型实例
@@ -403,7 +403,35 @@ def get_model(model_name='lstm', **kwargs):
     if model_name not in model_map:
         raise ValueError(f"未知模型: {model_name}，可选: {list(model_map.keys())}")
 
-    return model_map[model_name](**kwargs)
+    # 提取所有模型都接受的通用参数
+    all_common = {k: v for k, v in kwargs.items()
+                  if k in ('input_dim', 'output_dim', 'dropout', 'task_type', 'num_classes')}
+    # bidirectional 仅 LSTM 系列接受
+    bidirectional = kwargs.get('bidirectional', False)
+
+    if model_name == 'cnn_lstm':
+        model_kwargs = {
+            **all_common,
+            'cnn_channels': kwargs.get('cnn_channels', 32),
+            'lstm_hidden': kwargs.get('hidden_dim', 128),
+        }
+    elif model_name == 'transformer':
+        model_kwargs = {
+            **all_common,
+            'd_model': kwargs.get('hidden_dim', 128),
+            'nhead': kwargs.get('nhead', 8),
+            'num_layers': kwargs.get('num_layers', 2),
+        }
+    elif model_name == 'bilstm':
+        model_kwargs = {**all_common, 'hidden_dim': kwargs.get('hidden_dim', 128),
+                        'num_layers': kwargs.get('num_layers', 1)}
+        # lambda already sets bidirectional=True, don't pass it again
+    else:
+        model_kwargs = {**all_common, 'hidden_dim': kwargs.get('hidden_dim', 128),
+                        'num_layers': kwargs.get('num_layers', 1),
+                        'bidirectional': bidirectional}
+
+    return model_map[model_name](**model_kwargs)
 
 
 if __name__ == "__main__":

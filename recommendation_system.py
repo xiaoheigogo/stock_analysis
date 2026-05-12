@@ -200,17 +200,17 @@ class RecommendationSystem:
                         ts_code, predict_model, seq_len, pred_len
                     )
                     if prediction_result:
-                        predicted_return, confidence, risk_score = prediction_result
+                        predicted_return, confidence, risk_score, predicted_sequence = prediction_result
                     else:
-                        # 如果模型预测失败，使用随机数据
                         predicted_return = np.random.uniform(-0.1, 0.1)
                         confidence = np.random.uniform(0.5, 0.9)
                         risk_score = np.random.uniform(0.1, 0.8)
+                        predicted_sequence = []
                 else:
-                    # 使用随机数据
                     predicted_return = np.random.uniform(-0.1, 0.1)
                     confidence = np.random.uniform(0.5, 0.9)
                     risk_score = np.random.uniform(0.1, 0.8)
+                    predicted_sequence = []
 
                 results.append({
                     'ts_code': ts_code,
@@ -218,8 +218,9 @@ class RecommendationSystem:
                     'predicted_return': predicted_return,
                     'confidence': confidence,
                     'risk_score': risk_score,
+                    'predicted_sequence': predicted_sequence,
                     'industry': stock_info.get('industry', '未知'),
-                    'current_price': 0.0  # 需要实际获取
+                    'current_price': 0.0
                 })
 
                 processed += 1
@@ -266,6 +267,7 @@ class RecommendationSystem:
 
             if task_type == 'regression':
                 # 回归任务：输出是未来pred_len天的收盘价预测
+                predicted_sequence = output.squeeze(0).cpu().tolist()
                 # 计算预期收益率（简化：取平均变化）
                 predicted_return = float(output.mean().item() * 0.01)
                 confidence = 0.7  # 模拟置信度
@@ -273,33 +275,27 @@ class RecommendationSystem:
 
             elif task_type == 'classification':
                 # 分类任务：输出是类别概率
-                # 假设3个类别：下跌(< -1%), 持平(-1% ~ 1%), 上涨(> 1%)
                 probabilities = torch.softmax(output, dim=1)[0]
+                predicted_sequence = output.squeeze(0).cpu().tolist()
 
-                # 类别0: 下跌, 类别1: 持平, 类别2: 上涨
                 down_prob = probabilities[0].item()
                 neutral_prob = probabilities[1].item()
                 up_prob = probabilities[2].item()
 
-                # 预期收益率（加权平均）
-                # 假设下跌类别对应-2%，持平对应0%，上涨对应+2%
                 predicted_return = (-0.02 * down_prob + 0.0 * neutral_prob + 0.02 * up_prob)
-
-                # 置信度：最高类别的概率
                 confidence = max(down_prob, neutral_prob, up_prob)
-
-                # 风险评分：下跌概率越高风险越大
                 risk_score = down_prob * 0.8 + neutral_prob * 0.5 + up_prob * 0.2
 
             else:
                 logger.warning(f"未知任务类型: {task_type}，使用默认值")
+                predicted_sequence = output.squeeze(0).cpu().tolist()
                 predicted_return = float(output.mean().item() * 0.01)
                 confidence = 0.7
                 risk_score = 0.3
 
             logger.debug(f"股票 {ts_code} 模型预测完成: 任务类型={task_type}, "
                         f"预期收益率={predicted_return:.4f}, 置信度={confidence:.4f}, 风险={risk_score:.4f}")
-            return predicted_return, confidence, risk_score
+            return predicted_return, confidence, risk_score, predicted_sequence
 
         except Exception as e:
             logger.error(f"模型预测失败 {ts_code}: {e}")
